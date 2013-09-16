@@ -2850,18 +2850,18 @@ body.page-user-orders- {}
   width: 460px;
 }
 
-  .node-type-workshop-course .node-workshop-course .field-name-field-course-register{
-    float: right;
-  }
+.node-type-workshop-course .node-workshop-course .field-name-field-course-register{
+  float: right;
+}
 
-    .node-type-workshop-course .node-workshop-course .field-name-field-course-register p{
-      margin: 0;
-    }
+.node-type-workshop-course .node-workshop-course .field-name-field-course-register p{
+  margin: 0;
+}
 
-      .node-type-workshop-course .node-workshop-course .field-name-field-course-register p a{
-        height: 71px;
-        line-height: 71px;
-      }
+.node-type-workshop-course .node-workshop-course .field-name-field-course-register p a{
+  height: 71px;
+  line-height: 71px;
+}
 
   .node-type-workshop-course .node-workshop-course .field-name-body{
     xfloat: right;
