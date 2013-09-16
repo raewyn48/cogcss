@@ -2427,7 +2427,12 @@ body.page-user-orders- {}
   #page-conference-workshops #block-system-main{
     min-height: 380px;
   }
-
+  
+/* Change box colour on vlp-conference-workshop images */
+.view-vlp-conference-workshops  .field-content img {
+	border-width: 0 !important;
+    box-shadow: 3px 3px 15px rgb(201, 201, 201);
+}
   .node-type-vlp-whats-on-page #block-views-vlp-keynote-speakers-block,
   .node-type-vlp-whats-on-page #block-views-vlp-conference-workshops-block{
     padding: 0 ;
