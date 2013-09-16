@@ -239,6 +239,7 @@ a:visited { color: inherit; }
     color: #999;
   }
   
+ 
   .oldie #block-search-form .form-text { display: block; padding-top: 6px; height: 20px; }
   
   #block-search-form .form-submit {
@@ -254,7 +255,16 @@ a:visited { color: inherit; }
     overflow: hidden;
     color: transparent;
   }
-  
+ 
+/* Fix the search box for pages where the user is logged in. */ 
+ .logged-in #block-search-form .form-text {
+	margin-top: 90px;
+ }
+
+  .logged-in #block-search-form .form-submit{
+	left: 555px;
+ }
+
 
   /* Affiliate Links */
   
@@ -3697,6 +3707,7 @@ body.page-cart.sidebar-first #content { width: 680px; }
 
 .page-user form             { padding-top: 15px; }
 .page-user form#search-block-form--2  { padding-top: 0px; } 
+.page-user form#search-block-form  { padding-top: 0px; } 
 .page-user form .form-item        { padding-bottom: 10px; }
 .page-user .form-item label       { letter-spacing: .5px; font-weight: 600; }
 .page-user form input.form-text     { margin-bottom: 6px; }
@@ -4713,29 +4724,33 @@ input.form-submit { font-family: proxima-nova !important; }
 
 /* Individual Workshop Course Page */
 
+.node-workshop-course .group-left {
+  width: 410px;
+}
+
+.node-workshop-course .group-right {
+  width: 300px;
+}
+
+.node-workshop-course .group-header {
+  display: block;
+  overflow: auto;
+}
+
 .node-type-workshop-course .node-workshop-course{
   background: #fff;
   padding: 25px;
   width: 720px;
 }
 
-.node-type-workshop-course .node-workshop-course ul {
-  overflow: auto;
-  list-style: none;
-}
-
-.node-type-workshop-course .node-workshop-course li {
-  margin-left: 2em;
-  padding-bottom: 1em;
-}
-
-.node-type-workshop-course .node-workshop-course h2{
-  padding: 0;
-  margin: 0;
-  font-size: 30px;
-  font-weight: 400;
-  width: 460px;
-}
+  .node-type-workshop-course .node-workshop-course h2{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+    width: 460px;
+    float: left;
+  }
 
   .node-type-workshop-course .node-workshop-course .field-name-field-course-register{
     float: right;

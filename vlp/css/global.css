@@ -2428,11 +2428,11 @@ body.page-user-orders- {}
     min-height: 380px;
   }
   
-/* Change box colour on vlp-conference-workshop images */
 .view-vlp-conference-workshops  .field-content img {
 	border-width: 0 !important;
     box-shadow: 3px 3px 15px rgb(201, 201, 201);
 }
+
   .node-type-vlp-whats-on-page #block-views-vlp-keynote-speakers-block,
   .node-type-vlp-whats-on-page #block-views-vlp-conference-workshops-block{
     padding: 0 ;
@@ -2464,7 +2464,8 @@ body.page-user-orders- {}
   }
 
   .node-type-vlp-whats-on-page #block-views-vlp-keynote-speakers-block .views-field-field-keynote-person-name a{
-    color: #A3C0F2;
+    font-family: "museo-slab";
+    color: #fe57a1;
     text-decoration: none;
   } 
 
@@ -2824,9 +2825,7 @@ body.page-user-orders- {}
 
 /* Individual Workshop Course Page */
 
-
-
-.node-type-workshop-course .node-workshop-course {
+.node-type-workshop-course .node-workshop-course{
   background: #fff;
   padding: 25px;
   width: 720px;
@@ -2850,18 +2849,18 @@ body.page-user-orders- {}
   width: 460px;
 }
 
-  .node-type-workshop-course .node-workshop-course .field-name-field-course-register{
-    float: right;
-  }
+.node-type-workshop-course .node-workshop-course .field-name-field-course-register{
+  float: right;
+}
 
-    .node-type-workshop-course .node-workshop-course .field-name-field-course-register p{
-      margin: 0;
-    }
+.node-type-workshop-course .node-workshop-course .field-name-field-course-register p{
+  margin: 0;
+}
 
-      .node-type-workshop-course .node-workshop-course .field-name-field-course-register p a{
-        height: 71px;
-        line-height: 71px;
-      }
+.node-type-workshop-course .node-workshop-course .field-name-field-course-register p a{
+  height: 71px;
+  line-height: 71px;
+}
 
   .node-type-workshop-course .node-workshop-course .field-name-body{
     xfloat: right;
