@@ -1,0 +1,4896 @@
+/* Cognition Education - Jiminy.co.nz */
+
+.item-list ul, .item-list ol, .item-list ul li { margin: 0; padding: 0; }
+
+html { background: url('../images/bg.jpg'); }
+body { font-family: proxima-nova, sans-serif; font-size: 14px; color: #707070; overflow: hidden; position: relative; padding-bottom: 223px; }
+
+.block { margin: 0; }
+
+/* Layout Styles */
+
+.group-left { width: 652px; }
+
+.group-footer { padding-top: 1px; }
+
+body.one-sidebar .group-left { width: 487px; }
+
+.group-right { width: 196px; }
+
+.group-right { width: 210px; float: right; }
+
+body .region-sidebar-first { width: 220px; }
+
+#page-wrapper { width: 920px; padding-bottom: 50px; background: url('../images/bg-texture.png') no-repeat center bottom; }
+
+body.sidebar-first #content {
+  width: 656px;
+  float: right;
+}
+
+body.sidebar-first #content .views-field-body ul, body.sidebar-first #content .field-name-body ul { margin-left: 2em; }
+
+#content, .no-sidebars #content { width: 890px; }
+
+ul, ol { margin: 0; padding: 0; }
+
+li.expanded, li.collapsed, li.leaf { padding: 0; }
+
+ul.menu li { margin: 0; }
+
+#page {
+  width: 900px;
+  margin-left: 20px;
+}
+
+.message { display: none; }
+
+a { color: #8CBD3E; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Remove fluid layout */
+
+.sidebar-first #content {
+  margin: 0;
+  float: right;
+}
+
+/* Site Styles */
+
+#page-title { font-weight: 300; font-size: 40px; line-height: 1.1; }
+
+.field-name-body, .group-left .views-field-body, .field-name-field-body-after, .field-name-field-body2, .field-name-field-body3 { font-size: 16px; }
+
+.field-name-field-alt-title h1 { font-weight: 300; font-size: 40px; margin: 0; }
+
+.field-name-title h1 { font-weight: 300; font-size: 40px; margin: 0; xmargin-top: -6px; }
+
+.group-header { display: none; }
+
+
+.field-name-field-body2 ul { margin-left: 14px; }
+
+.field-name-field-body2 ul li { list-style-type: none; margin: 6px 0; }
+
+.group-left img { border: 7px solid #fff; margin: 6px 0; }
+
+.group-left a { text-decoration: none; color: #8CBD3E; }
+.group-left a:hover { text-decoration: underline; }
+
+.field-name-field-image { margin: 18px 0 18px 0; }
+
+.field-name-field-image img {
+  border: 7px solid white;
+  margin: 6px 0;
+}
+
+a:visited { color: inherit; }
+
+/* Header */
+
+#header { height: 202px; background: url('../images/header-bg.png'); }
+#header > .section { width: 100%; background: url('../images/header-textures2.png') no-repeat center top; }
+#header > .section > div.container { width: 920px; margin: 0 auto; position: relative; height: 150px; }
+
+.region-header { width: 729px; float: left; clear: none; }
+
+#logo { xmargin: 14px 0 0 0; }
+#logo img { position: relative; top: 15px; left: 15px; }
+
+  /* Site Slogan */
+  
+  #site-slogan {
+    color: white;
+	  font-family: museo-slab;
+    font-size: 28px;
+    font-weight: 200;
+    width: 620px;
+    margin: 14px 0 0 0;
+    line-height: 1;
+    width: 500px;
+  }
+
+  /* Shopping Cart */
+
+  #block-commerce-cart-cart { width: 100px; height: 50px; }
+  
+  /* Slogan and title */
+  
+  #name-and-slogan { position: absolute; top: 10px; left: 1px; margin-left: 260px; }
+  
+  /* Main Menu */
+  
+  #mmenu #block-menu-block-2 { background: #fff; height: 52px; }
+  #mmenu #block-menu-block-2 .block-title { display: none; }
+  #mmenu #block-menu-block-2 .menu { margin-left: 160px; padding-top: 12px; }
+  #mmenu #block-menu-block-2 .menu li { list-style-type: none; list-style-image: none; }
+  #mmenu #block-menu-block-2 .menu li a {text-decoration: none; color: #666; font-size: 14px; font-weight: 600; text-transform: uppercase; float: left; padding: 6px 10px 10px 10px; }
+  #mmenu #block-menu-block-2 .menu li a.active-trail {color: #8DBD3E; }
+  #mmenu #block-menu-block-2 .menu li a:hover { color: #8DBD3E; }
+  #mmenu #block-menu-block-2 .menu li.last { background: url('../images/careers-bg.png') no-repeat; margin: -1px 0 0 0; float: right; }
+  #mmenu #block-menu-block-2 .menu li.last.active-trail { background: url('../images/careers-bg2.png') no-repeat; margin: -5px 0 0 0; float: right; }
+  #mmenu #block-menu-block-2 .menu li.last.active-trail a { height: 50px; color: #8DBD3E; padding: 11px 0 0 15px }
+  #mmenu #block-menu-block-2 .menu li.last a {
+    width: 94px;
+    height: 26px;
+    display: block;
+    padding: 5px 0 0 12px;
+    color: #FFF;
+  }
+  
+  #mmenu { background: #fff; height: 52px; }
+  #mmenu .block-title { display: none; }
+  #mmenu .container { width: 920px; margin: 0 auto; height:52px; }
+  
+  /* Sub Menu Customizations */
+
+  li.menu-mlid-867.active-trail a, li.menu-mlid-1113.active-trail a, li.menu-mlid-1265.active-trail a, li.menu-mlid-858.active-trail a {
+    border: 1px solid #CCC;
+    border-bottom: 0;
+    position: relative;
+    z-index: 50;
+    background: #fff;
+  }
+
+
+  #page-services li.menu-mlid-858.active-trail a {
+    border: none;
+    border-bottom: 0;
+    position: relative;
+    z-index: 50;
+    background: #fff;
+  }
+
+  #mmenu #block-menu-block-2 .menu li.last.active-trail {
+    background: url('../images/careers-bg2.png') no-repeat;
+    margin: -5px 0 0 0;
+    float: right;
+    position: relative;
+    z-index: 50;
+  }
+
+    
+ /* Sub Menus All */
+ 
+ #navigation .menu-block-wrapper {
+  position: relative;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  height: 46px;
+  padding-left: 20px;
+  top: -7px;
+  width: 870px;
+ }
+ 
+ 
+ #navigation .menu-block-wrapper li a { padding: 16px 10px 13px 10px; text-transform: uppercase; float: left; }
+ #navigation .menu-block-wrapper li a.active-trail { color: #8CBD3E; }
+ #navigation .menu-block-wrapper li a:hover { text-decoration: none; }
+ #navigation .menu-block-wrapper li a.active-trail:hover { text-decoration: none; }
+
+ /* Sub Menus Services Magic */
+
+  body[id^="page-services-schooling"] .menu-block-3 li a.active-trail { color: #6D79A4 !important; }
+
+  body[id^="page-services-teaching-and-learning"] .menu-block-3 li a.active-trail { color: #CA2053 !important; }
+
+  body[id^="page-services-schooling"] .menu-block-3 li a:hover { color: #6D79A4 !important; }
+
+  body[id^="page-services-teaching-and-learning"] .menu-block-3 li a:hover { color: #CA2053 !important; }
+
+  body[id^="page-services-schooling"] #mmenu li.active-trail a { color: #6D79A4 !important; }
+  
+  body[id^="page-services-teaching-and-learning"] #mmenu li.active-trail a { color: #CA2053 !important; }
+
+  
+ /* Account page: Sidebar Sub Menus */
+  
+  .region-sidebar-first .block-menu-block ul li { list-style-type: none; list-style-image: none; border-top: 1px dotted #999; background: url('../images/arrow-sml-blue-e.png') no-repeat left 7px; min-height: 26px; }
+  .region-sidebar-first .block-menu-block ul li.active-trail { background: url('../images/arrow-sml-blue-s.png') no-repeat left 7px; }
+  .region-sidebar-first .block-menu-block ul li.last { border-top: 1px dotted #999; border-bottom: 1px dotted #999; }
+  .region-sidebar-first .block-menu-block ul li.expanded { background-image: url('../images/arrow-sml-blue-e.png'); }
+  .region-sidebar-first .block-menu-block ul li.expanded li.active a { background-image: url('../images/sidebar-menu-bg.png'); }
+  .region-sidebar-first .block-menu-block ul li.expanded li:hover a { background-image: url('../images/sidebar-menu-bg.png'); }
+  .region-sidebar-first .block-menu-block ul li a { color: #666; text-decoration: none; padding: 6px 0 4px 20px; display: block; font-size: 13px; font-weight: 600; }
+    
+  .region-sidebar-first .block-menu-block .menu li .menu li { border: 0; background-image: none; }
+  
+  /* About menu & Locations menu */
+    
+  #block-menu-block-4 .block-title, #block-menu-block-5 .block-title, #block-menu-block-6 .block-title 
+
+/* Top */
+  
+  /* Search Block */
+  
+  #block-search-form {
+    position: relative;
+    width: 200px;
+    float: right;
+  }
+  
+  #block-search-form .form-text {
+    border: 0;
+    border-radius: 5px;
+    width: 148px;
+    height: 24px;
+    margin: 120px 0 0 550px;
+    padding-left: 30px;
+    color: #999;
+  }
+  
+  .oldie #block-search-form .form-text { display: block; padding-top: 6px; height: 20px; }
+  
+  #block-search-form .form-submit {
+    border: 0;
+    background: 0;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 738px;
+    top: 124px;
+    text-indent: -200px;
+    background: url('../../cognition/images/search-icon.png') no-repeat;
+    overflow: hidden;
+    color: transparent;
+  }
+  
+
+  /* Affiliate Links */
+  
+  #block-block-4 {
+    border-radius: 8px;
+    width: 160px;
+    height: 24px;
+    overflow: hidden;
+    padding: 0 0 2px 0;
+    float: right;
+    background: #fff url('../../cognition/images/affiliate-arrowg.png') no-repeat right top;
+    z-index: 555;
+    position: relative;
+  }
+  
+  #block-block-4 .block-title {
+    width: 150px;
+    height: 15px;
+    color: #333;
+    font-family: proxima-nova, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0 0 2px 0;
+    padding: 6px 0 5px 10px;
+  }
+  
+  #block-block-4 .block-title:hover { cursor: pointer; }
+  
+  #block-block-4.on { background: #fff url('../../cognition/images/affiliate-arrowg-up.png') no-repeat right top; }
+
+  #block-block-4 li {
+    list-style: none;
+    list-style-image: none;
+    margin: 0 0 2px 10px;
+    float: left;
+    width: 140px;
+    border-top: 1px dotted grey;
+  }
+  
+  #block-block-4 li.first a { xfont-weight: 600 }
+  #block-block-4 li.first a:hover { xcursor: default; xcolor: #333;  }
+  #block-block-4 li.last { border-bottom: none; }
+  
+  #block-block-4 a {
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    font-weight: 400;
+    padding: 7px 0 1px 0;
+  }
+  
+  #block-block-4 a:hover {
+    xfont-weight: 600;
+    color: #7aa537;
+  }
+
+  /* Quick links */
+  
+  #block-menu-block-9 {
+    float: right;
+    margin-top: 12px;
+    width: 354px;
+  }
+  
+  #block-menu-block-9 .block-title { display: none; }
+  
+  #block-menu-block-9 li { list-style-type: none; list-style-image: none; float: right; }
+  #block-menu-block-9 li a { text-decoration: none; font-weight: 400; color: #707070; display: block; padding: 0 5px; border-left: 1px solid white; padding: 0 10px; }
+  #block-menu-block-9 li a:hover { text-decoration: underline; }
+  #block-menu-block-9 li.last a { border-left: none; padding-left: 20px; }
+
+  /* Sidebar Menu */
+  
+body.logged-in #block-menu-block-10 li.menu-mlid-12288, body.logged-in #block-menu-block-10 li.menu-mlid-12290 { display: none; }
+  
+  
+  
+
+/* Breadcrumb */
+
+.breadcrumb, a { color: #656565; font-weight: 600; text-decoration: none; xpadding: 23px 0 15px 0; }
+.breadcrumb { xmargin: 10px 0; padding: 23px 0 15px 20px; }
+.breadcrumb span { color: #8CBD3E; }
+.breadcrumb { visibility: hidden }
+  
+/* Top */
+
+#top { height: 40px; background: #d9d9d9; }
+#top .container { width: 900px; margin: 0 auto; }
+
+
+
+
+
+
+
+/**********************************************************
+/*
+/*
+/*
+/*
+/* Universal Content Blocks - at beginning of CSS so can be overwritten in other contexts below */
+
+  
+  .block-title { font-family: "museo-slab"; color: #fff; font-size: 17px; font-weight: 400 ; }
+
+  .block-title a { font-family: "museo-slab"; color: #fff !important; font-size: 17px; font-weight: 400 ; }
+  
+
+  /* Youtube / Cognition Partners Link / Locations Region Link / RSS Feed Link */
+
+  .field-name-cogloc-region-link { margin-top: 16px; }
+  
+  .view-display-id-cognition_youtube a, .view-display-id-cogloc_region_link a, .view-display-id-cognition_partners_link a, .view-display-id-cognition_rss_link a, .view-display-id-cognition_teaching_learning_link a {
+    display: block;
+    background: #6EA2D4;
+    border: 5px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    padding: 7px;
+  }
+  
+  .view-display-id-cognition_youtube a:hover, .view-display-id-cogloc_region_link a:hover, .view-display-id-cognition_partners_link a:hover, .view-display-id-cognition_rss_link a:hover, .view-display-id-cognition_teaching_learning_link a:hover { text-shadow: 1px 1px 3px rgba(200, 200, 200, 0.8); }
+  
+  .view-display-id-cognition_youtube a b, .view-display-id-cogloc_region_link a b, .view-display-id-cognition_partners_link a b, .view-display-id-cognition_rss_link a b, .view-display-id-cognition_teaching_learning_link a b { font-weight: bold; }
+  
+  /* News Teaser - duplicate of code below, pretty sure this isn't needed.
+
+  .field-name-cognition-news-teaser { background: url('../images/block-title-bg.png') no-repeat left top; margin-bottom: 15px; margin-top: 20px; }
+  .field-name-cognition-news-teaser .block-title {
+    background: url('../images/icon-news.png') no-repeat 7px 7px;
+    width: 208px;
+    height: 32px;
+    padding-top: 14px;
+    text-indent: 50px;
+  }
+  .field-name-cognition-news-teaser .views-row { padding: 10px 0 8px 0; border-bottom: 1px dotted lightgrey; }
+  .field-name-cognition-news-teaser .views-row-last { border-bottom: 0; }
+  .field-name-cognition-news-teaser .views-field-title { margin-bottom: 4px; }
+  .field-name-cognition-news-teaser .views-field-title a { text-decoration: none; color: #7AA537; font-weight: 600; }
+  .field-name-cognition-news-teaser .views-field-title a:hover { text-decoration: underline; }
+  .field-name-cognition-news-teaser .views-field-name { display: inline; text-transform: capitalize; color: #666; font-size: 12px; }
+  .field-name-cognition-news-teaser .views-field-created { display: inline; color: #666; font-size: 12px; }
+    */
+  
+  /* News Teaser 6 */
+
+  .field-name-cognition-news-teaser, .field-name-cognition-news-teaser-6 { background: url('../images/block-title-bg.png') no-repeat left top; margin-bottom: 15px; margin-top: 20px; }
+  .field-name-cognition-news-teaser .block-title, .field-name-cognition-news-teaser-6 .block-title {
+    background: url('../images/icon-news.png') no-repeat 7px 7px;
+    width: 208px;
+    height: 32px;
+    padding-top: 14px;
+    text-indent: 50px;
+    margin-bottom: 4px;
+  }
+  .field-name-cognition-news-teaser .views-row, .field-name-cognition-news-teaser-6 .views-row { padding: 10px 0 8px 0; border-bottom: 1px dotted lightgrey; }
+  .field-name-cognition-news-teaser .views-row-last, .field-name-cognition-news-teaser-6 .views-row-last { border-bottom: 0; }
+  .field-name-cognition-news-teaser .views-field-title, .field-name-cognition-news-teaser-6 .views-field-title { margin-bottom: 4px; }
+  .field-name-cognition-news-teaser .views-field-title a, .field-name-cognition-news-teaser-6 .views-field-title a { text-decoration: none; color: #7AA537; font-weight: 600; }
+  .field-name-cognition-news-teaser .views-field-title a:hover, .field-name-cognition-news-teaser-6 .views-field-title a:hover { text-decoration: underline; }
+  .field-name-cognition-news-teaser .views-field-name, .field-name-cognition-news-teaser-6 .views-field-name { display: inline; text-transform: capitalize; color: #666; font-size: 12px; }
+  .field-name-cognition-news-teaser .views-field-created, .field-name-cognition-news-teaser-6 .views-field-created { display: inline; color: #666; font-size: 12px; }
+    
+
+  #block-views-4ba50dc0811084f7e344bbdc8cfc50ef, #block-views-e2a91bef53d2c2fc29dfeeb952b2d65b { background: url('../images/block-title-bg.png') no-repeat left top; margin-bottom: 15px; margin-top: 20px; }
+  #block-views-4ba50dc0811084f7e344bbdc8cfc50ef .block-title, #block-views-e2a91bef53d2c2fc29dfeeb952b2d65b .block-title {
+    background: url('../images/icon-news.png') no-repeat 7px 7px;
+    width: 208px;
+    height: 32px;
+    padding-top: 14px;
+    text-indent: 50px;
+    margin-bottom: 4px;
+  }
+  #block-views-4ba50dc0811084f7e344bbdc8cfc50ef .views-row, #block-views-e2a91bef53d2c2fc29dfeeb952b2d65b .views-row { padding: 10px 0 8px 0; border-bottom: 1px dotted lightgrey; }
+  #block-views-4ba50dc0811084f7e344bbdc8cfc50ef .views-row-last, #block-views-e2a91bef53d2c2fc29dfeeb952b2d65b .views-row-last { border-bottom: 0; }
+  #block-views-4ba50dc0811084f7e344bbdc8cfc50ef .views-field-title, #block-views-e2a91bef53d2c2fc29dfeeb952b2d65b .views-field-title { margin-bottom: 4px; }
+  #block-views-4ba50dc0811084f7e344bbdc8cfc50ef .views-field-title a, #block-views-e2a91bef53d2c2fc29dfeeb952b2d65b .views-field-title a { text-decoration: none; color: #7AA537; font-weight: 600; }
+  #block-views-4ba50dc0811084f7e344bbdc8cfc50ef .views-field-title a:hover, #block-views-e2a91bef53d2c2fc29dfeeb952b2d65b .views-field-title a:hover { text-decoration: underline; }
+  #block-views-4ba50dc0811084f7e344bbdc8cfc50ef .views-field-name, #block-views-e2a91bef53d2c2fc29dfeeb952b2d65b .views-field-name { display: inline; text-transform: capitalize; color: #666; font-size: 12px; }
+  #block-views-4ba50dc0811084f7e344bbdc8cfc50ef .views-field-created, #block-views-e2a91bef53d2c2fc29dfeeb952b2d65b .views-field-created { display: inline; color: #666; font-size: 12px; }
+    
+  /* Cognition Event Products */
+
+  .field-name-cognition-event-products { background: url('../images/block-title-bg.png') no-repeat left top; margin-bottom: 15px; }
+  .field-name-cognition-event-products .block-title {
+    background: url('../images/icon-events.png') no-repeat 7px 7px;
+    width: 208px;
+    height: 32px;
+    padding-top: 14px;
+    text-indent: 50px;
+  }
+  .field-name-cognition-event-products .block-title a { text-decoration: none; color: #fff; }
+  .field-name-cognition-event-products .block-title a:hover { text-decoration: none; color: #fff; }
+  .field-name-cognition-event-products .views-row { padding: 10px 0 8px 0; border-bottom: 1px dotted lightgrey; }
+  .field-name-cognition-event-products .views-row-last { border-bottom: 0; }
+  .field-name-cognition-event-products .views-field-title { margin-bottom: 4px; }
+  .field-name-cognition-event-products .views-field-title a { text-decoration: none; color: #7AA537; font-weight: 600; }
+  .field-name-cognition-event-products .views-field-title a:hover { text-decoration: underline; }
+  .field-name-cognition-event-products .views-field-name { display: inline; text-transform: capitalize; color: #666; font-size: 12px; }
+  .field-name-cognition-event-products .views-field-created { display: inline; color: #666; font-size: 12px; }
+  .field-name-cognition-event-products .views-field-body p { margin: 4px 0; }
+  .field-name-cognition-event-products .views-field-field-venue { margin: 4px 0; }
+  
+  
+  
+    /* Cognition Events Teaser */
+  
+  .field-name-cognition-events-teaser { background: url('../images/block-title-bg.png') no-repeat left top; margin-bottom: 15px; }
+    .field-name-cognition-events-teaser  { padding: 0px 7px 10px 7px; }
+  .field-name-cognition-events-teaser .block-title {
+    background: url('../images/icon-events.png') no-repeat 7px 7px;
+    width: 208px;
+    height: 32px;
+    padding-top: 14px;
+    text-indent: 50px;
+  }
+  .field-name-cognition-events-teaser .block-title a { text-decoration: none; color: #fff; }
+  .field-name-cognition-events-teaser .block-title a:hover { text-decoration: none; color: #fff; }
+  .field-name-cognition-events-teaser .views-row { padding: 10px 0 8px 0; border-bottom: 1px dotted lightgrey; }
+  .field-name-cognition-events-teaser .views-row-last { border-bottom: 0; }
+  .field-name-cognition-events-teaser .views-field-title { margin-bottom: 4px; }
+  .field-name-cognition-events-teaser .views-field-title a { text-decoration: none; color: #7AA537; font-weight: 600; }
+  .field-name-cognition-events-teaser .views-field-title a:hover { text-decoration: underline; }
+  .field-name-cognition-events-teaser .views-field-name { display: inline; text-transform: capitalize; color: #666; font-size: 12px; }
+  .field-name-cognition-events-teaser .views-field-created { display: inline; color: #666; font-size: 12px; }
+  .field-name-cognition-events-teaser .views-field-body p { margin: 4px 0; }
+  .field-name-cognition-events-teaser .views-field-field-venue { margin: 4px 0; }
+
+  
+  /* Feature project text teaser */
+  
+  .field-name-cognition-projects-text-teaser { background: #fff url('../images/staff-bg-fade.png') no-repeat center 50px; margin-top: 20px; padding: 6px 7px 10px 7px; }
+  .field-name-cognition-projects-text-teaser .block-title {
+    height: 28px;
+    padding-top: 8px;
+    text-align: center;
+    background: #707070;
+    margin-bottom: 14px;
+  }
+  .field-name-cognition-projects-text-teaser .view-content p { margin: 8px 0; }
+  .field-name-cognition-projects-text-teaser .views-row { border-bottom: 1px dotted #999; padding: 0 2px; }
+  .field-name-cognition-projects-text-teaser .views-row-last { border-bottom: 0; }
+  .field-name-cognition-projects-text-teaser .view-content .views-field-title { margin: 8px 0; }
+  .field-name-cognition-projects-text-teaser .views-field-title a { text-decoration: none; color: #8CBD3E; font-weight: 600; }
+  .field-name-cognition-projects-text-teaser .views-field-title a:hover { text-decoration: underline; }
+  .field-name-cognition-projects-text-teaser .views-field-body a { text-decoration: none; color: #707070; }
+  .field-name-cognition-projects-text-teaser .views-field-body a:hover { text-decoration: none; }
+    
+  
+  #block-views-8a8c449af22843a7d8ce261412005004 { background: #fff url('../images/staff-bg-fade.png') no-repeat center 50px; margin-top: 20px; padding: 6px 7px 10px 7px; }
+  #block-views-8a8c449af22843a7d8ce261412005004 .block-title {
+    height: 28px;
+    padding-top: 8px;
+    text-align: center;
+    background: #707070;
+    margin-bottom: 14px;
+  }
+  #block-views-8a8c449af22843a7d8ce261412005004 .view-content p { margin: 8px 0; }
+  #block-views-8a8c449af22843a7d8ce261412005004 .views-row { border-bottom: 1px dotted #999; padding: 0 2px; }
+  #block-views-8a8c449af22843a7d8ce261412005004 .views-row-last { border-bottom: 0; }
+  #block-views-8a8c449af22843a7d8ce261412005004 .view-content .views-field-title { margin: 8px 0; }
+  #block-views-8a8c449af22843a7d8ce261412005004 .views-field-title a { text-decoration: none; color: #8CBD3E; font-weight: 600; }
+  #block-views-8a8c449af22843a7d8ce261412005004 .views-field-title a:hover { text-decoration: underline; }
+  #block-views-8a8c449af22843a7d8ce261412005004 .views-field-body a { text-decoration: none; color: #707070; }
+  #block-views-8a8c449af22843a7d8ce261412005004 .views-field-body a:hover { text-decoration: none; }
+    
+  /* Feature Project Single Teaser-1 */
+
+  .field-name-cognition-project-teaser-1 { background: #fff; margin-top: 20px; padding: 6px 7px 10px 7px; }
+  .field-name-cognition-project-teaser-1 .block-title {
+    height: 28px;
+    padding-top: 8px;
+    text-align: center;
+    background: #707070;
+  }
+  .field-name-cognition-project-teaser-1 .views-field-body { font-size: 14px; color: #333; padding: 10px; }
+  .field-name-cognition-project-teaser-1 .views-field-body p { margin: 10px 0; }
+  .field-name-cognition-project-teaser-1 .views-field-path a {
+    text-decoration: none;
+    color: #8DBD3E;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    border-top: 1px dotted lightGrey;
+    padding: 6px;
+    width: 174px;
+    height: 52px;
+    background: url('../images/block-project-readmore-bg.png') no-repeat center 14px;
+    margin-left: 6px;
+  }
+  .field-name-cognition-project-teaser-1 .views-field-field-image { text-align: center; }
+  
+  
+  /* Feature Project Teaching Learning Teaser */
+
+  .field-name-cognition-project-tl-teaser { background: #fff; margin-top: 20px; padding: 6px 7px 10px 7px; }
+  .field-name-cognition-project-tl-teaser .block-title {
+    height: 28px;
+    padding-top: 8px;
+    text-align: center;
+    background: #707070;
+  }
+  .field-name-cognition-project-tl-teaser .views-field-body { font-size: 14px; color: #333; padding: 10px; }
+  .field-name-cognition-project--tl-teaser .views-field-title-1 { padding: 10px; }
+  .field-name-cognition-project-tl-teaser .views-field-body p { margin: 10px 0; }
+  .field-name-cognition-project-tl-teaser .views-field-path a {
+    text-decoration: none;
+    color: #8DBD3E;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    border-top: 1px dotted lightGrey;
+    padding: 6px;
+    width: 174px;
+    height: 52px;
+    background: url('../images/block-project-readmore-bg.png') no-repeat center 14px;
+    margin-left: 6px;
+  }
+  .field-name-cognition-project-tl-teaser .views-field-field-image { text-align: center; }
+  
+  #block-views-28a8b1f74a1078709e644573d862b0df { background: #fff; margin-top: 20px; padding: 6px 7px 10px 7px; }
+  
+  #block-views-28a8b1f74a1078709e644573d862b0df .block-title {
+    height: 28px;
+    padding-top: 8px;
+    text-align: center;
+    background: #707070;
+  }
+  
+  #block-views-28a8b1f74a1078709e644573d862b0df .views-field-title-1 { padding: 10px; }
+  
+  #block-views-28a8b1f74a1078709e644573d862b0df .views-field-body { font-size: 14px; color: #333; padding: 10px; }
+  
+  #block-views-28a8b1f74a1078709e644573d862b0df .views-field-body p { margin: 10px 0; }
+  
+  #block-views-28a8b1f74a1078709e644573d862b0df .views-field-path a {
+    text-decoration: none;
+    color: #8DBD3E;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    border-top: 1px dotted lightGrey;
+    padding: 6px;
+    width: 174px;
+    height: 52px;
+    background: url('../images/block-project-readmore-bg.png') no-repeat center 14px;
+    margin-left: 6px;
+  }
+  #block-views-28a8b1f74a1078709e644573d862b0df .views-field-field-image { text-align: center; }
+  
+       
+  /* Feature Project Triple Teaser */
+  
+  .field-name-cognition-project-teaser-3 .views-row {
+    background: white;
+    margin-top: 20px;
+    padding: 6px 7px 10px 7px;
+  }
+  
+  .field-name-cognition-project-teaser-3 .views-row .views-field-title {
+    height: 28px;
+    background: #707070;
+    color: #fff;
+    font-size: 17px;
+    font-family: "museo-slab";
+    height: 50px;
+    padding: 10px;
+    padding-bottom: 0;
+    text-align: center;
+   }
+  .field-name-cognition-project-teaser-3 .views-field-title-1 { padding: 10px; }
+  
+  .field-name-cognition-project-teaser-3 .views-row .views-field-body {
+    padding: 10px;
+   }
+  
+  .field-name-cognition-project-teaser-3 .views-row .views-field-path a {
+    text-decoration: none;
+    color: #8DBD3E;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    border-top: 1px dotted lightGrey;
+    padding: 4px 6px 6px 6px;
+    width: 116px;
+    height: 32px;
+    background: url('../images/block-project-readmore-bg-sml.png') no-repeat center 14px;
+    margin-left: 6px;
+   }
+  
+    
+  /* Feature Project six Teaser */
+  
+  .field-name-cognition-project-teaser-3 .views-row {
+    background: white;
+    margin-top: 20px;
+    padding: 6px 7px 10px 7px;
+    width: 192px;
+  }
+  
+  .field-name-cognition-project-teaser-3 .views-row-first { margin-top: 0; }
+  
+  .field-name-cognition-project-teaser-3 .views-row .views-field-title {
+    height: 28px;
+    background: #707070;
+    color: #fff;
+    font-size: 17px;
+    font-family: "museo-slab";
+    height: 30px;
+    padding: 10px;
+    padding-bottom: 0;
+    text-align: center;
+   }
+  
+  .field-name-cognition-project-teaser-3 .views-row .views-field-body {
+    padding: 0 8px;
+   }
+  
+  .field-name-cognition-project-teaser-3 .views-row .views-field-field-image img { margin-bottom: 8px; }
+  
+  .field-name-cognition-project-teaser-3 .views-row .views-field-path a {
+    text-decoration: none;
+    color: #8DBD3E;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    border-top: 1px dotted lightGrey;
+    padding: 4px 6px 6px 6px;
+    width: 116px;
+    height: 32px;
+    background: url('../images/block-project-readmore-bg-sml.png') no-repeat center 14px;
+    margin: 0 auto;
+   }
+  
+  #block-views-70ed07e6e436f62e1eb67bfec095bf5a .views-row {
+    background: white;
+    margin-top: 20px;
+    padding: 6px 7px 10px 7px;
+    width: 192px;
+  }
+  
+  #block-views-70ed07e6e436f62e1eb67bfec095bf5a .views-row-first { margin-top: 0; }
+  
+  #block-views-70ed07e6e436f62e1eb67bfec095bf5a .views-row .views-field-title {
+    height: 28px;
+    background: #707070;
+    color: #fff;
+    font-size: 17px;
+    font-family: "museo-slab";
+    height: 30px;
+    padding: 10px;
+    padding-bottom: 0;
+    text-align: center;
+   }
+  #block-views-70ed07e6e436f62e1eb67bfec095bf5a .views-row .views-field-title-1 {
+    padding: 8px;
+   }
+  #block-views-70ed07e6e436f62e1eb67bfec095bf5a .views-row .views-field-body {
+    padding: 0 8px;
+   }
+  
+  #block-views-70ed07e6e436f62e1eb67bfec095bf5a .views-row .views-field-field-image img { margin-bottom: 8px; }
+  
+  #block-views-70ed07e6e436f62e1eb67bfec095bf5a .views-row .views-field-path a {
+    text-decoration: none;
+    color: #8DBD3E;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    border-top: 1px dotted lightGrey;
+    padding: 4px 6px 6px 6px;
+    width: 116px;
+    height: 32px;
+    background: url('../images/block-project-readmore-bg-sml.png') no-repeat center 14px;
+    margin: 0 auto;
+   }
+
+  /* Who we are */
+  
+  .field-name-cognition-who {
+    width: 634px;
+    background: #707070;
+    color: #fff;
+  }
+  
+  .field-name-cognition-who .block-title {
+    background: url('../images/whoweare-shadow-top.png') no-repeat left bottom;
+    background-size: 400px 40px;
+    text-align: left;
+    margin-left: 10px;
+    padding: 10px 16px 0px;
+    width: 634px;
+    height: 40px;
+    font-size: 28px;
+    font-weight: 300;
+    font-family: proxima-nova, sans-serif;
+}
+  
+    
+  .field-name-cognition-who .views-field-body { font-size: 15px; font-family: museo-slab; line-height: 1.4; font-weight: 200; text-align: left; padding: 0 12px 0 12px; margin-left: 10px; margin-bottom: 10px; }
+
+  /*.not-front .group-left .field-name-cognition-who, .not-front .group-left .field-name-cognition-who .block-title, .not-front .group-left .field-name-cognition-who .not-front .group-left .field-name-cognition-who .views-field-body { background: url('../images/logo-sml.png') no-repeat 30px center; }*/
+  
+  .not-front .group-left .field-name-cognition-who .views-field-body .field-content {
+    font-size: 15px;
+    margin-top: 25px;
+  }
+  .oldie .not-front .group-left .field-name-cognition-who .views-field-body .field-content p { margin: 1em 0; }
+  
+  /* Who are CET? */
+  
+  .field-name-cet-who {
+    background: #F4F4F4;
+    color: #333;
+    padding-bottom: 10px;
+  }
+  
+  .field-name-cet-who a { color: #8DBD3E; text-decoration: none; }
+  
+  .field-name-cet-who .block-title {
+    color: #8DBD3E;
+    font-size: 23px;
+    padding: 24px 0 0 20px;
+    width: 600px;
+    margin-right: 20px;
+    xmargin-bottom: 12px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+  }
+  
+  .field-name-cet-who .views-field-body { font-size: 16px; width: 600px; margin-left: 20px; margin-right: 20px; padding: 6px 0 7px 0; }
+  .field-name-cet-who .views-field-body p { margin: 4px 0; }
+  
+  
+  #block-views-7fb2f9fd46858c1de216eeb4c82ed758 {
+    background: #F4F4F4;
+    color: #333;
+    padding-bottom: 10px;
+  }
+  
+  #block-views-7fb2f9fd46858c1de216eeb4c82ed758 a { color: #8DBD3E; text-decoration: none; }
+  
+  #block-views-7fb2f9fd46858c1de216eeb4c82ed758 .block-title {
+    color: #8DBD3E;
+    font-size: 23px;
+    padding: 24px 0 0 20px;
+    width: 600px;
+    margin-right: 20px;
+    xmargin-bottom: 12px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+  }
+  
+  #block-views-7fb2f9fd46858c1de216eeb4c82ed758 .views-field-body { font-size: 16px; width: 600px; margin-left: 20px; margin-right: 20px; padding: 6px 0 7px 0; }
+  #block-views-7fb2f9fd46858c1de216eeb4c82ed758 .views-field-body p { margin: 4px 0; }
+  
+  
+  /* Meet the staff single cognition only */
+  
+  .field-name-meet-the-staff {
+    background: #fff;
+    margin-top: 20px;
+    padding: 6px 7px 10px 7px;
+    background: #fff url('../images/staff-bg-fade.png') no-repeat center 50px;
+  }
+
+  
+  .field-name-meet-the-staff .block-title {
+    height: 28px;
+    padding-top: 8px;
+    text-align: center;
+    background: #707070;
+    margin-bottom: 16px;
+  }
+
+  
+  .field-name-meet-the-staff .views-field-title a { text-decoration: none; color: #707070; font-size: 15px; margin: 6px; }
+  
+  .field-name-meet-the-staff .views-field-body { width: 100px; float: right; background: #fff; margin: 6px; }
+  
+  .field-name-meet-the-staff .views-field-field-position { font-weight: 600; color: #7AA537; font-size: 13px; margin: 6px;}
+   
+  .field-name-meet-the-staff .views-field-field-photo { margin: 6px; float: right; }  
+  
+  .field-name-meet-the-staff .views-field-field-email { margin: 6px; }
+
+  .field-name-meet-the-staff .views-field-body p { margin: -4px 4px 0 0; font-size: 12px; background: #fff; margin: 6px; }
+  
+  .field-name-meet-the-staff .views-field-nothing a { text-decoration: none; color: #fff; font-size: 15px; font-weight: 600; background: #7AA537; margin-top: 10px; padding: 6px 12px 6px 0; background: #8DBD3E url('../images/arrow-sml-white-e.png') no-repeat 124px 10px; display: block; text-align: right; }
+  
+  .oldie .field-name-meet-the-staff .views-field-nothing a { background-position: 120px 10px;  }
+  
+  .field-name-meet-the-staff .views-field-nothing a:hover { text-decoration: underline; }
+ 
+  
+   
+  /* PROBABLY DELETE ALL THIS
+  #block-views-9353a5fe69a32b276d4dd0dc53ef195c {
+    background: #fff;
+    margin-top: 20px;
+    padding: 6px 7px 10px 7px;
+    background: #fff url('../images/staff-bg-fade.png') no-repeat center 50px;
+  }
+
+  
+  #block-views-9353a5fe69a32b276d4dd0dc53ef195c .block-title {
+    height: 28px;
+    padding-top: 8px;
+    text-align: center;
+    background: #707070;
+    margin-bottom: 16px;
+  }
+
+  
+  #block-views-9353a5fe69a32b276d4dd0dc53ef195c .views-field-title a { text-decoration: none; color: #707070; font-size: 15px; margin: 6px; }
+  
+  #block-views-9353a5fe69a32b276d4dd0dc53ef195c .views-field-body { width: 100px; float: right; background: #fff; margin: 6px; }
+  
+  #block-views-9353a5fe69a32b276d4dd0dc53ef195c .views-field-field-position { font-weight: 600; color: #7AA537; font-size: 13px; margin: 6px;}
+   
+  #block-views-9353a5fe69a32b276d4dd0dc53ef195c .views-field-field-photo { margin: 6px; float: right; }  
+  
+  #block-views-9353a5fe69a32b276d4dd0dc53ef195c .views-field-field-email { margin: 6px; }
+
+  #block-views-9353a5fe69a32b276d4dd0dc53ef195c .views-field-body p { margin: -4px 4px 0 0; font-size: 12px; background: #fff; margin: 6px; }
+  
+  #block-views-9353a5fe69a32b276d4dd0dc53ef195c .views-field-nothing a { text-decoration: none; color: #fff; font-size: 15px; font-weight: 600; background: #7AA537; margin-top: 10px; padding: 6px 12px 6px 0; background: #8DBD3E url('../images/arrow-sml-white-e.png') no-repeat 124px 10px; display: block; text-align: right; }
+  
+  .oldie #block-views-9353a5fe69a32b276d4dd0dc53ef195c .views-field-nothing a { background-position: 120px 10px;  }
+  
+  #block-views-9353a5fe69a32b276d4dd0dc53ef195c .views-field-nothing a:hover { text-decoration: underline; }
+   
+   */
+  
+  #block-views-05479e303fd804ba3b0eb2179e1dee68 {
+    background: #fff;
+    margin-top: 20px;
+    padding: 6px 7px 10px 7px;
+    background: #fff url('../images/staff-bg-fade.png') no-repeat center 50px;
+  }
+
+  
+  #block-views-05479e303fd804ba3b0eb2179e1dee68 .block-title {
+    height: 28px;
+    padding-top: 8px;
+    text-align: center;
+    background: #707070;
+    margin-bottom: 16px;
+  }
+
+  
+  #block-views-05479e303fd804ba3b0eb2179e1dee68 .views-field-title a { text-decoration: none; color: #707070; font-size: 15px; margin: 6px; }
+  
+  #block-views-05479e303fd804ba3b0eb2179e1dee68 .views-field-body { width: 100px; float: right; background: #fff; margin: 6px; }
+  
+  #block-views-05479e303fd804ba3b0eb2179e1dee68 .views-field-field-position { font-weight: 600; color: #7AA537; font-size: 13px; margin: 6px;}
+   
+  #block-views-05479e303fd804ba3b0eb2179e1dee68 .views-field-field-photo { margin: 6px; float: right; }  
+  
+  #block-views-05479e303fd804ba3b0eb2179e1dee68 .views-field-title { padding-left: 6px; }  
+  
+  #block-views-05479e303fd804ba3b0eb2179e1dee68 .views-field-field-email { margin: 6px; }
+  
+  #block-views-05479e303fd804ba3b0eb2179e1dee68 .views-field-nothing { clear: both; }
+
+  #block-views-05479e303fd804ba3b0eb2179e1dee68 .views-field-body p { margin: -4px 4px 0 0; font-size: 12px; background: #fff; margin: 6px; }
+  
+  #block-views-05479e303fd804ba3b0eb2179e1dee68 .views-field-nothing a { text-decoration: none; color: #fff; font-size: 15px; font-weight: 600; background: #7AA537; margin-top: 10px; padding: 6px 12px 6px 0; background: #8DBD3E url('../images/arrow-sml-white-e.png') no-repeat 124px 10px; display: block; text-align: right; }
+  
+  .oldie #block-views-05479e303fd804ba3b0eb2179e1dee68 .views-field-nothing a { background-position: 120px 10px;  }
+  
+  #block-views-05479e303fd804ba3b0eb2179e1dee68 .views-field-nothing a:hover { text-decoration: underline; }
+ 
+  /* Sidebar Images */
+  
+  #block-views-a40df0c446c7fc9483bffaeeda0a9727 img {
+    border: 7px solid white;
+    margin-bottom: 2px;
+  }
+   
+  /* Center Column */
+    
+  .group-left .field-name-meet-the-staff { background: #fff url('../images/staff-bg-fade-big.png') no-repeat center 50px; }
+  .group-left .field-name-meet-the-staff img { border: 0; }
+  .group-left .field-name-meet-the-staff .views-field-body { width: 296px; margin-top: 8px; }
+  .group-left .field-name-meet-the-staff .views-field-nothing a { background: #8DBD3E url('../images/arrow-sml-white-e.png') no-repeat 322px 10px; }
+  .oldie .group-left .field-name-meet-the-staff .views-field-nothing a { background-position: 318px 10px; }
+
+  /* Work with us */
+  
+  .field-name-cogloc-region-work-info { background: #fff; margin-top: 16px; }
+  
+  .field-name-cogloc-region-work-info h2 {
+    height: 28px;
+    padding-top: 8px;
+    text-align: center;
+    background: #707070;
+    margin-bottom: 16px;
+  }
+  
+  .field-name-cogloc-region-work-info .views-field-field-work-with-us { padding: 0 16px; }
+  
+  .field-name-cogloc-region-work-info .views-field-nothing a {
+    text-decoration: none;
+    color: #8DBD3E;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    border-top: 1px dotted lightGrey;
+    padding: 6px;
+    width: 174px;
+    height: 52px;
+    background: url('../images/block-project-readmore-bg.png') no-repeat center 14px;
+    margin: 12px 0 0 12px
+  }
+    
+  #block-views-9353a5fe69a32b276d4dd0dc53ef195c { background: #fff; margin-top: 16px; }
+  
+  #block-views-9353a5fe69a32b276d4dd0dc53ef195c h2 {
+    height: 28px;
+    padding-top: 8px;
+    text-align: center;
+    background: #707070;
+    margin-bottom: 16px;
+  }
+  
+  #block-views-9353a5fe69a32b276d4dd0dc53ef195c .views-field-field-work-with-us { padding: 0 16px; }
+  
+  #block-views-9353a5fe69a32b276d4dd0dc53ef195c .views-field-nothing a {
+    text-decoration: none;
+    color: #8DBD3E;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    border-top: 1px dotted lightGrey;
+    padding: 6px;
+    width: 174px;
+    height: 52px;
+    background: url('../images/block-project-readmore-bg.png') no-repeat center 14px;
+    margin: 12px 0 0 12px
+  }
+  
+  /* Curriculum pedagogical knowledge */
+  
+  .field-name-cogserv-teaching-pedagogical {
+    background: #fff;
+    margin-top: 16px;
+    padding: 6px 7px 10px 7px;
+    background: #fff url('../images/staff-bg-fade.png') no-repeat center 50px;
+  }
+  
+  .field-name-cogserv-teaching-pedagogical h2 {
+    height: 68px;
+    padding: 8px 8px 0 8px;
+    text-align: center;
+    background: #707070;
+    margin-bottom: 16px;
+  }
+  
+  .field-name-cogserv-teaching-pedagogical .views-field-title {
+    height: 68px;
+    padding: 8px 8px 0 8px;
+    text-align: center;
+    background: #707070;
+    margin-bottom: 16px;
+    color: #fff;
+    font-family: "museo-slab";
+    font-size: 17px;
+    font-weight: 400;
+  }
+  
+  .field-name-cogserv-teaching-pedagogical .views-field-body { padding: 0 16px; }
+  
+  .field-name-cogserv-teaching-pedagogical .views-field-field-body2 p { margin: 0; }
+  
+  .field-name-cogserv-teaching-pedagogical .views-field-field-body2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background: #7AA537;
+    margin-top: 10px;
+    padding: 6px 12px 6px 0;
+    background: #8DBD3E url('../images/arrow-sml-white-e.png') no-repeat 124px 10px;
+    display: block;
+    text-align: right;
+  }
+    
+  #block-views-ef751db231534e8a7d338423bdf41358 {
+    background: #fff;
+    margin-top: 16px;
+    padding: 6px 7px 10px 7px;
+    background: #fff url('../images/staff-bg-fade.png') no-repeat center 50px;
+  }
+  
+  #block-views-ef751db231534e8a7d338423bdf41358 h2 {
+    height: 68px;
+    padding: 8px 8px 0 8px;
+    text-align: center;
+    background: #707070;
+    margin-bottom: 16px;
+  }
+  
+  #block-views-ef751db231534e8a7d338423bdf41358 .views-field-title {
+    height: 68px;
+    padding: 8px 8px 0 8px;
+    text-align: center;
+    background: #707070;
+    margin-bottom: 16px;
+    color: #fff;
+    font-family: "museo-slab";
+    font-size: 17px;
+    font-weight: 400;
+  }
+  
+  #block-views-ef751db231534e8a7d338423bdf41358 .views-field-body { padding: 0 16px; }
+  
+  #block-views-ef751db231534e8a7d338423bdf41358 .views-field-field-body2 p { margin: 0; }
+  
+  #block-views-ef751db231534e8a7d338423bdf41358 .views-field-field-body2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background: #7AA537;
+    margin-top: 10px;
+    padding: 6px 12px 6px 0;
+    background: #8DBD3E url('../images/arrow-sml-white-e.png') no-repeat 124px 10px;
+    display: block;
+    text-align: right;
+  }
+  
+  /* How does the trust provide for it's beneficiaries? */
+  
+  .field-name-cognition-trust-and-beneficaries {
+    background: #fff;
+    margin-top: 16px;
+    padding: 6px 7px 10px 7px;
+    background: #fff url('../images/staff-bg-fade.png') no-repeat center 88px;
+  }
+  
+  .field-name-cognition-trust-and-beneficaries h2 {
+    height: 68px;
+    padding: 8px 8px 0 8px;
+    text-align: center;
+    background: #707070;
+  }
+  
+  .field-name-cognition-trust-and-beneficaries .views-field-body {
+    padding: 0 16px;
+    height: 100px;
+    overflow: hidden;
+  }
+  
+  .oldie .field-name-cognition-trust-and-beneficaries .views-field-body { padding-top: 6px; }
+  
+  .field-name-cognition-trust-and-beneficaries .views-field-nothing a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background: #7AA537;
+    margin-top: 10px;
+    padding: 6px 12px 6px 0;
+    background: #8DBD3E url('../images/arrow-sml-white-e.png') no-repeat 96px 10px;
+    display: block;
+    text-align: right;
+  }
+  
+  .oldie .field-name-cognition-trust-and-beneficaries .views-field-nothing a { background-position: 92px 10px; }
+  
+  .field-name-cognition-trust-and-beneficaries .views-field-nothing a.rl { background: #8DBD3E url('../images/arrow-sml-white-w.png') no-repeat 136px 10px; }
+    
+  #block-views-332eff9431d730f220866f4b3b833dd9 {
+    background: #fff;
+    margin-top: 16px;
+    padding: 6px 7px 10px 7px;
+    background: #fff url('../images/staff-bg-fade.png') no-repeat center 88px;
+  }
+  
+  #block-views-332eff9431d730f220866f4b3b833dd9 h2 {
+    height: 68px;
+    padding: 8px 8px 0 8px;
+    text-align: center;
+    background: #707070;
+  }
+  
+  #block-views-332eff9431d730f220866f4b3b833dd9 .views-field-body {
+    padding: 0 16px;
+    height: 100px;
+    overflow: hidden;
+  }
+  
+  .oldie #block-views-332eff9431d730f220866f4b3b833dd9 .views-field-body { padding-top: 6px; }
+  
+  #block-views-332eff9431d730f220866f4b3b833dd9 .views-field-nothing a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background: #7AA537;
+    margin-top: 10px;
+    padding: 6px 12px 6px 0;
+    background: #8DBD3E url('../images/arrow-sml-white-e.png') no-repeat 96px 10px;
+    display: block;
+    text-align: right;
+  }
+  
+  .oldie #block-views-332eff9431d730f220866f4b3b833dd9 .views-field-nothing a { background-position: 92px 10px; }
+  
+  #block-views-332eff9431d730f220866f4b3b833dd9 .views-field-nothing a.rl { background: #8DBD3E url('../images/arrow-sml-white-w.png') no-repeat 136px 10px; }
+  
+  /* Our purpose */
+  
+  .field-name-our-purpose { margin-top: 20px; }
+
+  .field-name-our-purpose .block-title {
+    font-size: 21px;
+    font-weight: 300;
+    padding: 7px 0 8px 28px;
+    background: #8DBD3E url('../images/arrow-sml-white-e.png') no-repeat 10px 15px
+  }
+
+  .field-name-our-purpose .block-title.on { background-image: url('../images/arrow-sml-white-s.png'); }
+
+  .field-name-our-purpose .block-title:hover { cursor: pointer; }
+
+  .field-name-our-purpose .view-display-id-cognition_our_purpose {
+    xdisplay: none;
+    border: 7px solid #8DBD3E;
+    font-size: 14px;
+    color: #707070;
+    padding: 2px 12px 24px 12px;
+    border-top: 0;
+    background: #E6E6E6;
+    position: relative;
+  }
+
+  .field-name-our-purpose .view-display-id-cognition_our_purpose .views-field-body { font-size: 14px; }
+  
+  .field-name-our-purpose .view-display-id-cognition_our_purpose .views-field-nothing {
+    background: url('../images/halfdome-green-n.png') no-repeat;
+    position: absolute;
+    width: 36px;
+    height: 22px;
+    bottom: 0;
+    left: 556px;
+  }
+
+  .field-name-our-purpose .view-display-id-cognition_our_purpose .views-field-nothing:hover { cursor: pointer; }
+  
+  #block-views-3257dd87a14cf9bb2240de5a365bc482 { margin-top: 20px; }
+
+  #block-views-3257dd87a14cf9bb2240de5a365bc482 .block-title {
+    font-size: 21px;
+    font-weight: 300;
+    padding: 7px 0 8px 28px;
+    background: #8DBD3E url('../images/arrow-sml-white-e.png') no-repeat 10px 15px
+  }
+
+  #block-views-3257dd87a14cf9bb2240de5a365bc482 .block-title.on { background-image: url('../images/arrow-sml-white-s.png'); }
+
+  #block-views-3257dd87a14cf9bb2240de5a365bc482 .block-title:hover { cursor: pointer; }
+
+  #block-views-3257dd87a14cf9bb2240de5a365bc482 .view-display-id-cognition_our_purpose {
+    width: 614px;
+    border: 7px solid #8DBD3E;
+    font-size: 14px;
+    color: #707070;
+    padding: 2px 12px 24px 12px;
+    border-top: 0;
+    background: #E6E6E6;
+    position: relative;
+  }
+
+  #block-views-3257dd87a14cf9bb2240de5a365bc482 .view-display-id-cognition_our_purpose .views-field-body { font-size: 14px; }
+  
+  #block-views-3257dd87a14cf9bb2240de5a365bc482 .view-display-id-cognition_our_purpose .views-field-nothing {
+    background: url('../images/halfdome-green-n.png') no-repeat;
+    position: absolute;
+    width: 36px;
+    height: 22px;
+    bottom: 0;
+    left: 556px;
+  }
+
+  #block-views-3257dd87a14cf9bb2240de5a365bc482 .view-display-id-cognition_our_purpose .views-field-nothing:hover { cursor: pointer; }
+
+  /* Career interest */
+  
+  #block-views-63c111620fac753bb577a452aeeb33ad { margin-top: 40px; color: #707070; text-align: center; }
+  
+  #block-views-63c111620fac753bb577a452aeeb33ad .block-title { font-size: 17px; color: #8DBD3E; }
+  
+  #block-views-63c111620fac753bb577a452aeeb33ad .field-content { padding: 0 12px; }
+  
+  #block-views-63c111620fac753bb577a452aeeb33ad p { margin: 8px 0; }
+  
+  #block-views-63c111620fac753bb577a452aeeb33ad a { text-decoration: none; color: #8DBD3E; font-weight: 600; }
+  #block-views-63c111620fac753bb577a452aeeb33ad a:hover { text-decoration: underline; }
+  
+  /* Cognition Institute */
+  
+  .field-name-cognition-institute-badge { margin-top: 16px; width: 206px; text-align: center; }
+  
+  .field-name-cognition-institute-badge .views-name-title { padding-top: 10px; }
+  .field-name-cognition-institute-badge .views-field-body a { text-decoration: none; color: #333; display: block; margin-top: 20px; }
+  .field-name-cognition-institute-badge .views-field-body a:hover { text-decoration: underline; }
+  
+  .field-name-cognition-institute-badge .views-field-field-image img { border: 1px solid #CCC; }
+  
+  /* Relationship Diagram */
+  
+.field-name-relationship-diagram {
+    background: #fff;
+    margin-top: 16px;
+    padding: 6px 7px 10px 7px;
+    background: #fff url('../images/relationship-diagram-bgfade.png') no-repeat center bottom;
+    border-bottom: 7px solid #fff;
+  }
+
+  .field-name-relationship-diagram #relations { height: 300px; }
+  
+  .field-name-relationship-diagram h2 {
+    height: 54px;
+    padding: 12px 8px 0 8px;
+    text-align: center;
+    background: #707070;
+  }
+  
+  .oldie .field-name-relationship-diagram h2 { padding: 6px 12px 10px 12px; }
+  
+  .field-name-relationship-diagram .intro {
+    color: #707070;
+    padding: 0 10px;
+  }
+
+  .field-name-relationship-diagram .content {
+    clear: both;
+  }
+
+  .field-name-relationship-diagram .relation { position: relative; width: 82px; background: url('../images/rd-bg-blue.png') no-repeat; color: #fff; font-weight: 600; text-align: center; text-transform: uppercase; font-size: 11px; margin-bottom: 22px; }
+  
+  .field-name-relationship-diagram .relation .copy { display: none; }
+  
+  #cet { background-image: url('../images/rd-bg-dkgrey.png'); margin: 0 auto; margin-bottom: 14px; }
+  #cet .title { padding-top: 22px; height: 60px; }
+  #cet .a1 { background-image: url('../images/rd-arrow1.png'); position: absolute; width: 13px; height: 19px; bottom: -14px; left: 10px; }
+  #cet .a2 { background-image: url('../images/rd-arrow2.png'); position: absolute; width: 14px; height: 22px; bottom: -17px; right: 10px; }
+  
+  #cognition-education { float: left; margin-left: 8px; }
+  #cognition-education .title { padding-top: 28px; height: 54px; }
+  #cognition-education .a1 { background-image: url('../images/rd-arrow4.png'); position: absolute; width: 9px; height: 21px; bottom: -20px; left: 36px; }
+  #cognition-education .a2 { background-image: url('../images/rd-arrow5.png'); position: absolute; width: 41px; height: 42px; bottom: -26px; right: -28px; }
+  
+  #cognition-institute { background-image: url('../images/rd-bg-grey.png'); float: right; margin-right: 8px; }
+  #cognition-institute .title { padding-top: 28px; height: 54px; }
+  #cognition-institute .a1 { background-image: url('../images/rd-arrow3.png'); position: absolute; width: 14px; height: 9px; top: 36px; left: -13px; }
+  
+  #vlp { background-image: url('../images/rd-bg-dkred.png'); float: left; margin-left: 8px; }
+  #vlp .title { padding-top: 13px; height: 73px; }
+  
+  #multiserv {  background-image: url('../images/rd-bg-dkblue.png'); float: right; margin-right: 8px; }
+  #multiserv .title { padding-top: 36px; height: 46px; }
+
+  .tooltip {
+    display:none;
+    background: #f4f4f4 url('../images/rd-tt-arrow.png') no-repeat -10px 25px;
+    font-size:12px;
+    width:160px;
+    padding: 8px;
+    color: #333;
+    border: 6px solid #616161;
+  }
+
+  .tooltip:after {
+    content: "";
+    display: block;
+    height: 23px;
+    width: 10px;
+    position: absolute;
+    background: url('../images/rd-tt-arrow2.png');
+    right: -16px;
+    top: 30%;
+    z-index: 500;
+  }
+  
+  /* Download Brochure */
+
+  .field-name-cognition-brochure .block-title {
+    height: 48px;
+    padding-top: 8px;
+    text-align: center;
+    background: #707070;
+    margin-bottom: 10px;
+  }
+  
+  .field-name-cognition-brochure {
+    margin-top: 20px;
+    padding: 6px 7px 10px 7px;
+    background: #fff url('../images/staff-bg-fade.png') no-repeat center 70px;
+  }
+  
+  .field-name-cognition-brochure .view { margin-top: 16px; }
+  
+  /* Download Cognition Brochure */
+  
+  #block-views-8659e4381775ae541491bb85e12600bd {
+  display: block;
+  width: 155px;
+  height: 50px;
+  background: url('../images/pdf-brochure.png') no-repeat;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'museo-slab';
+  padding: 20px 0 0 64px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+  
+  
+  #block-views-8659e4381775ae541491bb85e12600bd a { color: #fff; text-decoration: none; }
+  #block-views-8659e4381775ae541491bb85e12600bd a:hover { text-decoration: underline; }
+  
+  /* Useful links */
+  
+  .field-name-useful-links {
+    background: url('../images/block-title-bg.png') no-repeat left top;
+    margin-bottom: 15px;
+  }
+  
+  .field-name-useful-links .block-title {
+    background: url('../images/icon-links.png') no-repeat 7px 7px;
+    width: 208px;
+    height: 32px;
+    padding-top: 14px;
+    text-indent: 50px;
+    margin-bottom: 4px;
+  }
+  
+  .field-name-useful-links .views-row {
+    padding: 10px 0 8px 0;
+    border-bottom: 1px dotted lightGrey;
+  }
+  
+  .field-name-useful-links .views-row-last { border-bottom: 0; }
+  
+  .field-name-useful-links .views-field-title a {
+    text-decoration: none;
+    color: #7AA537;
+    font-weight: 600;
+  }
+  
+  
+  #block-views-136be4764cf9f2dc76517c49ada382ec {
+    background: url('../images/block-title-bg.png') no-repeat left top;
+    margin-bottom: 15px;
+  }
+  
+  #block-views-136be4764cf9f2dc76517c49ada382ec .block-title {
+    background: url('../images/icon-links.png') no-repeat 7px 7px;
+    width: 208px;
+    height: 32px;
+    padding-top: 14px;
+    text-indent: 50px;
+    margin-bottom: 4px;
+  }
+  
+  #block-views-136be4764cf9f2dc76517c49ada382ec .views-row {
+    padding: 10px 0 8px 0;
+    border-bottom: 1px dotted lightGrey;
+  }
+  
+  #block-views-136be4764cf9f2dc76517c49ada382ec .views-row-last { border-bottom: 0; }
+  
+  #block-views-136be4764cf9f2dc76517c49ada382ec .views-field-title a {
+    text-decoration: none;
+    color: #7AA537;
+    font-weight: 600;
+  }
+  
+  /* Cognition Staff Story */
+  
+  .field-name-cognition-staff-story { background: #fff; padding: 7px 7px 16px 7px; font-size: 13px; color: #333; }
+  .field-name-cognition-staff-story .views-field-title { font-size: 15px; color: #707070; padding: 0 4px; }
+  .field-name-cognition-staff-story .views-field-field-position { color: #8DBD3E; font-weight: 600; padding: 0 4px; margin-bottom: 4px; }
+  .field-name-cognition-staff-story .views-field-field-story { xborder: 7px solid #fff; padding: 0 4px; }
+  .field-name-cognition-staff-story .views-field-field-photo { margin-bottom: 6px; padding-left: 62px; }
+
+    
+  #block-views-19019d7896fc43c47a32d0ccaf5db009 { background: #fff; padding: 7px 7px 16px 7px; font-size: 13px; }
+  #block-views-19019d7896fc43c47a32d0ccaf5db009 .views-field-title { font-size: 15px; color: #707070; padding: 0 4px; }
+  #block-views-19019d7896fc43c47a32d0ccaf5db009 .views-field-field-position { color: #8DBD3E; font-weight: 600; padding: 0 4px; margin-bottom: 4px; }
+  #block-views-19019d7896fc43c47a32d0ccaf5db009 .views-field-field-story { xborder: 7px solid #fff; padding: 0 4px; }
+  #block-views-19019d7896fc43c47a32d0ccaf5db009 .views-field-field-photo {
+    margin-bottom: 6px;
+    float: left;
+    margin: 2px 20px 14px 4px;
+    box-shadow: 2px 2px 6px lightGrey;
+    border: 6px solid #fff;
+  }
+
+  
+/*
+/*
+/*
+/*
+/*
+/* END UNIVERSAL STYLES
+/*
+/******************************************************
+
+
+
+
+
+
+
+/* Node 11 - Homepage styles */
+
+#page-homepage {}
+
+#page-homepage .field-name-field-image { margin: 0; }
+
+#page-homepage #content .field-name-field-image img { margin: 0; }
+
+#page-homepage #content .field-name-field-image .field-item:after {
+  content: "";
+  display: block;
+  height: 307px;
+  width: 708px;
+  position: absolute;
+  background: url('../images/hero-shadow.png');
+  left: -28px;
+  top: 22px;
+  z-index: -1;
+}
+
+#page-homepage #content .field-name-field-image img { border: 12px solid #fff; border-left: 13px solid #fff; position: relative; z-index: 50;}
+#page-homepage li { list-style-type: none; }
+
+body.front #page-title { display: none; }
+
+body.front #block-system-main { xmargin-top: 40px; }
+
+#page-homepage #content .field-name-field-body2 {
+margin: 30px 0;
+border-top: 12px solid white;
+border-bottom: 12px solid white;
+border-right: 12px solid white;
+background: #fff;
+}
+
+.field-name-cet-who, .field-name-cognition-who { width: 634px; border: 9px solid #fff; margin-top: 20px; }
+
+.field-name-cognition-who { margin-right: 20px; }
+
+
+
+.view-display-id-cognition_services_intro { margin: 20px 0; border-bottom: 12px solid white; border-right: 12px solid white; background: #fff; box-shadow: 1px 6px 16px 1px lightgrey; }
+
+.view-display-id-cognition_services_intro.on { background: #fff url('../images/servicesDD-bg.png') no-repeat 12px 80px; }
+
+.view-display-id-cognition_services_intro > .view-header {
+  background: #707070;
+  border: 12px solid white;
+  border-bottom: 0;
+  padding: 8px 14px;
+  border-right: 0;
+}
+
+.view-display-id-cognition_services_intro > .view-header p { margin: 0; color: #fff; font-size: 17px; font-family: "museo-slab"; }
+
+.view-display-id-cognition_services_intro > .view-content .views-row { float: left; width: 148px; height: 100px; xborder: 12px solid #fff; border-left: 0; margin: 12px 12px 0 0; position: relative; z-index: 5; }
+
+.view-display-id-cognition_services_intro > .view-content .views-row-last { margin-right: 0; }
+
+.view-display-id-cognition_services_intro > .view-content .views-row a {
+  color: #fff;
+  font-size: 26px;
+  text-decoration: none;
+  display: block;
+  padding: 6px 8px 0 8px;
+  height: 94px;
+  font-weight: 300;
+}
+
+.view-display-id-cognition_services_intro > .view-content .views-row.views-row-first { border-left: 12px solid #fff; }
+
+.view-display-id-cognition_services_intro > .view-content > div.on { height: 117px; }
+
+.view-display-id-cognition_services_intro > .view-content > div { background: #ffa620; }
+
+.view-display-id-cognition_services_intro > .view-content .systems-thinking a { background: url('../images/servicesDD-yellow-in.png') no-repeat left bottom; }
+.view-display-id-cognition_services_intro > .view-content .systems-thinking.on a { background: url('../images/servicesDD-yellow-whitebg.png') no-repeat left bottom; height: 111px; }
+
+.view-display-id-cognition_services_intro > .view-content > div.schooling { background: #6d79a4; }
+.view-display-id-cognition_services_intro > .view-content .schooling a { background: url('../images/servicesDD-blue-in.png') no-repeat left bottom; }
+.view-display-id-cognition_services_intro > .view-content .schooling.on a { background: url('../images/servicesDD-blue-whitebg.png') no-repeat left bottom; height: 111px; }
+
+.view-display-id-cognition_services_intro > .view-content > div.teaching-learning { background: #ca2053; }
+.view-display-id-cognition_services_intro > .view-content .teaching-learning a { background: url('../images/servicesDD-pink-in.png') no-repeat left bottom; }
+.view-display-id-cognition_services_intro > .view-content .teaching-learning.on a { background: url('../images/servicesDD-pink-whitebg.png') no-repeat left bottom; height: 111px; }
+
+.view-display-id-cognition_services_intro > .view-content > div.evaluation { background: #895c90; }
+.view-display-id-cognition_services_intro > .view-content .evaluation a { background: url('../images/servicesDD-purple-in.png') no-repeat left bottom; }
+.view-display-id-cognition_services_intro > .view-content .evaluation.on a { background: url('../images/servicesDD-purple-whitebg.png') no-repeat left bottom; height: 111px; }
+
+#page-homepage .group_imagetext { position: relative; }
+
+#page-homepage .group_imagetext .field-name-body {
+  position: absolute;
+  z-index: 9999;
+  color: white;
+  top: 114px;
+  width: 216px;
+  padding: 4px 22px;
+  right: 12px;
+  letter-spacing: 1px;
+  background: url('../images/trans-one-px.png');
+  font-size: 16px;
+}
+
+body.front .view-display-id-cognition_youtube a, body.front .view-display-id-cognition_partners_link a { background: #8DBD3E; }
+
+
+.view-display-id-cognition_services_intro > .view-content .views-row .views-field-field-partner-tag-line { display: none; }
+
+
+.view-display-id-cognition_services_intro > .view-footer .systems-thinking { color: #D88303; }
+.view-display-id-cognition_services_intro > .view-footer .schooling { color: #6D79A4; }
+.view-display-id-cognition_services_intro > .view-footer .teaching-and-learning { color: #CA2053; }
+.view-display-id-cognition_services_intro > .view-footer .evaluation { color: #895C90; }
+
+
+
+
+/* services_intro footer which is the services_intro Breakdown view for each service line */
+
+  .view-display-id-cognition_services_intro > .view-footer {
+    display: none;
+    clear: both;
+    background: #666;
+    border: 12px solid #fff;
+    background: #fff url('../images/services_intro-dd-bg.png') repeat-y;
+    position: relative;
+    top: -8px;
+    border-right: 0;
+    border-bottom: 0;
+    border-top-width: 32px;
+  }
+
+  .view-display-id-cognition_services_intro > .view-footer h2 { margin: 0; }
+
+  .view-display-id-cognition_services_intro > .view-footer > div { display: none; }
+  
+  .view-display-id-cognition_services_intro > .view-footer > div > .view-content {
+    float: left;
+    width: 148px;
+    height: 100px;
+    border-left: 12px;
+  }
+  
+  
+
+/* Services */
+
+#block-menu-block-3 {  }
+#block-menu-block-3 .block-title { display: none; }
+
+
+
+/* About cognition education */
+
+#page-about-cognition-education .view-display-id-cognition_our_approach li { list-style-type: none; list-image-type: none; margin: 5px 0; }
+
+#page-about-cognition-education .view-display-id-cognition_our_approach .field-name-field-body { display: none; }
+
+#page-about-cognition-education .view-display-id-cognition_our_approach .field-name-field-title { text-decoration: underline; color: #fff; font-size: 18px; width: 170px; background: lightgreen; }
+
+/*  Cognition Education Trust */
+
+#page-about-cognition-education-trust #header { height: 202px; background: url('../images/header-bg.png'); }
+#page-about-cognition-education-trust #header > .section { width: 100%; background: url('../images/header-textures2.png') no-repeat center top; }
+#page-about-cognition-education-trust #header > .section > div.container { width: 920px; margin: 0 auto; position: relative; height: 150px; }
+
+.region-header { width: 729px; float: left; clear: none; }
+
+#page-about-cognition-education-trust #logo { xmargin: 14px 0 0 0; background: url('../images/Cognition_Trust_logo.png'); }
+#page-about-cognition-education-trust #logo img { position: relative; top: 15px; left: 15px; }
+
+
+/* About us - CET - Sponsorship and grants */
+
+#page-about-cognition-education-trust-Sponsorship-and- .view-display-id-sponsorship_logos .views-row { float: left; margin-right: 20px; }
+#page-about-cognition-education-trust-Sponsorship-and- .field-name-sponsor-neita { clear: both; }
+
+
+#page-about-sponsorship-and-grants #content .view-id-universal_cognition_random { clear: both; margin: 12px 0; background: #fff; padding: 6px; }
+
+#page-about-sponsorship-and-grants #content .view-id-universal_cognition_random .views-field-title { font-size: 18px; margin-bottom: 6px;
+background: #707070;
+color: white;
+padding: 6px 8px 4px 8px;
+}
+
+#page-about-sponsorship-and-grants #content .view-id-universal_cognition_random .views-field-field-image { float: left; margin: 14px 18px 14px 14px; }
+#page-about-sponsorship-and-grants #content .view-id-universal_cognition_random .views-field-body { overflow: auto; }
+
+/* Locations landing */
+
+#page-locations .group-right { width: 206px; }
+
+#page-locations .view-display-id-cognition_project_teaser_3 .views-field-field-image { display: none; }
+
+#page-locations .field-name-field-image img { border: 6px solid #fff; }
+
+#page-locations #content { margin-top: -8px; }
+
+#page-locations .field-name-field-image img { border: 0; }
+
+
+
+
+
+/* Locations Pages */
+
+.section-locations #main {
+  xmargin-top: 60px;
+}
+
+.view-display-id-cogloc_region_teaser .views-field-title {
+  font-weight: 300;
+  font-size: 36px;
+  margin: 0;
+  line-height: 1.1;
+}
+
+body.section-locations .field-name-title h1 { font-size: 30px; }
+
+body.section-locations .field-name-field-hero-image { margin: 30px 0; }
+
+body.section-locations .field-name-field-hero-image .field-item { text-align: center; position: relative; }
+
+body.section-locations .field-name-field-hero-image img { border: 6px solid #fff; }
+
+body.section-locations .group-left {
+  width: 652px;
+}
+
+body.section-locations #block-views-bc6f7db8cfa849c133bcbb298e91ba51 { background: #fff; padding: 10px; margin-top: 20px; margin-left: -20px; }
+
+body.section-locations #block-views-bc6f7db8cfa849c133bcbb298e91ba51 .block-title {
+  margin: 0;
+  color: white;
+  font-size: 20px;
+  font-family: proxima-nova, sans-serif;
+  background: #707070;
+  padding: 8px 14px;
+  font-weight: 400;
+}
+
+body.section-locations #block-views-bc6f7db8cfa849c133bcbb298e91ba51 .view-content { margin-top: 12px; }
+
+body.section-locations #block-views-bc6f7db8cfa849c133bcbb298e91ba51 table { width: 100%; }
+
+body.section-locations #block-views-bc6f7db8cfa849c133bcbb298e91ba51 tr { background: none; border-bottom: 0; padding: 0; height: 26px; }
+body.section-locations #block-views-bc6f7db8cfa849c133bcbb298e91ba51 td { vertical-align: middle; border-bottom: 0; }
+
+body.section-locations #block-views-bc6f7db8cfa849c133bcbb298e91ba51 td.views-field-field-services { background: url('../images/list-arrow.png') no-repeat 14px 10px; text-indent: 10px; }
+
+body.section-locations #block-views-bc6f7db8cfa849c133bcbb298e91ba51 th { border-bottom: 0; background: #F4F4F4; border-left: 12px solid white; border-right: 12px solid white; text-indent: 16px; color: #333; font-size: 12px; font-weight: 400; }
+
+body.section-locations #block-views-bc6f7db8cfa849c133bcbb298e91ba51 tbody { color: #8CBD3E; border-top: 0; }
+
+body.section-locations #block-views-bc6f7db8cfa849c133bcbb298e91ba51 tbody td { padding-left: 16px; }
+
+body.section-locations #block-views-bc6f7db8cfa849c133bcbb298e91ba51 tbody a { color: #8CBD3E; text-decoration: none; }
+body.section-locations #block-views-bc6f7db8cfa849c133bcbb298e91ba51 tbody a:hover { text-decoration: underline; }
+
+body.section-locations #block-views-bc6f7db8cfa849c133bcbb298e91ba51 th.views-field-field-services {
+  font-size: 20px;
+  font-family: "museo-slab";
+  font-weight: 400;
+  color: #707070;
+  background: none;
+  border-left: 0;
+  text-indent: 12px;
+}
+
+body.section-locations #block-views-bc6f7db8cfa849c133bcbb298e91ba51 th.views-field-field-email { border-right: 0; }
+
+body.section-locations .field-name-field-embedded { text-align: center; }
+
+body.section-locations .field-name-field-embedded iframe { border: 7px solid white; box-shadow: 1px 6px 16px 1px lightgrey; }
+
+body.section-locations .field-name-field-image img {
+  border: 7px solid white;
+  margin-bottom: 2px;
+}
+
+body.section-locations .view-id-cognition_regions h3 { margin-bottom: 0; }
+body.section-locations .view-id-cognition_regions h3 a { display: block; color: #fff; background: #707070; font-size: 24px; font-weight: 300; padding: 4px 4px 4px 10px; margin-bottom: 0; }
+body.section-locations .view-id-cognition_regions h3 a:hover { text-decoration: underline; }
+body.section-locations .view-id-cognition_regions .views-row { background: #fff; }
+body.section-locations .view-id-cognition_regions .views-field-field-hero-image { float: right; margin: 11px 11px 4px 12px; }
+body.section-locations .view-id-cognition_regions .views-field-view { float: right; margin: 4px 4px 4px 12px; clear: right; width: 190px; margin-right: 11px; }
+body.section-locations .view-id-cognition_regions .views-field-view .views-row { margin: 12px 0; background: url('../images/list-arrow.png') no-repeat 8px 6px; text-indent: 20px; }
+body.section-locations .view-id-cognition_regions .views-field-view .views-label {
+display: block;
+background: #F4F4F4;
+text-indent: 6px;
+color: #333;
+font-weight: 400;
+padding: 4px;
+}
+
+body.section-locations .view-id-cognition_regions .views-field-body { padding: 16px; font-size: 14px; }
+
+body.section-locations .view-id-cognition_regions .views-field-body .views-label-body { color: #8CBD3E; font-family: "museo-slab"; font-size: 18px; }
+
+
+body.section-locations .view-display-id-cogloc_region_teaser .views-field-body { font-size: 16px; }
+
+/* Locations third level menu */
+
+body.section-locations .view-display-id-region_submenu { margin: 6px 0; }
+body.section-locations .view-display-id-region_submenu li { list-style-type: none; float: left; font-size: 14px; margin-right: 10px; }
+body.section-locations .view-display-id-region_submenu li a { text-transform: uppercase; }
+body.section-locations .view-display-id-region_submenu li a.active-trail { color: #8DBD3E }
+
+
+/* Insights */
+
+body.section-insights .view-display-id-insights_main {
+  font-size: 16px;
+}
+
+body.section-insights .view-display-id-insights_main .views-row { margin-top: 40px; }
+body.section-insights .view-display-id-insights_main .views-row-1 { margin-top: 20px; }
+
+body.section-insights .view-display-id-insights_main .views-field-field-image {
+  border: 7px solid #fff;
+  float: left;
+  margin-right: 16px;
+}
+
+body.section-insights .view-display-id-insights_main .views-field-title { font-weight: 600; color: #8DBD3E; }
+
+body.section-insights .view-display-id-insights_main .views-field-field-details, body.section-insights .view-display-id-insights_main .views-field-field-publish-date { font-size: 13px; color: #333; font-style: italic; }
+
+body.section-insights .view-display-id-insights_main .views-field-body { overflow: auto; }
+
+body.section-insights .view-display-id-insights_main .views-field-body p { margin: 8px 0; }
+
+body#page-insights .group-left img {
+border: 0;
+margin: 0;
+}
+
+/* Services Page */
+
+.view-display-id-cognition_services { margin: 20px 0; border-bottom: 12px solid #fff; border-right: 12px solid white; background: #fff; box-shadow: 1px 6px 16px 1px lightgrey; }
+
+.view-display-id-cognition_services.on { background: #fff url('../images/servicesDD-bg.png') no-repeat 12px 80px; }
+
+.view-display-id-cognition_services > .view-header {
+  background: #707070;
+  border: 12px solid white;
+  border-bottom: 0;
+  padding: 8px 14px;
+  border-right: 0;
+}
+
+.view-display-id-cognition_services > .view-header p { margin: 0; color: #fff; font-size: 17px; font-family: "museo-slab"; }
+
+.view-display-id-cognition_services > .view-content .views-row { float: left; width: 148px; height: 100px; xborder: 12px solid #fff; border-left: 0; margin: 12px 12px 0 0; position: relative; z-index: 5; }
+
+.view-display-id-cognition_services > .view-content .views-row-last { margin-right: 0; }
+
+.view-display-id-cognition_services > .view-content .views-row a {
+  color: #fff;
+  font-size: 26px;
+  text-decoration: none;
+  display: block;
+  padding: 6px 8px 0 8px;
+  height: 94px;
+  font-weight: 300;
+}
+
+.view-display-id-cognition_services > .view-content .views-row.views-row-first { border-left: 12px solid #fff; }
+
+.view-display-id-cognition_services > .view-content > div.on { height: 117px; }
+
+.view-display-id-cognition_services > .view-content > div { background: #ffa620; }
+
+.view-display-id-cognition_services > .view-content .systems-thinking a { background: url('../images/servicesDD-yellow-in.png') no-repeat left bottom; }
+.view-display-id-cognition_services > .view-content .systems-thinking.on a { background: url('../images/servicesDD-yellow-whitebg.png') no-repeat left bottom; height: 111px; }
+
+.view-display-id-cognition_services > .view-content > div.schooling { background: #6d79a4; }
+.view-display-id-cognition_services > .view-content .schooling a { background: url('../images/servicesDD-blue-in.png') no-repeat left bottom; }
+.view-display-id-cognition_services > .view-content .schooling.on a { background: url('../images/servicesDD-blue-whitebg.png') no-repeat left bottom; height: 111px; }
+
+.view-display-id-cognition_services > .view-content > div.teaching-learning { background: #ca2053; }
+.view-display-id-cognition_services > .view-content .teaching-learning a { background: url('../images/servicesDD-pink-in.png') no-repeat left bottom; }
+.view-display-id-cognition_services > .view-content .teaching-learning.on a { background: url('../images/servicesDD-pink-whitebg.png') no-repeat left bottom; height: 111px; }
+
+.view-display-id-cognition_services > .view-content > div.evaluation { background: #895c90; }
+.view-display-id-cognition_services > .view-content .evaluation a { background: url('../images/servicesDD-purple-in.png') no-repeat left bottom; }
+.view-display-id-cognition_services > .view-content .evaluation.on a { background: url('../images/servicesDD-purple-whitebg.png') no-repeat left bottom; height: 111px; }
+
+
+
+  /* Services footer which is the Services Breakdown view for each service line */
+
+  .view-display-id-cognition_services > .view-footer {
+    display: none;
+    clear: both;
+    border: 12px solid #fff;
+    background: #fff url('../images/services-dd-bg2.png') repeat-y;
+    position: relative;
+    top: -8px;
+    border-right: 0;
+    border-bottom: 0;
+    border-top-width: 32px;
+  }
+
+  .view-display-id-cognition_services > .view-footer h2 { margin: 0; }
+
+  .view-display-id-cognition_services > .view-footer > div { display: none; }
+  
+  .view-display-id-cognition_services > .view-footer > div > .view-content {
+    float: left;
+    width: 415px;
+    margin-right: 20px;
+  }
+  
+  .view-display-id-cognition_services .views-label { color: #D88302; font-size: 18px; font-family: "museo-slab"; }
+  
+  .view-display-id-cognition_services > .view-footer > div > .view-content .views-row-1 { color: #333; }
+  
+  .view-display-id-cognition_services > .view-footer > div > .view-footer .view-cs-services-people {
+    float: right;
+    width: 186px;
+  }
+  
+  .view-display-id-cognition_services > .view-footer > div > .view-footer .view-cs-services-projects {
+    float: right;
+    width: 186px;
+    clear: right;
+  }
+  
+  .view-display-id-cognition_services > .view-footer > div > .view-footer .view-id-cs_services_events {
+    float: right;
+    width: 186px;
+    clear: right;
+  }
+  
+  .view-display-id-cognition_services > .view-footer > div > .view-footer .view-id-cs_services_key_areas {
+    float: right;
+    width: 186px;
+    clear: right;
+  }
+  
+  .view-display-id-cognition_services > .view-footer > div > .view-footer .view-content { margin-bottom: 20px; }
+  
+  
+  .view-display-id-cognition_services > .view-footer > div > .view-footer .view-content a:hover { text-decoration: underline; text-shadow: 0 0 1px lightgrey; }
+  
+  .view-display-id-cognition_services > .view-footer > div > .view-footer h2 {
+    color: #333;
+    background: #f4f4f4;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 6px 14px;
+    margin-bottom: 14px;
+  }
+  
+  .view-display-id-cognition_services > .view-footer > div > .view-footer li {
+    background: url('../images/list-arrow.png') no-repeat 6px center;
+    padding-left: 16px;
+    margin: 4px 0;
+  }
+  
+  
+  .view-display-id-cognition_services > .view-footer a {
+    color: #D88303;
+    text-decoration: none;
+    font-weight: 550;
+  }
+  
+  .view-display-id-cognition_services .view-display-id-systems_thinking_breakdown .views-label { color: #D88303; }
+  .view-display-id-cognition_services .view-display-id-systems_thinking_breakdown a { color: #707070; }
+  
+  .view-display-id-cognition_services .view-display-id-schooling_breakdown .views-label { color: #6d79a4; }
+  .view-display-id-cognition_services .view-display-id-schooling_breakdown a { color: #707070; }
+  
+  .view-display-id-cognition_services .view-display-id-teaching_learning_breakdown .views-label { color: #ca2053; }
+  .view-display-id-cognition_services .view-display-id-teaching_learning_breakdown a { color: #707070; }
+  
+  .view-display-id-cognition_services .view-display-id-evaluation_breakdown .views-label { color: #895c90; }
+  .view-display-id-cognition_services .view-display-id-evaluation_breakdown a { color: #707070; }
+
+
+  
+  
+  .view-display-id-cognition_services .view-display-id-systems_thinking_breakdown .views-label { color: #D88303; }
+  .view-display-id-cognition_services .view-display-id-systems_thinking_breakdown a { color: #707070; }
+  
+  .view-display-id-cognition_services .view-display-id-schooling_breakdown .views-label { color: #6d79a4; }
+  .view-display-id-cognition_services .view-display-id-schooling_breakdown a { color: #707070; }
+  
+  .view-display-id-cognition_services .view-display-id-teaching_learning_breakdown .views-label { color: #ca2053; }
+  .view-display-id-cognition_services .view-display-id-teaching_learning_breakdown a { color: #707070; }
+  
+  .view-display-id-cognition_services .view-display-id-evaluation_breakdown .views-label { color: #895c90; }
+  .view-display-id-cognition_services .view-display-id-evaluation_breakdown a { color: #707070; }
+  
+  
+
+body#page-services .view-display-id-cognition_services { width: 640px; margin-top: 20px; clear: both; float: right; box-shadow: 1px 6px 16px 1px lightgrey }
+
+body#page-services .field-name-title h2 {
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0;
+  line-height: 1.1;
+}
+
+body#page-services li { list-style-type: none; }
+
+body#page-services field-name-title { display: none; }
+
+body#page-services #page-wrapper { min-height: 800px; }
+
+body#page-services .field-name-cogserv-projects { background: #707070; border: 7px solid #fff; width: 250px; float: right; margin-left: 20px; }
+
+body#page-services .field-name-cogserv-projects h2 { color: #fff; font-size: 30px; text-align: center; font-weight: 200; padding: 8px 0; background: url('../images/projectbox-shadow1.png') no-repeat center bottom; margin: 0; }
+
+body#page-services .field-name-cogserv-projects .view-footer { background: url('../images/projectbox-shadow2.png') no-repeat center top; }
+
+body#page-services .field-name-cogserv-projects .view-footer p {
+  margin: 0;
+  text-indent: 74px;
+  padding: 8px 0;
+}
+
+body#page-services .field-name-cogserv-projects .view-content { width: 190px; margin: 0 auto; padding-bottom: 20px; padding-top: 8px; }
+
+body#page-services .field-name-cogserv-projects .views-field-title a { color: #fff; font-size: 18px; font-weight: 200; text-decoration: none; border-bottom: 1px dotted #999; display: block; padding: 5px 0 3px 24px; background: url('../images/arrow-sml-green-e.png') no-repeat 4px 10px; }
+
+body#page-services .field-name-cogserv-projects .view-footer a { color: #fff; font-size: 14px; font-weight: 300; text-decoration: none; display: block; padding: 4px 0 4px 26px; background: url('../images/arrow-sml-green-e.png') no-repeat 82px 8px; }
+
+body#page-services #content { width: 652px; }
+
+body#page-services .field-name-body p { margin-top: 0; }
+
+
+/* News Page */
+
+body#page-news {
+  
+}
+
+body#page-news .view-display-id-cognition_news_main {
+  
+}
+
+body#page-news .view-display-id-cognition_news_main ul { margin-left: 2em; }
+
+/*
+body#page-news .view-display-id-cognition_news_main .views-row-4, body#page-news .view-display-id-cognition_news_main .views-row-8 { xmargin-right: 0; }
+
+
+body#page-news .view-display-id-cognition_news_main tbody td img { border: 7px solid #fff; }
+
+body#page-news .view-display-id-cognition_news_main tbody td { width: 228px; }
+
+body#page-news .view-display-id-cognition_news_main tbody td.col-last .views-field-field-image { margin-right: 0; }
+
+body#page-news .view-display-id-cognition_news_main tbody td.col-last .views-field-body { margin-right: 0; }
+
+body#page-news .view-display-id-cognition_news_main tbody td.col-last .views-field-title a { margin-right: 0; }
+
+body#page-news .view-display-id-cognition_news_main .views-field-field-image {
+  width: 204px;
+  margin: 12px 22px 20px 0;
+  position: relative;
+}
+
+body#page-news .view-display-id-cognition_news_main .views-field-field-image .field-content:after {
+  content: "";
+  display: block;
+  height: 132px;
+  width: 214px;
+  position: absolute;
+  background: url('../images/news-bg-fade.png');
+  left: -3px;
+  top: 4px;
+  z-index: -1;
+}
+
+body#page-news .view-display-id-cognition_news_main .views-field-title a {
+  color: #8DBD3E;
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+  margin-right: 22px;
+  font-size: 16px;
+}
+
+body#page-news .view-display-id-cognition_news_main .field-type-text-with-summary a {
+  color: #8DBD3E;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+body#page-news .view-display-id-cognition_news_main .views-field-title a:hover { text-decoration: underline; }
+
+body#page-news .view-display-id-cognition_news_main .views-field-field-author {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+body#page-news .view-display-id-cognition_news_main .views-field-field-publish-date {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+body#page-news .view-display-id-cognition_news_main .views-field-body {
+  font-weight: 600;
+  font-size: 13px;
+  margin: 4px 22px 50px 0;
+}
+
+*/
+
+body#page-news .view-display-id-cognition_news_main .views-field-body img { display: none; }
+
+#page-news .view-display-id-cognition_news_main .item-list {
+  float: left;
+  position: relative;
+  left: 50%;
+  margin-top: 40px;
+  clear: both;
+}
+
+#page-news .pager {
+  background: #fff;
+  padding: 8px 32px;
+  border: 1px solid #CCCCCC;
+  color: #87B83A;
+  float: left;
+  position: relative;
+  left: -50%;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+#page-news .pager a { text-decoration: none; color: #5A5A5A; }
+
+
+
+#page-news .view-display-id-cognition_news_main {
+  background: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+#page-news .view-display-id-cognition_news_main .view-content .views-field-title {
+  text-decoration: none;
+  color: #7AA537;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+
+#page-news .view-display-id-cognition_news_main .view-content .views-field-field-image img {
+  float: left;
+  border: 0;
+  margin-right: 16px;
+  box-shadow: 2px 2px 6px lightGrey;
+  margin: 0 22px 16px 0;
+  border: 7px solid #fff;
+}
+
+
+#page-news .view-display-id-cognition_news_main .view-content .views-field-body-1 { display: none; }
+
+
+#page-news .view-display-id-cognition_news_main .view-content .views-row { clear: both; background: url('../images/faq-dots.png') no-repeat left bottom; margin-top: 12px; padding-bottom: 16px; }
+
+#page-news .view-display-id-cognition_news_main .view-content .views-row-last {  background: none; }
+
+#page-news .view-display-id-cognition_news_main .view-content  .views-field-body .field-content div { color: #8DBD3E; background: url('../images/arrow-sml-green-e.png') no-repeat 70px 4px; display: inline; padding-right: 20px; }
+
+#page-news .view-display-id-cognition_news_main .view-content  .views-field-body .field-content div a { color: #8DBD3E; }
+
+#page-news .view-display-id-cognition_news_main .view-content  .views-field-body-1 .field-content div { color: #8DBD3E; background: url('../images/arrow-sml-green-w.png') no-repeat 32px 4px; display: inline; padding-right: 20px; }
+
+#page-news .view-display-id-cognition_news_main .view-content  .views-field-body .field-content div:hover, #page-news .view-display-id-cognition_news_main .view-content  .views-field-body-1 .field-content div:hover { cursor: pointer; }
+
+
+
+/* About Page */
+
+body#page-about .group-left { width: 652px; margin-left: 0px; }
+
+body#page-about .group_g1 { border: 7px solid #fff; background: #8DBD3E url('../images/aboutus-bg-fade.png') no-repeat right 50px; position: relative; }
+
+body#page-about .group_g1:after {
+  content: "";
+  display: block;
+  height: 295px;
+  width: 477px;
+  position: absolute;
+  left: -32px;
+  bottom: -38px;
+  z-index: -1;
+}
+
+.oldie body#page-about .group_g1:after {
+  display: none;
+}
+
+body#page-about .group_g1 h2 { color: #fff; font-weight: 300; font-size: 40px; margin: 2px 0 0 16px; }
+
+body#page-about .field-name-meet-the-staff { margin-top: 0; }
+
+body#page-about .field-name-body { color: #fff; margin: 12px 12px 12px 16px; }
+
+body#page-about .field-name-field-photo { border-top: 7px solid #ffft; padding-left: 120px; }
+
+body#page-about .field-name-field-divcontent { margin: 12px 12px 12px 16px; }
+
+
+
+.field-name-our-approach {
+  background: #EAEAEA;
+  border: 7px solid white;
+  position: relative;
+  margin-top: 20px;
+}
+
+.field-name-our-approach .block-title {
+  color: #8DBD3E;
+  font-size: 30px;
+  font-family: proxima-nova;
+  font-weight: 300;
+  margin: 12px 0 12px 12px;
+}
+
+.field-name-our-approach .view-header { display: none; position: absolute;
+width: 410px; left: 206px; top: 48px; font-size: 15px; color: #333; }
+
+.field-name-our-approach .view-content { width: 176px; }
+
+.field-name-our-approach .views-row { width: 197px; }
+.field-name-our-approach .views-row.on { background: url('../images/halfdome-green-e.png') no-repeat right center; }
+.field-name-our-approach .views-row .views-field {
+  list-style-type: none;
+  margin-left: 12px;
+  width: 161px;
+  margin-bottom: 12px;
+}
+
+.field-name-our-approach .field-name-field-title {
+  background: white;
+  padding: 6px;
+}
+
+.field-name-our-approach .field-name-field-title:hover { cursor: pointer; }
+
+.field-name-our-approach .field-name-field-title.on {
+  background: #8DBD3E;
+  color: white;
+}
+
+.field-name-our-approach .field-name-field-title .field-items {
+  border: 1px solid #C5C5C5;
+  height: 60px;
+  text-align: center;
+}
+
+.field-name-our-approach .field-name-field-title.on .field-items { border-color: white; }
+ 
+.field-name-our-approach .views-row .field-name-field-title .field-item { padding-top: 20px; }
+
+.field-name-our-approach .field-name-field-title.on .field-item { color: white; }
+
+.field-name-our-approach .field-name-field-body { display: none; }
+
+.field-name-our-approach .field-name-field-title .field-item {
+  color: #8CBD3E;
+  padding: 10px 10px 0 10px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.oldie .field-name-our-approach .field-name-field-title .field-item { font-size: 16px; }
+
+.field-name-our-approach .views-row-1 .field-name-field-title .field-item { padding-top: 20px; }
+
+#block-views-18cadd1d17a0ce56a9f5ea6ad88f914f {
+  background: #EAEAEA;
+  border: 7px solid white;
+  position: relative;
+  margin-top: 20px;
+}
+
+#block-views-18cadd1d17a0ce56a9f5ea6ad88f914f .block-title {
+  color: #8DBD3E;
+  font-size: 30px;
+  font-family: proxima-nova;
+  font-weight: 300;
+  margin: 12px 0 12px 12px;
+}
+
+#block-views-18cadd1d17a0ce56a9f5ea6ad88f914f .view-header { display: none; position: absolute;
+width: 410px; left: 206px; top: 48px; font-size: 15px; color: #333; }
+
+#block-views-18cadd1d17a0ce56a9f5ea6ad88f914f .view-content { width: 176px; }
+
+#block-views-18cadd1d17a0ce56a9f5ea6ad88f914f .views-row { width: 197px; }
+#block-views-18cadd1d17a0ce56a9f5ea6ad88f914f .views-row.on { background: url('../images/halfdome-green-e.png') no-repeat right center; }
+#block-views-18cadd1d17a0ce56a9f5ea6ad88f914f .views-row .views-field {
+  list-style-type: none;
+  margin-left: 12px;
+  width: 161px;
+  margin-bottom: 12px;
+}
+
+#block-views-18cadd1d17a0ce56a9f5ea6ad88f914f .field-name-field-title {
+  background: white;
+  padding: 6px;
+}
+
+#block-views-18cadd1d17a0ce56a9f5ea6ad88f914f .field-name-field-title:hover { cursor: pointer; }
+
+#block-views-18cadd1d17a0ce56a9f5ea6ad88f914f .field-name-field-title.on {
+  background: #8DBD3E;
+  color: white;
+}
+
+#block-views-18cadd1d17a0ce56a9f5ea6ad88f914f .field-name-field-title .field-items {
+  border: 1px solid #C5C5C5;
+  height: 60px;
+  text-align: center;
+}
+
+#block-views-18cadd1d17a0ce56a9f5ea6ad88f914f .field-name-field-title.on .field-items { border-color: white; }
+ 
+#block-views-18cadd1d17a0ce56a9f5ea6ad88f914f .views-row .field-name-field-title .field-item { padding-top: 20px; }
+
+#block-views-18cadd1d17a0ce56a9f5ea6ad88f914f .field-name-field-title.on .field-item { color: white; }
+
+#block-views-18cadd1d17a0ce56a9f5ea6ad88f914f .field-name-field-body { display: none; }
+
+#block-views-18cadd1d17a0ce56a9f5ea6ad88f914f .field-name-field-title .field-item {
+  color: #8CBD3E;
+  padding: 10px 10px 0 10px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.oldie #block-views-18cadd1d17a0ce56a9f5ea6ad88f914f .field-name-field-title .field-item { font-size: 16px; }
+
+#block-views-18cadd1d17a0ce56a9f5ea6ad88f914f .views-row-1 .field-name-field-title .field-item { padding-top: 20px; }
+
+
+  /* About - Cognition Institute */
+
+#page-about-cognition-education-trust-cognition-institute .field-name-title h2 {
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0;
+  margin-top: -6px;
+}
+
+.oldie #page-about-cognition-education-trust-cognition-institute .field-name-title h2 { margin-bottom: 6px; }
+
+#page-about-cognition-education-trust-cognition-institute .field-name-body { width: 440px; }
+
+#page-about-cognition-education-trust-cognition-institute .field-name-field-image { float: right; border: 7px solid #fff; }
+
+#page-about-cognition-education-trust-cognition-institute .field-name-cognition-institute-badge { float: right; clear: right; }
+
+body#page-about-cognition-education-trust-cognition-institute #content { width: 674px; }
+
+body#page-about-cognition-education-trust-cognition-institute .field-name-field-body2 { margin-top: 20px; width: 440px; }
+
+/* About Sponsorship & Grants */
+
+#page-about-cognition-education-trust-sponsorship-and- .group-left {
+  width: 652px;
+}
+
+#page-about-cognition-education-trust-sponsorship-and- .field-name-sponsor-appa {
+  margin-top: 20px;
+  position: relative;
+}
+#page-about-cognition-education-trust-sponsorship-and- .field-name-sponsor-neita {
+  margin-top: 40px;
+  position: relative;
+}
+
+#page-about-cognition-education-trust-sponsorship-and- .field-name-sponsor-appa:after {
+  content: "";
+  display: block;
+  height: 239px;
+  width: 652px;
+  position: absolute;
+  background: url('../images/sponsor-fade1.png') no-repeat;
+  background-position: bottom;
+  background-size: 652px 200px;
+  left: -18px;
+  bottom: -20px;
+  z-index: -1;
+}
+
+#page-about-cognition-education-trust-sponsorship-and- .field-name-sponsor-neita:after {
+  content: "";
+  display: block;
+  height: 272px;
+  width: 652px;
+  position: absolute;
+  background: url('../images/sponsor-fade2.png') no-repeat;
+  background-position: bottom;
+  background-size: 652px 300px;
+  left: -24px;
+  bottom: -30px;
+  z-index: -1;
+}
+
+#page-about-cognition-education-trust-sponsorship-and- .field-name-sponsor-appa, #page-about-cognition-education-trust-sponsorship-and- .field-name-sponsor-neita {
+  background: #fff;
+}
+
+#page-about-cognition-education-trust-sponsorship-and- .group-left .views-field-title {
+  color: #6C6C6C;
+  font-family: proxima-nova;
+  font-size: 20px;
+  padding: 20px 0 0 14px;
+}
+
+#page-about-cognition-education-trust-sponsorship-and- .group-left .views-field-body { padding: 14px; }
+#page-about-cognition-education-trust-sponsorship-and- .field-name-sponsor-appa .views-field-body { overflow: auto; }
+
+#page-about-cognition-education-trust-sponsorship-and- .group-left .views-field-field-image { float: right; margin: 20px; }
+#page-about-cognition-education-trust-sponsorship-and- .group-left .views-field-field-image img { width: auto; height: 90px; }
+
+/* Cognition Partners */
+
+#page-about-partners .field-name-title h2 {
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0;
+  line-height: 1.1;
+}
+
+#page-about-partners .group-left { width: 652px; }
+
+#page-about-partners .field-name-cognition-partners { border: 7px solid #fff; background: #fff; }
+
+.oldie #page-about-partners .field-name-cognition-partners .views-row { background: #fff; }
+
+#page-about-partners .field-name-cognition-partners .views-row .views-field-title {  }
+#page-about-partners .field-name-cognition-partners .views-row .views-field-title:hover { cursor: pointer; }
+#page-about-partners .field-name-cognition-partners .views-row .views-field-field-image { xdisplay: none; }
+#page-about-partners .field-name-cognition-partners .views-row .views-field-body { xdisplay: none; }
+#page-about-partners .field-name-cognition-partners span.ui-icon { display: none; }
+
+#page-about-partners .field-name-cognition-partners .ui-accordion-header a { display: block; text-decoration: none;font-size: 16px;  color: #fff; background: #707070;  padding: 8px 0 4px 12px; height: 32px; font-weight: 300; }
+
+#page-about-partners .field-name-cognition-partners .views-row-last .ui-accordion-header a { border-bottom: 0; }
+
+#page-about-partners .field-name-cognition-partners .ui-accordion-header.ui-state-active a { background: #8DBD3E; }
+
+#page-about-partners .field-name-cognition-partners .ui-accordion-content { background: #fff; padding: 20px 14px; font-size: 15px; color: #707070; border: 0; overflow: hidden !important; }
+
+#page-about-partners .field-name-cognition-partners .ui-accordion-content:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+#page-about-partners .field-name-cognition-partners .ui-accordion-content img { float: right; margin-left: 10px; border: 0; }
+
+#page-about-partners .field-name-cognition-partners .ui-accordion-content p { margin: 0 0 6px 0; }
+
+.oldie #page-about-partners .field-name-cognition-partners .ui-accordion-content p { xmargin: 0; }
+
+#page-about-partners .field-name-cognition-project-teaser-1 { margin-top: 0; }
+
+
+
+
+
+
+
+
+
+
+
+
+.horizontal-tabs ul.horizontal-tabs-list {
+  border-style: none;
+  list-style: none;
+}
+
+.ui-corner-top, .ui-corner-bottom, .ui-corner-all { border-radius: 0; border: 0;  }
+
+.ui-widget-content { border: 0; }
+
+.ui-accordion-header {
+  box-shadow: 1px 3px 7px rgba(102, 102, 102, 0.35);
+  z-index: 50;
+  margin-bottom: 4px;
+}
+
+
+
+/* Services Schooling Establishment */
+
+#page-services-schooling-establishment .group-left { width: 652px; }
+
+.section-services h1 { font-size: 36px; color: #6D79A4; border-top: 7px solid #6D79A4; padding-top: 10px; }
+
+#page-services-schooling-establishment .field-name-body { color: #6D79A4; background: url('../images/dot-divider.png') no-repeat center bottom; padding-bottom: 8px; }
+
+#page-services-schooling-establishment .group-right .field-name-field-hero-image { border: 7px solid #fff; }
+
+
+#page-services-schooling-establishment .field-name-field-hero-image { display: none; }
+
+/* Services Schooling Leadership */
+
+#page-services-schooling-leadership .group-left { width: 652px; }
+
+#page-services-schooling-leadership .group-left .field-name-title h1 { font-size: 36px; color: #6D79A4; border-top: 7px solid #6D79A4; padding-top: 10px; }
+
+#page-services-schooling-leadership .field-name-body { color: #6D79A4; }
+#page-services-schooling-leadership .field-name-body img { border: 7px solid white; }
+
+#page-services-schooling-leadership .field-name-cognition-projects-text-teaser { margin-top: 0; }
+
+
+.field-name-cogserv-leadership-approach { background: #EAEAEA; border: 7px solid #fff; position: relative; }
+
+.field-name-cogserv-leadership-approach .views-row { width: 197px; }
+.field-name-cogserv-leadership-approach .views-row.on { background: url('../images/halfdome-green-e.png') no-repeat right center; }
+.field-name-cogserv-leadership-approach .views-row .views-field { list-style-type: none; margin-left: 12px; width: 161px; margin-bottom: 20px; }
+.field-name-cogserv-leadership-approach .view-content { width: 176px; }
+.field-name-cogserv-leadership-approach .view-header { display: none; position: absolute; width: 170px; left: 206px; top: 48px; font-size: 15px; color: #333; }
+.field-name-cogserv-leadership-approach .views-row-1 .field-name-field-title .field-item { padding-top: 30px; }
+.field-name-cogserv-leadership-approach .views-row-2 .field-name-field-title .field-item { padding-top: 20px; }
+
+.field-name-cogserv-leadership-approach .block-title { color: #8DBD3E; font-size: 30px; font-family: proxima-nova; font-weight: 300; margin: 12px 0 12px 12px; }
+
+.field-name-cogserv-leadership-approach .field-name-field-title { background: #fff; height: 80px; padding: 6px; }
+.field-name-cogserv-leadership-approach .field-name-field-title:hover { cursor: pointer; text-decoration: underline; }
+.field-name-cogserv-leadership-approach .field-name-field-title .field-items { border: 1px solid #c5c5c5; height: 78px; text-align: center; }
+.field-name-cogserv-leadership-approach .field-name-field-title .field-item { color: #8CBD3E; padding: 10px 10px 0 10px; font-size: 17px; font-weight: 600; }
+
+
+.field-name-cogserv-leadership-approach .field-name-field-title.on { background: #8DBD3E; color: #fff; }
+.field-name-cogserv-leadership-approach .field-name-field-title.on:hover { cursor: normal; text-decoration: none; }
+.field-name-cogserv-leadership-approach .field-name-field-title.on .field-items { border-color: #fff; }
+.field-name-cogserv-leadership-approach .field-name-field-title.on .field-item { color: #fff; }
+
+.field-name-cogserv-leadership-approach .field-name-field-body { display: none; }
+
+
+/* Services Schooling Performance */
+
+#page-services-schooling-performance .group-left { width: 652px; }
+
+#page-services-schooling-performance .field-name-title h1 { font-size: 36px; color: #6D79A4; border-top: 7px solid #6D79A4; padding-top: 10px; }
+
+body[id^*="page-services-schooling"] #page-title {
+  font-size: 36px;
+  color: #6D79A4;
+  border-top: 7px solid #6D79A4;
+  padding-top: 10px;
+}
+
+#page-services-schooling-performance .field-name-body { color: #6D79A4; }
+
+#page-services-schooling-performance .field-name-field-image img { display: block;  }
+
+  
+  /* Staff appointments */
+  
+  #page-services-schooling-performance .field-name-field-body3 {
+    background: #ebebeb;
+    border: 1px solid #c4c4c4;
+    font-size: 16px;
+    color: #707070;
+    padding: 15px;
+    margin-top: 22px;
+  }
+  
+  #page-services-schooling-performance .field-name-field-body3 h4 {
+    color: #8CBD3E;
+    margin: 0 0 8px 0;
+    font-weight: 400;
+  }
+  
+  #page-services-schooling-performance .field-name-field-body3 p { margin: 4px 0; }
+
+/* Services Schooling School Review */
+
+#page-services-schooling-school-review .group-left { width: 652px; }
+
+
+#page-services-schooling-school-review .group-left .field-group-accordion-wrapper .views-field-body, #page-services-teaching-and-learning-curriculum .group-left .field-group-accordion-wrapper .views-field-body , #page-services-teaching-and-learning-e-learning .group-left .field-group-accordion-wrapper .views-field-body { font-size: 14px; }
+
+#page-services-schooling-school-review .field-name-title h1 { font-size: 36px; color: #6D79A4; border-top: 7px solid #6D79A4; padding-top: 10px; }
+
+#page-services-schooling-school-review .field-name-body { color: #6D79A4; }
+
+.field-group-accordion-wrapper { border: 7px solid #fff; margin-top: 16px; background: #fff; }
+
+.field-group-accordion-wrapper h3 { background: #707070; color: #fff; font-size: 20px; padding: 8px 0 10px 12px; font-weight: 400; margin-bottom: 6px; }
+
+.field-group-accordion-wrapper h3:last-child { border-bottom: 0; }
+
+.field-group-accordion-wrapper h3:hover { cursor: pointer; }
+
+.field-group-accordion-wrapper div.group-a2 + h3 { border-bottom: 0; }
+
+.field-group-accordion-wrapper h3.ui-state-active { background: #8DBD3E; }
+
+.oldie .field-group-accordion-wrapper h3 span { overflow: visible; }
+
+
+
+.field-group-accordion-wrapper .field-group-format-wrapper { background: #fff; padding: 14px; font-size: 14px; color: #707070; }
+.field-group-accordion-wrapper .field-group-format-wrapper p { margin: 6px 0; }
+
+
+  
+  
+.ui-icon { display: none; }
+  
+
+/* Services Schooling Governance */
+
+#page-services-schooling-governance .group-left { width: 652px; }
+
+#page-services-schooling-governance .field-name-title h1 { font-size: 36px; color: #6D79A4; border-top: 7px solid #6D79A4; padding-top: 10px; }
+
+#page-services-schooling-governance .field-name-body { color: #6D79A4; }
+
+  
+  
+.field-name-cogserv-govern-schoolsupport { margin-top: 20px; }
+.field-name-cogserv-govern-schoolsupport .block-title {
+  font-size: 18px;
+  font-weight: 300;
+  padding: 9px 0 8px 28px;
+  background: #707070 url('../images/arrow-sml-white-e.png') no-repeat 10px 15px;
+}
+
+.field-name-cogserv-govern-schoolsupport .block-title:hover { cursor: pointer; }
+
+.field-name-cogserv-govern-schoolsupport .block-title.on { background-image: url('../images/arrow-sml-white-s.png'); }
+
+.field-name-cogserv-govern-schoolsupport .view-display-id-cogserv_governance_school_support {
+  display: none;
+  border: 7px solid #707070;
+  font-size: 14px;
+  color: black;
+  padding: 2px 12px 24px 12px;
+  border-top: 0;
+  background: #E6E6E6;
+  position: relative;
+  background: #E6E6E6;
+}
+
+.field-name-cogserv-govern-schoolsupport .view-display-id-cogserv_governance_school_support .views-field-body { font-size: 14px; }
+
+.field-name-cogserv-govern-schoolsupport .view-display-id-cogserv_governance_school_support .views-field-body ul { margin-left: 2em; }
+
+.field-name-cogserv-govern-schoolsupport .view-display-id-cogserv_governance_school_support .views-field-nothing {
+  background: url('../images/halfdome-grey-n.png') no-repeat;
+  position: absolute;
+  width: 36px;
+  height: 22px;
+  bottom: 0;
+  left: 546px;
+}
+
+.field-name-cogserv-govern-schoolsupport .view-display-id-cogserv_governance_school_support .views-field-nothing:hover { cursor: pointer; }
+
+#page-services-schooling-governance .group-tabs { background: #fff; margin-top: 20px; }
+#page-services-schooling-governance .group-tabs .views-field-body { font-size: 14px; }
+
+#page-services-schooling-governance .group-tabs .block-title {
+  background: #707070 url('../images/tab-fade.png') no-repeat center top;
+  width: 146px;
+  height: 64px;
+  font-size: 16px;
+  float: left;
+  font-weight: 400;
+  text-align: center;
+  font-family: proxima-nova;
+  border: 7px solid white;
+  border-left: 0;
+  padding: 22px 4px 0 4px;
+}
+
+#page-services-schooling-governance .group-tabs ul { margin-left: 2em; }
+
+#page-services-schooling-governance .group-tabs .block-title.on { background: #fff url('../images/tab-fade-full.png') no-repeat center top; height: 82px; }
+
+#page-services-schooling-governance .group-tabs .block-title:hover { cursor: pointer; }
+
+#page-services-schooling-governance .group-tabs .field-name-cogserv-governance-why .block-title { border-left: 7px solid #fff; width: 146px; }
+
+#page-services-schooling-governance .group-tabs .view { display: none; }
+
+#page-services-schooling-governance #tabfoot { font-size: 14px; clear: both; background: #fff; margin-top: 16px; padding: 0 14px 14px 14px; }
+  
+/* Contact Page */
+
+#page-contact #block-contact-form-blocks-1 { background: #fff; border: 7px solid #fff; color: #444; xmargin-top: 20px; padding: 5px 10px 10px 10px; width: 618px; float: left; }
+#page-contact #block-contact-form-blocks-1 .form-item-name { xmargin-top: 10px; }
+
+#page-contact #block-contact-form-blocks-1 #edit-submit {
+  border: 1px solid #8DBD3E;
+  background: white url('../images/send-button.png') no-repeat center center;
+  width: 138px;
+  height: 40px;
+  text-indent: -9999px;
+  margin: 0 0 0 14px;
+}
+
+#page-contact #block-contact-form-blocks-1 #edit-submit:hover { box-shadow: 1px 3px 7px #8DBD3E; }
+
+#page-contact #block-contact-form-blocks-1 #edit-actions { margin: 0; }
+#page-contact #block-contact-form-blocks-1 .form-item { margin-bottom: 0; }
+
+#page-contact #block-contact-form-blocks-1 .form-item label { font-size: 16px; margin-bottom: 4px; font-weight: 400; }
+
+#page-contact #block-contact-form-blocks-1 input.form-text, #page-contact #block-contact-form-blocks-1 textarea { font-size: 16px; color: #444; background: #F7F7F7; border: 1px solid #bbb; padding: 4px 0 4px 6px; }
+
+#page-contact #block-contact-form-blocks-1 textarea { width: 466px; float: left; }
+
+#page-contact #block-contact-form-blocks-1 .grippie { display: none; }
+
+#page-contact #block-contact-form-blocks-1 .block-title {
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0;
+  margin-top: -2px;
+  color: #333;
+}
+
+#page-contact .field-name-body { background: #fff; padding: 10px 15px; font-weight: 400; xmargin-top: 20px; }
+
+#page-contact #page-title { display: none; }
+
+#page-contact .group-right { margin-top: 20px; }
+
+#page-contact .field-name-body h3 { margin: 4px 0 2px 0; font-weight: 400; }
+
+#page-contact #block-system-main {
+  float: right;
+  width: 210px;
+}
+
+
+
+#block-views-2b23a7a22d24b1357927a9389eb9f7b5 {
+  background: white;
+  padding: 10px;
+  margin-top: 20px;
+  width: 632px;
+  float: left;
+}
+
+#block-views-2b23a7a22d24b1357927a9389eb9f7b5 a {
+  text-decoration: none;
+  color: #8CBD3E;
+}
+
+#block-views-2b23a7a22d24b1357927a9389eb9f7b5 .block-title {
+  margin: 0;
+  color: white;
+  font-size: 20px;
+  font-family: proxima-nova, sans-serif;
+  background: #707070;
+  padding: 8px 14px;
+  font-weight: 400;
+}
+
+#block-views-2b23a7a22d24b1357927a9389eb9f7b5 a:hover { text-decoration: none; }
+
+#block-views-2b23a7a22d24b1357927a9389eb9f7b5 .views-field-title > .field-content > div { float: left; }
+
+#block-views-2b23a7a22d24b1357927a9389eb9f7b5 .views-field-title div.country { font-size: 20px; color: #707070; padding: 14px 0 0 10px; width: 150px; }
+#block-views-2b23a7a22d24b1357927a9389eb9f7b5 .views-field-title div.key-contact { color: #333; font-size: 12px; background: #F4F4F4; padding: 8px 0 0 14px; height: 22px; width: 138px; margin-top: 12px; margin-right: 7px; }
+#block-views-2b23a7a22d24b1357927a9389eb9f7b5 .views-field-title div.email { color: #333; font-size: 12px; background: #F4F4F4; padding: 8px 0 0 14px; height: 22px; width: 138px; margin-top: 12px; margin-right: 7px; }
+#block-views-2b23a7a22d24b1357927a9389eb9f7b5 .views-field-title div.phone { color: #333; font-size: 12px; background: #F4F4F4; padding: 8px 0 0 14px; height: 22px; width: 140px; margin-top: 12px; }
+
+#block-views-2b23a7a22d24b1357927a9389eb9f7b5 .attachment { margin-top: 12px; }
+#block-views-2b23a7a22d24b1357927a9389eb9f7b5 .attachment > .view { clear: both; }
+#block-views-2b23a7a22d24b1357927a9389eb9f7b5 .attachment > .view .views-field { float: left; font-size: 13px; font-weight: 400; color: #8CBD3E; padding-top: 10px; text-indent: 12px; height: 20px; }
+#block-views-2b23a7a22d24b1357927a9389eb9f7b5 .attachment > .view .views-field-title { width: 160px; }
+#block-views-2b23a7a22d24b1357927a9389eb9f7b5 .attachment > .view .views-field-field-email { width: 156px; }
+#block-views-2b23a7a22d24b1357927a9389eb9f7b5 .attachment > .view .views-field-field-phone { width: 156px; }
+#block-views-2b23a7a22d24b1357927a9389eb9f7b5 .attachment > .view .views-field-field-region { width: 156px; }
+
+/* Projects Page */
+
+#page-portfolio .field-name-title h1 {
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0;
+}
+
+
+
+#page-portfolio .field-name-cognition-projects-full { clear: both; }
+
+
+#page-portfolio .field-name-field-image { float: right; margin-left: 20px; }
+
+#page-portfolio .field-name-body { color: #707070; }
+
+#page-portfolio .view-display-id-cognition_projects_full h3 { clear: both; }
+
+#page-portfolio .view-display-id-cognition_projects_full .views-row { width: 196px; float: left; margin-right: 35px; margin-top: 26px; }
+
+#page-portfolio .view-display-id-cognition_projects_full .views-row.teaching-amp-learning { padding-top: 10px; }
+#page-portfolio .view-display-id-cognition_projects_full .views-row.teaching-amp-learning .views-field-field-service-line {
+  border-bottom: 6px solid #CA2053;
+  color: #CA2053;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  font-size: 12px;
+}
+
+#page-portfolio .view-display-id-cognition_projects_full .views-row.schooling { padding-top: 10px; }
+#page-portfolio .view-display-id-cognition_projects_full .views-row.schooling .views-field-field-service-line {
+  border-bottom: 6px solid #6D79A4;
+  color: #6D79A4;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  font-size: 12px;
+}
+
+#page-portfolio .view-display-id-cognition_projects_full .views-row.evaluation { padding-top: 10px; }
+#page-portfolio .view-display-id-cognition_projects_full .views-row.evaluation .views-field-field-service-line {
+  border-bottom: 6px solid #895C90;
+  color: #895C90;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  font-size: 12px;
+}
+
+#page-portfolio .view-display-id-cognition_projects_full .views-row.systems-thinking { padding-top: 10px; }
+#page-portfolio .view-display-id-cognition_projects_full .views-row.systems-thinking .views-field-field-service-line {
+  border-bottom: 6px solid #FFA620;
+  color: #FFA620;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  font-size: 12px;
+}
+
+#page-portfolio .view-display-id-cognition_projects_full .views-row-4, #page-portfolio .view-display-id-cognition_projects_full .views-row-8, #page-portfolio .view-display-id-cognition_projects_full .views-row-12, #page-portfolio .view-display-id-cognition_projects_full .views-row-16, #page-portfolio .view-display-id-cognition_projects_full .views-row-20, #page-portfolio .view-display-id-cognition_projects_full .views-row-24 { margin-right: 0;  }
+
+#page-portfolio .view-display-id-cognition_projects_full .views-row-5, #page-portfolio .view-display-id-cognition_projects_full .views-row-9, #page-portfolio .view-display-id-cognition_projects_full .views-row-13, #page-portfolio .view-display-id-cognition_projects_full .views-row-17, #page-portfolio .view-display-id-cognition_projects_full .views-row-21, #page-portfolio .view-display-id-cognition_projects_full .views-row-25 { clear: left;  }
+
+#page-portfolio .view-display-id-cognition_projects_full .views-row .views-field-title a { text-decoration: none; font-weight: 600; }
+
+#page-portfolio .view-display-id-cognition_projects_full .views-row.teaching-amp-learning .views-field-title a { color: #CA2053; }
+#page-portfolio .view-display-id-cognition_projects_full .views-row.systems-thinking .views-field-title a { color: #FFA620; }
+#page-portfolio .view-display-id-cognition_projects_full .views-row.evaluation .views-field-title a { color: #895C90; }
+#page-portfolio .view-display-id-cognition_projects_full .views-row.schooling .views-field-title a { color: #6D79A4; }
+
+
+#page-portfolio .view-display-id-cognition_projects_full .views-row .views-field-field-author, #page-portfolio .view-display-id-cognition_projects_full .views-row .views-field-field-publish-date { font-size: 12px; }
+
+#page-portfolio .view-display-id-cognition_projects_full .views-row .views-field-title { margin-bottom: 2px; }
+#page-portfolio .view-display-id-cognition_projects_full .views-row .views-field-field-image { margin-top: 4px; position: relative; }
+#page-portfolio .view-display-id-cognition_projects_full .views-row .views-field-field-image .field-content:after {
+  content: "";
+  display: block;
+  height: 132px;
+  width: 214px;
+  position: absolute;
+  background: url('../images/news-bg-fade.png');
+  left: -3px;
+  top: 4px;
+  z-index: -1;
+}
+
+#page-portfolio .view-display-id-cognition_projects_full .views-row .views-field-field-image img { border: 7px solid #fff; }
+
+.view-display-id-cognition_projects_full .item-list {
+  float: left;
+  position: relative;
+  left: 50%;
+  margin-top: 40px;
+  clear: both;
+}
+
+#page-portfolio .pager {
+  background: #fff;
+  padding: 8px 32px;
+  border: 1px solid #CCCCCC;
+  color: #87B83A;
+  float: left;
+  position: relative;
+  left: -50%;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+#page-portfolio .pager a { text-decoration: none; color: #5A5A5A; }
+
+
+
+/* Services Teaching Curriculum */
+
+#page-services-teaching-and-learning-curriculum .group-left { width: 652px; }
+
+#page-services-teaching-and-learning-curriculum .field-name-title h1 { font-size: 36px; color: #CA2053; border-top: 7px solid #CA2053; padding-top: 10px; }
+
+#page-services-teaching-and-learning-curriculum .field-name-body { color: #CA2053; }
+
+#page-services-teaching-and-learning-curriculum .field-name-body img {
+  float: right;
+  margin-left: 16px;
+}
+
+#page-services-teaching-and-learning-curriculum div.node {
+  background: #fff;
+  padding: 10px;
+}
+
+
+
+
+/* Services Teaching Professional Practice */
+
+#page-services-teaching-and-learning-professional-practice .group-left { width: 652px; }
+
+#page-services-teaching-and-learning-professional-practice .field-name-title h1 { font-size: 36px; color: #CA2053; border-top: 7px solid #CA2053; padding-top: 10px; }
+
+#page-services-teaching-and-learning-professional-practice .field-name-body { color: #CA2053; }
+
+
+
+
+/* Services Teaching VLP */
+
+#page-services-teaching-and-learning-visible-learning-plus #block-system-main { width: 652px; }
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-field-alt-title h1 { font-size: 28px; color: #CA2053; border-top: 7px solid #CA2053; padding-top: 16px; text-indent: 8px; width: 244px; margin-top: 0px; }
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-field-alt-title h1 sup { font-size: 65%; }
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-body { color: #CA2053; width: 436px; padding-left: 8px; }
+#page-services-teaching-and-learning-visible-learning-plus .field-name-body p { margin: 0; margin-top: 10px; }
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-field-image {
+  float: right;
+  margin: 0;
+}
+
+#page-services-teaching-and-learning-visible-learning-plus div.group-intro {
+  background: #fff;
+  padding: 7px;
+}
+
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-cogserv-vlp-meet-staff-real { background: #fff url('../images/cogserv-vlp-shadow.png') no-repeat -100px 58px; padding: 7px; }
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-cogserv-vlp-meet-staff-real .block-title {
+  font-family: proxima-nova;
+  font-size: 30px;
+  font-weight: 300;
+  color: #CA2053;
+  padding: 4px 0 4px 16px;
+  border-bottom: 7px solid #CA2053;
+}
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-cogserv-vlp-meet-staff-real .view-content { float: right; width: 450px; margin-top: 30px; background: url('../images/cogserv-vlp-dots.png') repeat-y left top; min-height: 140px; margin-bottom: 6px; }
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-cogserv-vlp-meet-staff-real .view-content .views-field-title { width: 120px; padding-left: 14px; color: #707070; font-weight: 600; background: url('../images/list-arrow.png') no-repeat 6px center; margin: 6px 0 6px 10px; }
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-cogserv-vlp-meet-staff-real .view-content .views-field-title:hover { color: #CA1F52; cursor: pointer; }
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-cogserv-vlp-meet-staff-real .view-content .views-field-title.active { color: #CA1F52; }
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-cogserv-vlp-meet-staff-real .view-content h3 {
+  color: #707070;
+  background: #E9E9E9;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 6px 14px;
+  width: 102px;
+  margin: 0 0 0 10px;
+}
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-cogserv-vlp-meet-staff-real .view-header h4 { color: #8DBD3E; font-size: 20px; font-family: 'museo-slab'; margin-bottom: 0; font-weight: 300; margin-top: 30px; }
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-cogserv-vlp-meet-staff-real .view-header {
+  width: 150px;
+  float: left;
+  padding-left: 17px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-cogserv-vlp-meet-staff-real .views-field-body, #page-services-teaching-and-learning-visible-learning-plus .field-name-cogserv-vlp-meet-staff-real .views-field-field-photo, #page-services-teaching-and-learning-visible-learning-plus .field-name-cogserv-vlp-meet-staff-real .views-field-field-vlp-teaser {
+display: none;
+}
+
+#page-services-teaching-and-learning-visible-learning-plus #highlight {
+  float: right;
+  width: 286px;
+}
+
+#page-services-teaching-and-learning-visible-learning-plus #highlight .views-field-body, #page-services-teaching-and-learning-visible-learning-plus #highlight .views-field-field-photo, #page-services-teaching-and-learning-visible-learning-plus #highlight .views-field-field-vlp-teaser{ display: block; }
+#page-services-teaching-and-learning-visible-learning-plus #highlight .views-field-title { display: none; }
+
+#page-services-teaching-and-learning-visible-learning-plus #highlight .views-field-field-photo {
+  float: right;
+  border: 6px solid #fff;
+  box-shadow: 2px 2px 6px lightGrey;
+  margin: 0 2px 10px 14px;
+}
+
+#page-services-teaching-and-learning-visible-learning-plus #highlight .views-field-body { width: 134px; }
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-field-body3 .link {
+  position: absolute;
+  bottom: 9px;
+  right: 12px;
+  font-size: 12px;
+  background: url('../images/arrow-sml-green-e.png') no-repeat 272px 2px;
+  padding-right: 18px;
+}
+
+.oldie #page-services-teaching-and-learning-visible-learning-plus .field-name-field-body3 .link { bottom: 18px; }
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-field-body3 .copy {
+  float: right;
+  margin: 26px 40px 0 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-field-body3 a { text-decoration: none; color: #fff; display: block; height: 137px; }
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-field-body3 {
+  background: url('../images/cogserv-vlp-banner.png') no-repeat;
+  width: 660px;
+  height: 137px;
+  margin-top: 26px;
+  position: relative;
+}
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-vlp-download-brochure a {
+  display: block;
+  width: 155px;
+  height: 50px;
+  background: url('../images/pdf-brochure.png') no-repeat;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'museo-slab';
+  padding: 20px 0 0 64px;
+  text-align: center;
+  float: right;
+  margin-bottom: 10px;
+}
+
+
+
+#page-services-teaching-and-learning-visible-learning-plus .field-name-field-image img { margin-top: -7px; }
+
+
+
+/* Services Teaching Assessment */
+
+#page-services-teaching-and-learning-assessment .group-left { width: 652px; }
+
+#page-services-teaching-and-learning-assessment .field-name-title h1 { font-size: 36px; color: #CA2053; border-top: 7px solid #CA2053; padding-top: 10px; }
+
+#page-services-teaching-and-learning-assessment .field-name-body { color: #CA2053; }
+
+
+
+
+
+
+
+
+
+#page-services-teaching-and-learning-assessment .group_tabs {
+  background: #fff;
+  margin-top: 20px;
+}
+
+#page-services-teaching-and-learning-assessment .group_tabs .view { display: none; }
+
+#page-services-teaching-and-learning-assessment #tabfoot {
+  font-size: 16px;
+  clear: both;
+  background: white;
+  margin-top: 16px;
+  padding: 0 14px 14px 14px;
+}
+
+#page-services-teaching-and-learning-assessment #tabfoot ul { margin-left: 2em; }
+
+.oldie #page-services-teaching-and-learning-assessment #tabfoot { margin-top: -16px; }
+
+#page-services-teaching-and-learning-assessment .group_tabs {}
+#page-services-teaching-and-learning-assessment .group_tabs {}
+#page-services-teaching-and-learning-assessment .group_tabs {}
+
+
+#page-services-teaching-and-learning-assessment .group_tabs .block-title {
+  background: #707070 url('../images/cogserv-assesment-bg.png') repeat-x center top;
+  width: 208px;
+  height: 90px;
+  font-size: 20px;
+  float: left;
+  font-weight: 400;
+  text-align: center;
+  font-family: proxima-nova;
+  border: 7px solid white;
+  border-left: 0;
+  padding: 16px 0 0 0;
+}
+
+#page-services-teaching-and-learning-assessment .group_tabs .block-title.on { background: url('../images/tab-fade-full2.png') no-repeat center top; height: 112px; }
+
+#page-services-teaching-and-learning-assessment .group_tabs .block-title:hover { cursor: pointer; }
+
+#page-services-teaching-and-learning-assessment .group_tabs .field-name-cogserv-assessment-for-learning .block-title { border-left: 7px solid #fff; }
+
+
+/* Services Teaching e-Learning */
+
+#page-services-teaching-and-learning-e-learning .group-left { width: 652px; }
+
+#page-services-teaching-and-learning-e-learning .field-group-accordion-wrapper .views-field-body ul { margin-left: 2em; }
+
+#page-services-teaching-and-learning-e-learning .field-name-title h1 { font-size: 36px; color: #CA2053; border-top: 7px solid #CA2053; padding-top: 10px; text-indent: 12px; xwidth: 279px; margin-top: 0; clear: both; margin-left: 12px; margin-right: 10px; }
+
+.oldie #page-services-teaching-and-learning-e-learning .field-name-title h1 { margin-top: -12px; }
+
+#page-services-teaching-and-learning-e-learning .field-name-body { color: #CA2053; }
+
+#page-services-teaching-and-learning-e-learning .group-header { display: block; background: #fff; border: 7px solid #fff; }
+
+#page-services-teaching-and-learning-e-learning .field-name-field-embedded {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.oldie #page-services-teaching-and-learning-e-learning .field-name-field-embedded { margin: 0 0 12px 0; float: none; }
+.oldie #page-services-teaching-and-learning-e-learning .field-name-field-embedded iframe { margin: 0 0 12px 0; float: right; }
+#page-services-teaching-and-learning-e-learning .field-name-body { padding: 0 12px; margin-top: -10px; }
+#page-services-teaching-and-learning-e-learning .field-group-accordion img { border: 0; margin: 0 0 8px 8px; }
+
+#page-services-teaching-and-learning-e-learning .group-right {
+  margin-top: 16px;
+}
+
+
+/* Article pages (news & project) */
+
+.node-type-news-article-cognition .group-left { width: 714px; }
+.node-type-news-article-cognition .group-left img { margin: 0; margin-top: 6px; }
+
+.node-type-news-article-cognition .field-name-title h1, .node-type-cognition-project .field-name-title h1 {
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0;
+  color: #8DBD3E;
+}
+
+.node-type-news-article-cognition .field-name-field-publish-date, .node-type-cognition-project .field-name-field-publish-date { clear: left; margin: 6px 0 6px 0; }
+.node-type-news-article-cognition .field-name-field-author, .node-type-cognition-project .field-name-field-author { float: left; margin: 6px 0; }
+.node-type-news-article-cognition .field-name-field-image, .node-type-cognition-project .field-name-field-image { float: right; margin: 4px 0 10px 20px; }
+.node-type-news-article-cognition .field-name-body, .node-type-cognition-project .field-name-body { clear: left; }
+.oldie .node-type-news-article-cognition .field-name-body, .oldie .node-type-cognition-project .field-name-body { margin-top: 0; }
+
+
+
+/* Privacy Policy */
+
+#page-privacy { }
+
+#page-privacy #content {
+  width: 652px;
+  margin: 0 auto;
+  float: none;
+}
+
+#page-privacy .group-feature {
+  background: #EEEEEE;
+  color: #666;
+  padding: 16px;
+  border: 1px solid #ccc;
+  margin: 20px 0 8px 0;
+}
+
+#page-privacy .group-feature p {
+  margin: 6px 0 0 0;
+}
+
+div.dotbottom { border-bottom: 1px dotted #666; }
+div.dotbottom.last { border-bottom: 0; }
+
+
+
+/* Careers */
+
+.section-careers #main {
+  xmargin-top: 60px;
+}
+
+#page-careers .group-left { width: 652px; }
+
+#page-careers .field-name-title { font-size: 39px; }
+
+#page-careers #main-wrapper { min-height: 1000px; }
+
+#page-careers .field-name-field-alt-title p { font-size: 39px; font-weight: 300; margin: 0; line-height: 1.1; }
+
+#page-careers .field-name-field-image img { border: 0; size: 652px 350px; }
+
+#page-careers .field-name-cognition-careers-enhance { background: #fff; margin-bottom: 20px; border: 2px solid #CCC; color: #707070; padding: 16px; overflow: hidden; position: relative; }
+
+#page-careers .field-name-cognition-careers-enhance .views-field-field-image { float: right; margin: 0 0 8px 28px; }
+
+#page-careers .field-name-cognition-careers-enhance p { margin-top: 0; font-size: 14px; }
+
+#page-careers .field-name-cognition-careers-enhance .views-field-nothing {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  color: #fff;
+  text-align: center;
+  padding: 6px 0 0 0;
+  font-weight: 600;
+  background: #CCC url('../images/arrow-sml-green-e.png') no-repeat 266px 10px;
+}
+
+#page-careers #block-views-f65c5fc5cb3a4a59e8b7fd65d0dfcad2 { background: #fff; margin-bottom: 20px; border: 2px solid #CCC; color: #707070; padding: 16px; overflow: hidden; position: relative; height: 210px; }
+
+#page-careers #block-views-f65c5fc5cb3a4a59e8b7fd65d0dfcad2 .views-field-field-image { float: right; margin: 0 0 8px 28px; }
+
+#page-careers #block-views-f65c5fc5cb3a4a59e8b7fd65d0dfcad2 p { margin-top: 0; font-size: 14px; }
+
+#page-careers #block-views-f65c5fc5cb3a4a59e8b7fd65d0dfcad2 .views-field-nothing {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  color: #fff;
+  text-align: center;
+  padding: 6px 0 0 0;
+  font-weight: 600;
+  background: #CCC url('../images/arrow-sml-green-e.png') no-repeat 266px 10px;
+}
+
+#page-careers #block-views-f65c5fc5cb3a4a59e8b7fd65d0dfcad2 .views-field-nothing { cursor: pointer; }
+
+
+
+
+/* Career FAQs */
+
+#page-careers-faqs .field-name-title h1 {
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0;
+  line-height: 1.1;
+}
+
+#page-careers-faqs .group-left {
+  background: #fff;
+  padding: 7px;
+  width: 642px;
+}
+
+#page-careers-faqs .group-left .field-name-title {
+  background: #5E5E5E;
+  color: #fff;
+  font-weight: 300;
+  text-indent: 12px;
+  padding: 2px 0;
+  margin-bottom: 20px;
+}
+
+#page-careers-faqs .group-left .field-name-body {
+  font-weight: 300;
+  padding: 0 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Living our values */
+
+.field-name-cognition-living-our-values, #block-views-fcc658430f9e91832aab9e483747d55e { background: #fff; padding: 7px 7px 1px 7px; margin: 20px 0; }
+
+.field-name-cognition-living-our-values .block-title, #block-views-fcc658430f9e91832aab9e483747d55e .block-title {
+  height: 28px;
+  padding-top: 8px;
+  text-align: center;
+  background: #707070;
+  margin-bottom: 14px;
+  margin-left: 0;
+}
+
+.field-name-cognition-living-our-values li, #block-views-fcc658430f9e91832aab9e483747d55e li { list-style-type: none; margin-bottom: 7px !important; background: url('../images/living-values-fade.png') no-repeat center 20px; }
+.field-name-cognition-living-our-values .field-name-field-title, #block-views-fcc658430f9e91832aab9e483747d55e .field-name-field-title { text-align: center; padding-top: 8px; text-align: center; background: #8DBD3E; color: #fff; font-family: "museo-slab"; font-size: 17px; font-weight: 400; padding-bottom: 8px; }
+.field-name-cognition-living-our-values li.on, #block-views-fcc658430f9e91832aab9e483747d55e li.on { padding-bottom: 4px; }
+.field-name-cognition-living-our-values li.on .field-name-field-title, #block-views-fcc658430f9e91832aab9e483747d55e li.on .field-name-field-title { background: #A3C1F3; }
+.field-name-cognition-living-our-values .field-name-field-title:hover, #block-views-fcc658430f9e91832aab9e483747d55e .field-name-field-title:hover { cursor: pointer; }
+.field-name-cognition-living-our-values .field-name-field-body, #block-views-fcc658430f9e91832aab9e483747d55e .field-name-field-body { display: none; padding: 0 6px; }
+.field-name-cognition-living-our-values .field-name-field-body p, #block-views-fcc658430f9e91832aab9e483747d55e .field-name-field-body p { margin: 14px 0 0 0; }
+
+/* Contact Recruitment */
+
+.field-name-contact-recruitment-link { margin: 20px 0; }
+
+.field-name-contact-recruitment-link a {
+  background: #707070 url('../images/icon-news.png') no-repeat 7px 11px;
+  width: 146px;
+  height: 44px;
+  padding: 8px 16px 0 48px;
+  display: block;
+  text-deocration: none;
+  color: #fff;
+  font-family: "museo-slab";
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.field-name-contact-recruitment-link a b { font-weight: 400; color: #8CBD3E; }
+
+.page-careers-faqs .section {
+  
+}
+
+#block-views-cbf152925b3126a0dbcc8a776a509943 { margin: 20px 0; }
+
+#block-views-cbf152925b3126a0dbcc8a776a509943 a {
+  background: #707070 url('../images/icon-news.png') no-repeat 7px 11px;
+  width: 146px;
+  height: 44px;
+  padding: 8px 16px 0 48px;
+  display: block;
+  text-deocration: none;
+  color: #fff;
+  font-family: "museo-slab";
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+#block-views-cbf152925b3126a0dbcc8a776a509943 a b { font-weight: 400; color: #8CBD3E; }
+
+  /* Feature Project Single Teaser */
+
+  #block-views-802b3e90284f173f9c2797f802d49be2 {
+    background: white;
+    margin-top: 20px;
+    padding: 6px 7px 10px 7px;
+  }
+  
+  #block-views-802b3e90284f173f9c2797f802d49be2 .block-title {
+    height: 28px;
+    padding-top: 8px;
+    text-align: center;
+    background: #707070;
+  }
+  #block-views-802b3e90284f173f9c2797f802d49be2 .views-field-title-1 { padding: 10px; }
+  #block-views-802b3e90284f173f9c2797f802d49be2 .views-field-body { font-size: 14px; color: #333; padding: 10px; }
+  #block-views-802b3e90284f173f9c2797f802d49be2 .views-field-body p { margin: 10px 0; }
+  #block-views-802b3e90284f173f9c2797f802d49be2 .views-field-path a {
+    text-decoration: none;
+    color: #8DBD3E;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    border-top: 1px dotted lightGrey;
+    padding: 6px;
+    width: 174px;
+    height: 52px;
+    background: url('../images/block-project-readmore-bg.png') no-repeat center 14px;
+    margin-left: 6px;
+  }
+  
+  #block-views-802b3e90284f173f9c2797f802d49be2 .views-field-field-image { text-align: center; }
+  
+/* Careers FAQs Pages */
+
+.page-careers-faqs #content { width: 426px; margin-left: 224px; }
+
+.page-careers-faqs .region-sidebar-second { margin-left: 656px; }
+
+.page-careers-faqs #page-title {
+  font-size: 20px;
+  font-weight: 400;
+  text-indent: 12px;
+}
+
+.page-careers-faqs #page-title b {
+  display: block;
+  font-weight: 300;
+  color: #fff;
+  text-indent: 12px;
+  padding: 2px 0;
+  background: #5E5E5E;
+  font-size: 40px;
+  margin-bottom: 20px
+}
+
+.page-careers-faqs .view-display-id-cognition_faq_pages .views-row { background: url('../images/faq-dots.png') no-repeat center bottom; padding: 10px 0; }
+
+.page-careers-faqs #block-system-main { padding: 2px 8px 0 12px; }
+
+.page-careers-faqs .view-display-id-cognition_faq_pages .views-field-title { font-size: 16px; font-weight: 600; }
+
+.page-careers-faqs .view-display-id-cognition_faq_pages .views-field-body { display: none; }
+
+.page-careers-faqs .view-display-id-cognition_faq_pages .views-field-nothing {
+  color: #7AA537;
+  background: url('../images/arrow-sml-green-e-glow.png') no-repeat 72px -1px;
+  font-weight: 600;
+  padding-top: 6px;
+  height: 20px;
+}
+
+.page-careers-faqs .view-display-id-cognition_faq_pages .views-field-nothing.rl { background: url('../images/arrow-sml-green-n-glow.png') no-repeat 72px -1px; }
+
+.page-careers-faqs .view-display-id-cognition_faq_pages .views-field-nothing:hover { cursor: pointer; }
+
+.page-careers-faqs {}
+.page-careers-faqs {}
+
+
+/* Careers working with us */
+
+#page-careers-work-with-us .group-left { width: 652px; }
+
+#page-careers-work-with-us .field-name-field-body2 {
+  padding: 0 15px 10px 15px;
+  border: 7px solid #707070;
+  color: #707070;
+  background: #fff;
+  margin-top: 26px;
+}
+
+#page-careers-work-with-us .field-name-field-body2 h4 {
+  font-size: 20px;
+  color: #707070;
+  font-weight: 400;
+  margin: 16px 0 0 0;
+}
+
+#page-careers-work-with-us .field-name-field-body2 p {
+  margin: 8px 0;
+}
+
+#page-careers-work-with-us .field-name-field-body3 {
+  padding: 10px 15px 10px 15px;
+  border: 7px solid #fff;
+  background: #E6E6E6;
+  height: 274px
+}
+
+#page-careers-work-with-us .field-name-field-body3 h4 + p { margin-bottom: 6px; }
+
+#page-careers-work-with-us .field-name-field-body3 h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 2px 0 4px 0;
+}
+
+#page-careers-work-with-us .field-name-field-body3 li { padding: 6px 0 6px 22px; list-style-type: none; background: url('../images/arrow-sml-green-e.png') no-repeat 4px 11px; }
+
+#page-careers-work-with-us #apply-how {
+  background: #707070;
+  width: 604px;
+  position: relative;
+  height: 74px;
+  left: -22px;
+  color: #fff;
+  padding: 8px 24px;
+  bottom: -6px;
+}
+
+#page-careers-work-with-us #apply-how a { color: #A3C0F2; }
+#page-careers-work-with-us #apply-how a:hover { text-decoration: underline; }
+
+#page-careers-work-with-us #apply-how p { margin: 0; }
+
+#page-careers-work-with-us .field-name-title h1 {
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0;
+  line-height: 1.1;
+  margin-top: -6px;
+}
+
+
+
+/* Careers Values page */
+
+#page-careers-values .group-left { xwidth: 403px; }
+
+#page-careers-values .field-name-field-alt-title h1 {
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0;
+  margin-top: -6px;
+  margin-bottom: 16px;
+}
+
+#page-careers-values .view-display-id-cognition_career_values .views-row { background: #fff; margin-bottom: 20px; padding: 14px 20px 2px 20px; font-size: 16px; }
+.oldie #page-careers-values .view-display-id-cognition_career_values .views-row { padding: 14px 20px 20px 20px; }
+#page-careers-values .view-display-id-cognition_career_values .views-field-field-image { float: right; margin: 20px 10px 0 0; }
+#page-careers-values .view-display-id-cognition_career_values .views-field-title { font-size: 18px; color: #8CBD3E; }
+#page-careers-values .view-display-id-cognition_career_values .views-field-body { width: 420px; }
+
+#page-careers-values #block-views-63c111620fac753bb577a452aeeb33ad { display: none; }
+
+/* Careers current vacancies page */
+
+#page-careers-current-vacancies .group-left { width: 890px; background: #fff; }
+#page-careers-current-vacancies td { font-size: 100px; }
+
+
+
+
+
+/* About People Cognition Staff Page */
+
+body.page-node-316 {  }
+
+
+body.page-node-316 #staffcontrols > div { float: left; color: #fff; background: #393939; text-align: center; padding: 8px 30px; width: 104px; margin-right: 7px; line-height: 1; height: 28px; }
+body.page-node-316 #staffcontrols > div.on { color: #8DBD3E; background: #fff; }
+
+body.page-node-316 #staffcontrols > div:hover { cursor: pointer; text-decoration: underline; }
+body.page-node-316 #staffcontrols > div#consultancy { margin-right: 0; padding-top: 15px; height: 21px; }
+
+body.page-node-316 .group_people .views-row > .views-field-field-position, body.page-node-316 .group_people .views-row > .views-field-field-photo, body.page-node-316 .group_people .views-row > .views-field-body,body.page-node-316 .group_people .views-row > .views-field-field-credentials { display: none; }
+body.page-node-316 .views-row > .views-field-field-position, body.page-node-316 .views-row > .views-field-field-photo { display: none; }
+
+body.page-node-316 .group_people .view-header {
+  border: 1px solid #999;
+  float: right;
+  width: 500px;
+  min-height: 200px;
+  margin: 50px 20px; ;
+  background: #F3F3F3;
+  padding: 20px 30px;
+  font-size: 12px;
+  color: #666;
+  margin-left: 0;
+}
+
+body.page-node-316 .group_people .view-header .views-field-title a { color: #8CBD3E; font-size: 16px; float: left; }
+body.page-node-316 .group_people .view-header .views-field-field-position { font-size: 16px; text-indent: 5px; }
+body.page-node-316 .group_people .view-header .views-field-field-photo { float: right; margin: 7px; }
+body.page-node-316 .group_people .view-header .views-field-field-credentials { clear: both; }
+body.page-node-316 .group_people .view-header .views-field-body { width: 340px; }
+
+body.page-node-316 .group_people .view-header {}
+body.page-node-316 .group_people .view-header {}
+body.page-node-316 .group_people .view-header {}
+
+body.page-node-316 .group_people .view-content { padding-top: 20px; padding-bottom: 20px; }
+
+body.page-node-316 .group_people > div.special { display: none; clear: both; background: #fff; }
+
+body.page-node-316 .group_people .view-id-cognition_staff .view-content .views-field-title {
+  font-size: 16px;
+  color: #5E5E5E;
+  font-weight: 400;
+  margin-left: 22px;
+  padding: 6px 0;
+  width: 242px;
+}
+
+.oldie body.page-node-316 .group_people .view-id-cognition_staff .view-content .views-field-title { width: 242px; }
+
+body.page-node-316 .group_people .view-id-cognition_staff .view-content .views-field-title.on { background: url('../images/people-dots.png') no-repeat left bottom; color: #6C9FD2; }
+
+body.page-node-316 .group_people .view-id-cognition_staff .view-content .views-field-title:hover { cursor: pointer; color: #6C9FD2; }
+
+body.page-node-316 .group_people .view-id-cognition_staff .views-field-php { display: none; }
+
+/* About Us CET people page */
+
+#page-about-cognition-education-trust-people .group-left { width: 652px; }
+#page-about-cognition-education-trust-people .field-name-title h1 { font-size: 39px; }
+
+#page-about-cognition-education-trust-people #block-views-cognition-staff-cet-trustees { background: #fff; padding: 10px; }
+#page-about-cognition-education-trust-people #block-views-cognition-staff-cet-trustees .block-title { font-size: 30px; color: #666; font-weight: 300; font-family: proxima-nova; text-indent: 2px; }
+
+#page-about-cognition-education-trust-people #block-views-cognition-staff-cet-trustees .views-row { clear: both; width: 850px; margin-top: 12px; background: url('../images/faq-dots.png') no-repeat left bottom; padding-bottom: 16px; width: 850px; }
+#page-about-cognition-education-trust-people #block-views-cognition-staff-cet-trustees .views-row-last { background: none; padding-bottom: 0; }
+#page-about-cognition-education-trust-people #block-views-cognition-staff-cet-trustees .views-field-field-photo img { float: left; border: 0; margin-right: 16px; border: 7px solid #fff; box-shadow: 2px 2px 6px lightgrey; margin: 0 22px 18px 18px; }
+#page-about-cognition-education-trust-people #block-views-cognition-staff-cet-trustees .views-field-body { font-size: 14px; margin-left: 8px; margin-right: 18px; }
+#page-about-cognition-education-trust-people #block-views-cognition-staff-cet-trustees .views-field-body-1 { margin-right: 18px; }
+#page-about-cognition-education-trust-people #block-views-cognition-staff-cet-trustees .views-field-field-position { margin-left: 7px; font-weight: 600px; }
+#page-about-cognition-education-trust-people #block-views-cognition-staff-cet-trustees .views-field-title a { xmargin-left: 7px; font-weight: 600; color: #7AA537; }
+
+#page-about-cognition-education-trust-people #block-views-cognition-staff-cet-trustees .views-field-body .field-content div { color: #8DBD3E; background: url('../images/arrow-sml-green-e.png') no-repeat 70px 4px; display: inline; padding-right: 20px; }
+
+#page-about-cognition-education-trust-people #block-views-cognition-staff-cet-trustees .views-field-body-1 .field-content div { color: #8DBD3E; background: url('../images/arrow-sml-green-w.png') no-repeat 32px 4px; display: inline; padding-right: 20px; }
+
+#page-about-cognition-education-trust-people #block-views-cognition-staff-cet-trustees .views-field-body .field-content div:hover, #page-about-cognition-education-trust #block-views-cognition-staff-cet-trustees-people .views-field-body-1 .field-content div:hover { cursor: pointer; }
+
+#page-about-cognition-education-trust-people #block-views-cognition-staff-cet-trustees .views-field-body-1 { margin-left: 8px; }
+
+
+
+
+/* TEST */
+
+.group-right div.field:first-child { margin-top: 0 !important; }
+
+.group-header + .group-left + .group-right div.field:first-child { margin-top: 20px; }
+
+.region-sidebar-second div.block:first-child { margin-top: 0 !important; }
+
+
+
+
+
+
+
+/* Services Generic Styles */
+
+  /* Schooling */
+  
+  body[id*="schooling"] span { xcolor: #6D79A4; } 
+  body[id*="teaching"] span { xcolor: #CA2053; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* user pages */
+
+.page-user .tabs { display: none; }
+
+.page-user #content { margin-top: 26px; margin-left: 257px; }
+
+.page-cart #content { margin-top: 26px; }
+
+body.page-cart.sidebar-first #content { width: 680px; }
+
+.page-user h1 { font-size: 32px; }
+
+.page-user form             { padding-top: 15px; }
+.page-user form#search-block-form--2  { padding-top: 0px; } 
+.page-user form .form-item        { padding-bottom: 10px; }
+.page-user .form-item label       { letter-spacing: .5px; font-weight: 600; }
+.page-user form input.form-text     { margin-bottom: 6px; }
+.page-user form div.description     { color: #999; }x 
+
+.page-user input.form-text:focus + div.description{
+  color: #333;
+  -moz-transition: color 0.2s ease-in-out 0s;
+}
+
+
+.page-user #content > .section form label, .page-checkout #content > .section form label { text-transform: uppercase; }
+.page-user #content > .section form input.form-text, .page-checkout #content > .section form input.form-text { border: 0; border-radius: 3px; padding: 3px; margin-top: 6px; width: 300px; }
+
+.page-user #content > .section form select.form-select, .page-checkout #content > .section form select.form-select { border: 0; border-radius: 3px; padding: 3px; margin-top: 6px; width: 306px; -webkit-appearance: none; height: 26px; background: #fff url('../../vlp/images/select-arrow.png') no-repeat right center; border: 1px solid #999; }
+
+.page-user #content > .section form select.form-select option, .page-checkout #content > .section form select.form-select option { width: 306px; }
+
+.page-user #content > .section form div.description, .page-checkout #content > .section form div.description { margin: 3px 0 0 2px; font-size: 13px; }
+.page-user #content > .section form #edit-actions > input, .page-checkout #content > .section form #edit-actions > input, #block-user-login form input.form-submit { font-weight: 600; background: none; border: 0; color: #fff; background: url('../../vlp/images/form-arrow.png') no-repeat; width: 300px; height: 30px; text-align: left; text-indent: 24px; font-family: proxima-nova; }
+
+.page-user #page-title, .page-checkout #page-title { margin-top: -6px; }
+
+.page-checkout-review #page-title { margin-bottom: 20px; }
+
+.page-user #content > .section form a, .page-checkout #content > .section form a { color: #8DBD3E; }
+
+div.password-confirm, div.password-strength { margin-top: 0; }
+div.password-suggestions { line-height: 1.6; padding: 10px; width: 282px; margin: 14px 0; }
+div.password-suggestions ul { margin-left: 24px; }
+
+.page-user #edit-contact { display: none; }
+
+
+body.logged-in #block-menu-block-7 li.menu-mlid-6026, body.logged-in #block-menu-block-7 li.menu-mlid-6028 { display: none; }
+
+
+/* Cart page */
+
+body.page-cart #page-title, .page-checkout #page-title { margin-bottom: 20px; }
+body.page-cart #content > .section table.views-table { background: #fff; width: 100%; }
+body.page-checkout #content > .section table.views-table { background: #fff; width: 86%; }
+body.page-cart #content > .section table.views-table th, .page-checkout #content > .section table.views-table th { background: #5E5E5E; color: #fff; font-size: 12px; border: 7px solid #fff; padding: 6px 4px 6px 12px; text-transform: uppercase; font-weight: 400; }
+
+body.page-cart #content > .section table.views-table tbody, .page-checkout #content > .section table.views-table tbody { border: 0; }
+body.page-cart #content > .section table.views-table tbody tr, .page-checkout #content > .section table.views-table tbody tr { border: 0; background: #F4F4F4; border: 7px solid #fff; font-size: 12px; }
+body.page-cart #content > .section table.views-table tbody tr td.views-field, .page-checkout #content > .section table.views-table tbody tr td.views-field { padding: 8px 0 7px 12px; }
+body.page-cart #content > .section table.views-table tbody tr td.views-field-edit-delete, .page-checkout #content > .section table.views-table tbody tr td.views-field-edit-delete { padding: 0; text-align: center; }
+
+body.page-cart #content > .section table.views-table tbody tr td input.form-text, .page-checkout #content > .section table.views-table tbody tr td input.form-text { border: 1px solid #999; width: 70px; margin: 3px 0 0 14px; color: #999; padding: 2px; }
+body.page-cart #content > .section table.views-table tbody tr td input.delete-line-item, .page-checkout #content > .section table.views-table tbody tr td input.delete-line-item { background: #C7C7C7; color: #fff; border-radius: 3px; border: 0; text-transform: uppercase; padding: 4px 8px; margin: 4px 0 0 0; }
+
+
+body.page-cart #content > .section .line-item-summary { width: 100%; }
+body.page-cart #content > .section .line-item-summary > div { float: right; border: 7px solid white; margin-top: 22px; background: #5E5E5E; color: #fff; font-size: 12px; font-weight: 600; padding: 6px 16px; }
+body.page-cart #content > .section .line-item-summary > div .line-item-total-label { padding-right: 40px; }
+
+body.page-cart #content > .section .commerce-line-item-actions { clear: both; width: 100%; }
+body.page-cart #content > .section .commerce-line-item-actions input { float: right; margin-left: 20px; color: #fff; background: url('../../vlp/images/form-arrow-sml.png'); margin-top: 22px; border: 0; width: 120px; text-transform: uppercase; padding: 5px; text-align: left; text-indent: 4px; }
+
+
+/* Checkout */
+
+body.page-checkout fieldset.cart_contents legend { display: none; }
+body.page-checkout fieldset legend { font-size: 32px; color: #707070; font-weight: 300; padding-bottom: 16px; padding-top: 16px; }
+body.page-checkout fieldset.cart_contents { margin-top: 20px; }
+
+.checkout-buttons { font-weight: 600; text-transform: uppercase; }
+
+.checkout-buttons input.checkout-continue { color: #fff; background: url('../../vlp/images/form-arrow.png'); margin-top: 22px; border: 0; width: 300px; text-transform: uppercase; padding: 6px; text-align: left; text-indent: 22px; height: 30px; margin-right: 16px; }
+.checkout-buttons input.checkout-cancel, .checkout-buttons input.checkout-back {
+  color: #8CBD3E;
+  margin-left: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#content .view-id-commerce_cart_summary  .view-footer .field-name-commerce-order-total { width: 86%; }
+#content .view-id-commerce_cart_summary .view-footer .field-name-commerce-order-total .commerce-price-formatted-components { width: 240px; margin-top: 7px; }
+#content .view-id-commerce_cart_summary .view-footer .field-name-commerce-order-total .commerce-price-formatted-components .component-type-commerce-price-formatted-amount { background: #8DBD3E; color: #fff; }
+#content .view-id-commerce_cart_summary .view-footer .field-name-commerce-order-total .commerce-price-formatted-components tr { background: #F4F4F4; border: 7px solid white; font-size: 12px; }
+#content .view-id-commerce_cart_summary .view-footer .field-name-commerce-order-total .commerce-price-formatted-components td { padding: 6px; }
+
+#content .view-id-commerce_cart_summary .view-footer .field-name-commerce-order-total .commerce-price-formatted-components td.component-title { padding-left: 16px }
+#content .view-id-commerce_cart_summary .view-footer .field-name-commerce-order-total .commerce-price-formatted-components td.component-total { padding-right: 16px }
+
+
+#block-user-login .block-title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 100%;
+  padding: 0;
+}
+
+#block-user-login form label { text-transform: uppercase; }
+
+#block-user-login form input.form-text {
+  border: 0;
+  border-radius: 3px;
+  padding: 3px;
+  margin-top: 6px;
+  width: 300px;
+}
+
+#block-user-login form ul li { list-style-type: none; }
+#block-user-login form ul li a { color: #8DBD3E; text-deocration: none; }
+#block-user-login form ul li a:hover { text-deocration: underline; }
+
+
+
+/* Checkout Review page */
+
+.page-checkout-review table.checkout-review { width: 86%; }
+.page-checkout-review table.checkout-review td.pane-data-full { padding: 0; }
+.page-checkout-review table.checkout-review tr.pane-title:first-child { display: none; }
+.page-checkout-review table.checkout-review > tbody { border: 0; }
+.page-checkout-review table.checkout-review > tbody > tr { background: inherit; border: 0; }
+
+
+.page-checkout-review table.commerce-price-formatted-components td {  }
+.page-checkout-review table.commerce-price-formatted-components tr { background: #F4F4F4; border: 7px solid #fff; font-size: 12px; }
+.page-checkout-review table.commerce-price-formatted-components tr.component-type-commerce-price-formatted-amount { background: #8DBD3E; }
+
+.page-checkout-review table.checkout-review tr.pane-title { padding-left: 0; }
+.page-checkout-review table.checkout-review tr.pane-title td { padding-left: 0; font-size: 22px; font-weight: 300; padding-bottom: 16px; padding-top: 16px; }
+.page-checkout-review table.checkout-review tr.pane-data .form-type-item label {
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 16px;
+}
+.page-checkout-review table.checkout-review tr.pane-data div.field-label {
+  text-transform: capitalize !important;
+  font-weight: 300;
+  font-size: 16px;
+}
+.page-checkout-review table.checkout-review tr.pane-data div.field-items { font-size: 16px; }
+.page-checkout-review table.checkout-review tr.pane-data div.field-name-commerce-customer-address, .page-checkout-review table.checkout-review tr.pane-data div.field-name-field-customer-position, .page-checkout-review table.checkout-review tr.pane-data div.field-name-field-customer-phone { line-height: 25px; }
+.page-checkout-review .checkout-help { display: none; }
+.page-checkout-review fieldset.checkout_review legend { display: none; }
+
+
+
+.page-checkout-review fieldset.commerce_payment legend { padding-bottom: 16px; padding-top: 16px; }
+.page-checkout-review fieldset.commerce_payment .form-type-radio { margin: 10px 0; }
+.page-checkout-review fieldset.commerce_payment label.option { text-transform: capitalize !important; padding-left: 4px; }
+
+/* Account Order */
+
+.page-user-me-orders- {  }
+
+.page-user-me-orders- table.views-table { width: 86%; }
+.page-user-me-orders- table.views-table td.pane-data-full { padding: 0; }
+.page-user-me-orders- table.views-table tr.pane-title:first-child { display: none; }
+.page-user-me-orders- table.views-table > tbody { border: 0; }
+.page-user-me-orders- table.views-table > tbody > tr { background: inherit; border: 0; }
+
+
+.page-user-me-orders- table.commerce-price-formatted-components td {  }
+.page-user-me-orders- table.commerce-price-formatted-components tr { background: #F4F4F4; border: 7px solid #fff; font-size: 12px; }
+.page-user-me-orders- table.commerce-price-formatted-components tr.component-type-commerce-price-formatted-amount { background: #8DBD3E; }
+
+
+/* Checkout complete */
+
+.checkout_completion_message legend { display: none; }
+.checkout_completion_message p { margin: 30px 0; }
+.checkout_completion_message a { text-decoration: none; }
+.checkout_completion_message a:hover { text-decoration: underline; }
+
+
+.jquery-safari-checkbox {display: inline; font-size: 16px; line-height: 16px; cursor: pointer; cursor: hand;}
+.jquery-safari-checkbox .mark {display: inline;}
+
+.jquery-safari-checkbox img { vertical-align: middle; width: 16px; height: 16px; }
+.jquery-safari-checkbox img{ background: transparent url('../../vlp/images/radio.png') no-repeat; }
+
+.jquery-safari-checkbox img{
+  background-position: 0px 0px;
+}
+.jquery-safari-checkbox-hover img{
+  background-position: -16px 0px;
+}
+.jquery-safari-checkbox-checked img{
+  background-position: 0px -16px;
+}
+.jquery-safari-checkbox-checked .jquery-safari-checkbox-hover img {
+  background-position: -16px -16px;
+}
+
+.jquery-safari-checkbox-disabled img{
+  background-position: 0px -32px;
+}
+.jquery-safari-checkbox-checked .jquery-safari-checkbox-disabled img{
+  background-position: 0px -48px;
+}
+  
+  
+.oldie p {
+  display: block;
+  margin: 1em 0;
+}
+
+
+
+/* Order page */
+
+
+body.page-user-orders- {}
+
+
+body.page-user-orders- #content > .section table.views-table {
+  background: white;
+  width: 100%;
+}
+
+
+body.page-user-orders- #content > .section table.views-table th, .page-checkout #content > .section table.views-table th {
+background: #5E5E5E;
+color: white;
+font-size: 12px;
+border: 7px solid white;
+padding: 6px 4px 6px 12px;
+text-transform: uppercase;
+font-weight: 400;
+}
+
+body.page-user-orders- #content > .section table.views-table tbody, .page-checkout #content > .section table.views-table tbody {
+border: 0;
+}
+
+body.page-user-orders- #content > .section table.views-table tbody tr, .page-checkout #content > .section table.views-table tbody tr {
+border: 0;
+background: #F4F4F4;
+border: 7px solid white;
+font-size: 12px;
+}
+
+body.page-user-orders- #content > .section table.views-table tbody tr td.views-field {
+padding: 8px 7px 7px 12px;
+}
+
+body.page-user-orders- #page-title {
+margin-bottom: 20px;
+}
+
+body.page-user-orders- #content .field-name-commerce-order-total table.commerce-price-formatted-components {
+width: 240px;
+margin-top: 7px;
+}
+
+body.page-user-orders- #content { margin-left: 204px; }
+
+body.page-user-orders- #content .field-name-commerce-order-total tr {
+background: #F4F4F4;
+border: 7px solid white;
+font-size: 12px;
+}
+
+body.page-user-orders- #content .field-name-commerce-order-total td.component-title {
+padding: 6px;
+padding-left: 16px;
+}
+
+body.page-user-orders- #content .field-name-commerce-order-total td.component-total {
+padding: 6px;
+padding-right: 16px;
+}
+
+body.page-user-orders- #content .field-name-commerce-order-total .component-type-commerce-price-formatted-amount {
+background: #8DBD3E;
+color: white;
+}
+
+body.page-user-orders- .field-type-commerce-customer-profile-reference > .field-label {
+font-size: 32px;
+color: black;
+font-weight: 300;
+padding-bottom: 16px;
+padding-top: 16px;
+}
+
+body.page-user-orders- .field-type-commerce-customer-profile-reference > .field-items {
+font-size: 16px;
+line-height: 25px;
+}
+
+body.page-user-orders- #content { margin-left: 256px; }
+
+
+/* Order page */
+
+#page-user-me-orders #page-title { margin-bottom: 20px; }
+
+#page-user-me-orders table.views-table { background: #fff; width: 100%; }
+
+#page-user-me-orders #content > .section table.views-table th, .page-checkout #content > .section table.views-table th {
+  background: #5E5E5E;
+  color: white;
+  font-size: 12px;
+  border: 7px solid white;
+  padding: 6px 4px 6px 12px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+#page-user-me-orders #content > .section table.views-table tbody { border: 0; }
+
+#page-user-me-orders #content > .section table.views-table tbody tr {
+  border: 0;
+  border: 7px solid white;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#page-user-me-orders #content > .section table.views-table tbody tr a { text-decoration: none; color: #8CBD3E; }
+
+#page-user-me-orders #content > .section table.views-table tbody tr td {
+  background: #F4F4F4;
+}
+
+#page-user-me-orders #content > .section table.views-table tbody tr.even td {
+  background: #fff;
+}
+
+#page-user-me-orders #content > .section table.views-table tbody tr td.views-field { padding: 8px 7px 7px 12px; }
+
+#page-user-me-orders {}
+
+/* User pages */
+
+body.page-user #content { width: 652px; margin-left: 0; }
+
+body.page-user body .region-sidebar-first { margin-top: 30px; }
+
+/* Events Overview Tabs Block */
+
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 {}
+
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .view-filters { background: url('../images/events-shade.png') no-repeat -30px 0; }
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .view-empty {
+  padding: 10px;
+  background: white;
+}
+
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .views-exposed-form .views-exposed-widget { padding: 0; }
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .view-filters .views-exposed-widgets { margin-bottom: 0; }
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .view-filters .bef-select-as-links .form-item > div { float: left; }
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .view-filters .bef-select-as-links .form-item > div + div { margin-left: 7px; }
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .view-filters .bef-select-as-links .form-item > div a { padding: 8px 6px 4px 6px; background: #707070; width: 108px; font-size: 17px; display: block; text-align: center; font-weight: 400; height: 44px; color: #fff; }
+
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .view-filters .bef-select-as-links .form-item > div a:hover { text-decoration: none; background: #fff; color: #707070; }
+
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .view-filters .bef-select-as-links .form-item > div.selected a { color: #707070; background: #fff; }
+
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .view-content { background: #fff; padding: 12px; }
+
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .views-row {
+  background: url('../images/faq-dots.png') no-repeat left bottom;
+  padding: 12px 0 20px 0;
+}
+
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .views-row-last { background: none; }
+
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .views-field-title {
+  font-weight: 600;
+  color: #8DBD3E;
+  text-indent: 4px;
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .views-field-field-dates {
+  text-indent: 4px;
+  margin: 6px 0;
+}
+
+
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .views-field-body {
+  height: 140px;
+  overflow: hidden;
+}
+
+
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .views-field-body-1 { display: none; }
+
+
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .views-field-body .field-content div {
+  color: #8DBD3E;
+  background: url('../images/arrow-sml-green-e.png') no-repeat 70px 4px;
+  display: inline;
+  padding-right: 20px;
+}
+
+
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .views-field-body-1 .field-content div {
+  color: #8DBD3E;
+  background: url('../images/arrow-sml-green-w.png') no-repeat 32px 4px;
+  display: inline;
+  padding-right: 20px;
+}
+
+
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .views-field-body .field-content div:hover, #block-views-d6e8eb56b02713b26a5f9ded384b8234 .views-field-body-1 .field-content div:hover { cursor: pointer; }
+
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 .views-field-field-event-image {
+  float: left;
+  margin-right: 16px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 6px lightGrey;
+  border: 7px solid white;
+}
+
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 {}
+
+#block-views-d6e8eb56b02713b26a5f9ded384b8234 {}
+
+
+
+
+
+
+/* Events Individual Page */
+
+#page-events .group-left { width: 652px; }
+#page-events .field-name-title h1 { font-size: 39px; }
+
+#page-events .view-display-id-event_single { background: #fff; padding: 10px; }
+#page-events .view-display-id-event_single  .block-title { font-size: 30px; color: #666; font-weight: 300; font-family: proxima-nova; text-indent: 2px; }
+
+#page-events .view-display-id-event_single  .views-row { clear: both; margin-top: 12px; background: url('../images/faq-dots.png') no-repeat left bottom; padding-bottom: 16px; }
+#page-events .view-display-id-event_single  .views-row-last { background: none; padding-bottom: 0; }
+#page-events .view-display-id-event_single  .views-field-field-photo img { float: left; border: 0; margin-right: 16px; border: 7px solid #fff; box-shadow: 2px 2px 6px lightgrey; }
+#page-events .view-display-id-event_single  .views-field-body { font-size: 14px; margin-left: 8px; margin-right: 18px; }
+#page-events .view-display-id-event_single  .views-field-body-1 { margin-right: 18px; }
+#page-events .view-display-id-event_single  .views-field-title { margin-left: 7px; font-weight: 600; color: #7AA537; }
+
+#page-events .view-display-id-event_single  .views-field-body .field-content div { color: #8DBD3E; background: url('../images/arrow-sml-green-e.png') no-repeat 70px 4px; display: inline; padding-right: 20px; }
+
+#page-events .view-display-id-event_single  .views-field-body-1 .field-content div { color: #8DBD3E; background: url('../images/arrow-sml-green-w.png') no-repeat 32px 4px; display: inline; padding-right: 20px; }
+
+#page-events .view-display-id-event_single  .views-field-body .field-content div:hover, #page-events .view-display-id-event_single  .views-field-body-1 .field-content div:hover { cursor: pointer; }
+
+#page-events .view-display-id-event_single  .views-field-body-1 { margin-left: 8px; }
+
+
+
+
+.section-events {}
+.section-events {}
+.section-events {}
+.section-events {}
+.section-events {}
+
+
+
+
+
+
+
+
+
+
+
+/* Events Page */
+
+
+#page-events .group-left { width: 652px; }
+#page-events .field-name-title h1 { font-size: 39px; }
+
+#page-events .view-display-id-event_single { background: #fff; padding: 10px; }
+#page-events .view-display-id-event_single  .block-title { font-size: 30px; color: #666; font-weight: 300; font-family: proxima-nova; text-indent: 2px; }
+
+#page-events .view-display-id-event_single  .views-row { clear: both; margin-top: 12px; background: url('../images/faq-dots.png') no-repeat left bottom; padding-bottom: 16px; }
+#page-events .view-display-id-event_single  .views-row-last { background: none; padding-bottom: 0; }
+#page-events .view-display-id-event_single  .views-field-field-photo img { float: left; border: 0; margin-right: 16px; border: 7px solid #fff; box-shadow: 2px 2px 6px lightgrey; }
+#page-events .view-display-id-event_single  .views-field-body { font-size: 14px; margin-left: 8px; margin-right: 18px; }
+#page-events .view-display-id-event_single  .views-field-body-1 { margin-right: 18px; }
+#page-events .view-display-id-event_single  .views-field-title { margin-left: 7px; font-weight: 600; color: #7AA537; }
+
+#page-events .view-display-id-event_single  .views-field-body .field-content div { color: #8DBD3E; background: url('../images/arrow-sml-green-e.png') no-repeat 70px 4px; display: inline; padding-right: 20px; }
+
+#page-events .view-display-id-event_single  .views-field-body-1 .field-content div { color: #8DBD3E; background: url('../images/arrow-sml-green-w.png') no-repeat 32px 4px; display: inline; padding-right: 20px; }
+
+#page-events .view-display-id-event_single  .views-field-body .field-content div:hover, #page-events .view-display-id-event_single  .views-field-body-1 .field-content div:hover { cursor: pointer; }
+
+#page-events .view-display-id-event_single  .views-field-body-1 { margin-left: 8px; }
+
+
+
+
+  /* Shopping Cart */
+
+  #block-commerce-cart-cart { width: 100px; height: 50px; float: right; background: url('/sites/all/themes/vlp/images/cart.png') no-repeat; width: 122px; height: 90px; margin: 38px 0 0 0; }
+  #block-commerce-cart-cart {
+    position: absolute;
+    top: -30px;
+    right: 20px;
+  }
+  #block-commerce-cart-cart > content { width: 102px; margin: 0 auto; }
+  #block-commerce-cart-cart:hover { cursor: pointer; background: url('/sites/all/themes/vlp/images/cart2.png') no-repeat; }
+  
+  #block-commerce-cart-cart .block-title a { color: #fff; font-size: 14px; font-weight: 400; text-transform: uppercase; margin: 50px 0 0 16px; display: block; text-decoration: none; font-family: proxima-nova,sans-serif; }
+  
+  #block-commerce-cart-cart .block-title a:hover { cursor: pointer; }
+  
+  #block-commerce-cart-cart .cart-empty-block { display: none; }
+
+  #block-commerce-cart-cart table { display: none; }
+  #block-commerce-cart-cart .line-item-summary { color: #fff; font-size: 12px; margin-top: 7px; width: 100px; margin: 7px auto 0; }
+  #block-commerce-cart-cart .line-item-total .line-item-total-label { display: none; }
+
+
+
+
+
+
+
+
+
+/* Navigation Area Submenus */
+
+#navigation {}
+#navigation ul li { list-style-type: none; list-style-image: none; }
+#navigation {}
+#navigation {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Checkout pages styling */
+
+
+.page-user #content > .section form input.form-text, .page-checkout #content > .section form input.form-text {
+  border: 0;
+  border-radius: 3px;
+  padding: 3px;
+  margin-top: 6px;
+  width: 300px;
+  border: 1px solid #999;
+}
+
+
+#edit-customer-profile-billing-field-customer-terms .description, #edit-customer-profile-billing-field-customer-newsletter .description {
+  float: right;
+  width: 290px;
+}
+
+.page-user #content > .section form input.form-text, .page-checkout #content > .section form textarea.form-textarea {
+  border: 0;
+  border-radius: 3px;
+  padding: 3px;
+  margin-top: 6px;
+  width: 308px;
+  border: 1px solid #999;
+}
+
+.addressfield-container-inline > div.form-item { float: none; }
+
+.page-checkout #content > .section form .form-item-customer-profile-billing-field-customer-terms-und > * { float: left; margin-right: 2px; }
+
+
+.page-checkout #content > .section form .form-item-customer-profile-billing-field-customer-terms-und > div { float: none; }
+
+.page-checkout #edit-customer-profile-billing-field-customer-newsletter { clear: left; }
+.page-checkout #edit-customer-profile-billing-field-customer-newsletter > div > * { float: left; margin-right: 2px; }
+.page-checkout #edit-customer-profile-billing-field-customer-newsletter > div > div { float: none; }
+
+.resizable-textarea .grippie {
+  background: #EEE url('/misc/grippie.png') no-repeat center 2px;
+  border: 1px solid #DDD;
+  border-top-width: 0;
+  cursor: s-resize;
+  height: 9px;
+  overflow: hidden;
+}
+
+#edit-customer-profile-billing { width: 300px; }
+
+input.form-submit { font-family: proxima-nova !important; }
+
+
+.page-checkout #payment-details {
+  width: 69%;
+  padding: 15px;
+  background: #F4F4F4;
+  border: 7px solid white;
+  margin-top: 20px;
+}
+
+.page-checkout #payment-details p { margin: 0; }
+
+.paystation-logo {
+  float: right;
+  margin-top: -68px;
+}
+
+
+
+/* About Us The Board page */
+
+
+#page-about-cognition-education-board .group-left { width: 652px; }
+#page-about-cognition-education-board .field-name-title h1 { font-size: 39px; }
+
+#page-about-cognition-education-board .field-name-cognition-people-the-board { background: #fff; padding: 10px; }
+#page-about-cognition-education-board .field-name-cognition-people-the-board .block-title { font-size: 30px; color: #666; font-weight: 300; font-family: proxima-nova; text-indent: 2px; }
+
+#page-about-cognition-education-board .field-name-cognition-people-the-board .views-row { clear: both; margin-top: 12px; background: url('../images/faq-dots.png') no-repeat left bottom; padding-bottom: 16px; background-size: auto; }
+#page-about-cognition-education-board .field-name-cognition-people-the-board .views-row-last { background: none; padding-bottom: 0; }
+#page-about-cognition-education-board .field-name-cognition-people-the-board .views-field-field-photo img { float: left; border: 0; margin-right: 16px; border: 7px solid #fff; box-shadow: 2px 2px 6px lightgrey; margin: 0 22px 16px 0; }
+#page-about-cognition-education-board .field-name-cognition-people-the-board .views-field-body { font-size: 14px; margin-left: 8px; margin-right: 18px; }
+#page-about-cognition-education-board .field-name-cognition-people-the-board .views-field-body-1 { margin-right: 18px; }
+#page-about-cognition-education-board .field-name-cognition-people-the-board .views-field-field-position { margin-left: 7px; }
+#page-about-cognition-education-board .field-name-cognition-people-the-board .views-field-title { margin-left: 7px; font-weight: 600; color: #8DBD3E; }
+
+#page-about-cognition-education-board .field-name-cognition-people-the-board .views-field-body .field-content div { color: #8DBD3E; background: url('../images/arrow-sml-green-e.png') no-repeat 70px 4px; display: inline; padding-right: 20px; }
+
+#page-about-cognition-education-board .field-name-cognition-people-the-board .views-field-body-1 .field-content div { color: #8DBD3E; background: url('../images/arrow-sml-green-w.png') no-repeat 32px 4px; display: inline; padding-right: 20px; }
+
+#page-about-cognition-education-board .field-name-cognition-people-the-board .views-field-body .field-content div:hover, #page-about-cognition-education-board .field-name-cognition-people-the-board .views-field-body-1 .field-content div:hover { cursor: pointer; }
+
+#page-about-cognition-education-board .field-name-cognition-people-the-board .views-field-body-1 { margin-left: 8px; }
+
+#page-about-cognition-education-board .group-right .field-name-field-image { border: 7px solid #fff; }
+
+#page-about-cognition-education-board .field-name-cet-who {
+  width: 196px;
+  height: 200px;
+  border: 6px solid #fff;
+}
+
+#page-about-cognition-education-board .field-name-cet-who .block-title {
+  padding: 12px 0 0 10px;
+  width: 196px;
+  font-size: 15px;
+  font-weight: 600; 
+}
+
+#page-about-cognition-education-board .field-name-cet-who .views-field-body { font-size: 13px; font-weight: 300; width: 176px; margin-left: 10px; }
+
+  
+#page-about-cognition-education-board #block-views-7fb2f9fd46858c1de216eeb4c82ed758 {
+  width: 196px;
+  height: 200px;
+  border: 6px solid #fff;
+}
+
+#page-about-cognition-education-board #block-views-7fb2f9fd46858c1de216eeb4c82ed758 .block-title {
+  padding: 12px 0 0 10px;
+  width: 196px;
+  font-size: 15px;
+  font-weight: 600; 
+}
+
+#page-about-cognition-education-board #block-views-7fb2f9fd46858c1de216eeb4c82ed758 .views-field-body { font-size: 13px; font-weight: 300; width: 176px; margin-left: 10px; }
+
+  
+
+
+  /* Meet the staff services cognition only */
+  
+  .field-name-cognition-meet-staff-services {
+    background: #fff;
+    margin-top: 20px;
+    padding: 6px 7px 10px 7px;
+    background: #fff url('../images/staff-bg-fade.png') no-repeat center 50px;
+  }
+
+  
+  .field-name-cognition-meet-staff-services .block-title {
+    height: 28px;
+    padding-top: 8px;
+    text-align: center;
+    background: #707070;
+    margin-bottom: 16px;
+  }
+
+  
+  .field-name-cognition-meet-staff-services .views-field-title a { text-decoration: none; color: #707070; font-size: 15px; }
+  
+  .field-name-cognition-meet-staff-services .views-field-body { width: 100px; float: right; }
+  
+  .field-name-cognition-meet-staff-services .views-field-field-position { font-weight: 600; color: #7AA537; font-size: 13px; margin-bottom: 6px; }
+
+  .field-name-cognition-meet-staff-services .views-field-body p { margin: -4px 4px 0 0; font-size: 12px; }
+  
+  .field-name-cognition-meet-staff-services .views-field-nothing a { text-decoration: none; color: #fff; font-size: 15px; font-weight: 600; background: #7AA537; margin-top: 10px; padding: 6px 12px 6px 0; background: #8DBD3E url('../images/arrow-sml-white-e.png') no-repeat 124px 10px; display: block; text-align: right; }
+  
+  .oldie .field-name-cognition-meet-staff-services .views-field-nothing a { background-position: 120px 10px;  }
+  
+  .field-name-cognition-meet-staff-services .views-field-nothing a:hover { text-decoration: underline; }
+
+  
+  /* Block Form */
+  #block-views-cc11c51646a62b9359ba2c68e942cad2 {
+    background: #fff;
+    margin-top: 20px;
+    padding: 6px 7px 10px 7px;
+    background: #fff url('../images/staff-bg-fade.png') no-repeat center 50px;
+  }
+
+  
+  #block-views-cc11c51646a62b9359ba2c68e942cad2 .block-title {
+    height: 28px;
+    padding-top: 8px;
+    text-align: center;
+    background: #707070;
+    margin-bottom: 16px;
+  }
+
+  
+  #block-views-cc11c51646a62b9359ba2c68e942cad2 .views-field-title a { text-decoration: none; color: #707070; font-size: 15px; }
+  
+  #block-views-cc11c51646a62b9359ba2c68e942cad2 .views-field-body { width: 100px; float: right; }
+  
+  #block-views-cc11c51646a62b9359ba2c68e942cad2 .views-field-field-position { font-weight: 600; color: #7AA537; font-size: 13px; margin-bottom: 6px; }
+
+  #block-views-cc11c51646a62b9359ba2c68e942cad2 .views-field-body p { margin: -4px 4px 0 0; font-size: 12px; }
+  
+  #block-views-cc11c51646a62b9359ba2c68e942cad2 .views-field-nothing a { text-decoration: none; color: #fff; font-size: 15px; font-weight: 600; background: #7AA537; margin-top: 10px; padding: 6px 12px 6px 0; background: #8DBD3E url('../images/arrow-sml-white-e.png') no-repeat 124px 10px; display: block; text-align: right; }
+  
+  .oldie #block-views-cc11c51646a62b9359ba2c68e942cad2 .views-field-nothing a { background-position: 120px 10px;  }
+  
+  #block-views-cc11c51646a62b9359ba2c68e942cad2 .views-field-nothing a:hover { text-decoration: underline; }
+
+
+/* events section */
+
+.view-mode-cognition_events_preview {
+  xpadding-top: 12px;
+}
+
+#page-events .group-left { width: 652px; }
+#page-events .field-name-title h1 { font-size: 39px; }
+
+#page-events .view-display-id-event_single { background: #fff; padding: 10px; }
+#page-events .view-display-id-event_single  .block-title { font-size: 30px; color: #666; font-weight: 300; font-family: proxima-nova; text-indent: 2px; }
+
+#page-events .view-display-id-event_single  .views-row { clear: both; margin-top: 12px; background: url('../images/faq-dots.png') no-repeat left bottom; padding-bottom: 16px; }
+#page-events .view-display-id-event_single  .views-row-last { background: none; padding-bottom: 0; }
+#page-events .view-display-id-event_single  .views-field-field-photo img { float: left; border: 0; margin-right: 16px; border: 7px solid #fff; box-shadow: 2px 2px 6px lightgrey; }
+#page-events .view-display-id-event_single  .views-field-body { font-size: 14px; margin-left: 8px; margin-right: 18px; }
+#page-events .view-display-id-event_single  .views-field-body-1 { margin-right: 18px; }
+#page-events .view-display-id-event_single  .views-field-title { margin-left: 7px; font-weight: 600; color: #7AA537; }
+
+#page-events .view-display-id-event_single  .views-field-body .field-content div { color: #8DBD3E; background: url('../images/arrow-sml-green-e.png') no-repeat 70px 4px; display: inline; padding-right: 20px; }
+
+#page-events .view-display-id-event_single  .views-field-body-1 .field-content div { color: #8DBD3E; background: url('../images/arrow-sml-green-w.png') no-repeat 32px 4px; display: inline; padding-right: 20px; }
+
+#page-events .view-display-id-event_single  .views-field-body .field-content div:hover, #page-events .view-display-id-event_single  .views-field-body-1 .field-content div:hover { cursor: pointer; }
+
+#page-events .view-display-id-event_single  .views-field-body-1 { margin-left: 8px; }
+
+
+
+/* Sidebar image hero */
+
+
+
+#block-views-bfa5e4ceb9526903fa38755dc936617e img {
+  border: 7px solid white;
+  margin: 0 auto;
+  display: block;
+}
+
+
+
+/* Footer */
+
+.region-footer {
+  background: url('../images/footerbg1.png') repeat-x 0 0;
+  height: 161px;
+  padding-top: 12px;
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+}
+
+.region-footer .contentz {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 4px;
+}
+
+
+.region-footer .block-menu { float: right; margin-left: 29px; }
+
+.region-footer .block-menu .block-title { font-size: 14px; color: #fff; font-family: proxima-nova, sans-serif; font-weight: 600; }
+
+.region-footer .block-menu li { list-style-type: none; list-style-image: none; line-height: 1.1; }
+.region-footer .block-menu li a { color: #fff; font-size: 12px; font-weight: 300; }
+.region-footer .block-menu li.active-trail a { color: #8DBD3E; }
+
+#block-block-4 { margin-left: 24px; }
+
+/* Page Bottom */
+
+
+.region-bottom {
+  background: url('../images/footerbg2.png') repeat-x 0 0;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.region-bottom .contentz {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 4px;
+}
+
+#block-block-2 { xbackground: url('../images/copyright-bg.png'); height: 40px; }
+#block-block-2 .content { width: 960px; margin: 0 auto; color: #fff; }
+#block-block-2 .content p {
+  margin: 0;
+  height: 28px;
+  padding-top: 12px;
+  xwidth: 670px;
+  xbackground: url('../images/copyright-bg-shade.png') no-repeat;
+  position: relative;
+  left: -145px;
+  text-indent: 145px;
+}
+#block-block-2 .content p a { color: #fff; }
+#block-block-2 .block-title { display: none; }
+
+
+
+#block-menu-menu-quick-links-cognition { float: right; margin-top: 4px; }
+#block-menu-menu-quick-links-cognition .block-title { display: none; }
+#block-menu-menu-quick-links-cognition li { float: right; list-style-type: none; list-style-image: none; }
+
+#block-menu-menu-quick-links-cognition li a {
+  text-decoration: none;
+  color: white;
+  padding: 0 4px;
+  border-left: 1px solid white;
+}
+
+#block-menu-menu-quick-links-cognition li.last a { border: 0; }
+
+#block-menu-menu-quick-links-cognition li a:hover { color: #707070; text-decoration: underline; }
+
+/* Home Page Slider */
+#page-homepage .view-id-home_page_slider{
+  height: 308px;
+  border: 12px solid white;
+  xdisplay: none;
+}
+
+#page-homepage .view-id-home_page_slider:after {
+  content: "";
+  display: block;
+  height: 307px;
+  width: 708px;
+  position: absolute;
+  background: url('../images/hero-shadow.png');
+  left: -28px;
+  top: 55px;
+  z-index: -1;
+}
+
+#page-homepage .view-id-home_page_slider .field-content{
+  top: 13px;
+}
+
+#page-homepage .view-id-home_page_slider .caption{
+  position: absolute;
+  z-index: 9999;
+  color: white;
+  bottom: 14px;
+  width: 216px;
+  padding: 22px;
+  right: 0;
+  font-weight: 400;
+  letter-spacing: 1px;
+  background: url('../images/trans-one-px.png');
+  font-size: 16px;  
+}
+
+/* Workshops page */
+
+#page-events {}
+
+#page-events .view-display-id-cognition_workshops_page {}
+
+#page-events #block-views-c968a0ff9b7507e8b6dcdb4f9143819a .block-title { display: none; }
+
+#page-events .view-display-id-cognition_workshops_page .showflow {
+  clear: both;
+  display: none;
+  padding: 0;
+  position: relative;
+  xbackground: url('../images/workshop-arrow.png') no-repeat 60px 24px;
+}
+
+#page-events .view-display-id-cognition_workshops_page .showflow .view {
+  margin: 0 0 20px 0;
+  clear: both;
+}
+
+#page-events .view-display-id-cognition_workshops_page .showflow .view-content {
+  width: 866px;
+  background: url('../images/workshop-bg.png');
+  padding-left: 24px;
+  padding-bottom: 20px;
+}
+
+#page-events .view-display-id-cognition_workshops_page .showflow .view-empty {
+  width: 866px;
+  background: url('../images/workshop-bg.png');
+  padding: 20px;
+  color: #fff;
+  padding-right: 0;
+}
+
+#page-events .view-display-id-cognition_workshops_page .showflow .view-empty p { margin: 0; }
+
+#page-events .view-display-id-cognition_workshops_page .showflow .view-content:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+#page-events .view-display-id-cognition_workshops_page .showflow .view:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+#page-events .view-display-id-cognition_workshops_page .showflow .views-row { margin-right: 20px; margin-top: 20px; }
+
+#page-events .view-display-id-cognition_workshops_page .showflow .views-row .views-field-nothing a { display: block; }
+
+#page-events .view-display-id-cognition_workshops_page .showflow .views-row .views-field-title { padding: 10px 5px 10px 15px; }
+
+#page-events .view-display-id-cognition_workshops_page .showflow .views-row .views-field-field-course-thumbnail { box-shadow: none; }
+
+/*
+#page-events .view-display-id-cognition_workshops_page .showflow-background {
+  position: absolute;
+  left: -3000px;
+  height: 100%;
+  width: 10000px;
+  background: rgba(0, 0, 0, 0.2);
+}*/
+
+#page-events .view-display-id-cognition_workshops_page .views-row {
+  float: left;
+  width: 196px;
+  height: 150px;
+  margin: 16px 26px 0 0;
+  position: relative;
+}
+
+#page-events .view-display-id-cognition_workshops_page .views-row:hover { cursor: pointer; }
+#page-events .view-display-id-cognition_workshops_page .views-row:hover .views-field-title { text-decoration: underline; }
+
+#page-events .view-display-id-cognition_workshops_page .views-row.active {
+  padding-bottom: 30px;
+  background: url('../images/workshop-arrow.png') no-repeat 20px bottom;
+}
+
+#page-events .view-display-id-cognition_workshops_page .views-row img {
+  display: block;
+  border: 7px solid white;
+}
+
+#page-events .view-display-id-cognition_workshops_page .views-row .views-field-title {
+  position: absolute;
+  bottom: 17px;
+  background: rgba(0,0,0,.4);
+  color: #fff;
+  width: 110px;
+  font-size: 13px;
+  min-height: 38px;
+}
+
+#page-events .view-display-id-cognition_workshops_page .views-row .views-field-field-course-thumbnail {
+  box-shadow: 1px 6px 16px 1px lightgrey;
+}
+
+#page-events .view-display-id-cognition_workshops_page .views-row.active .views-field-title { bottom: 47px; }
+
+#page-events .view-display-id-cognition_workshops_page .views-row .views-field-title { padding: 10px 5px 10px 15px; }
+
+#page-events .view-display-id-cognition_workshops_page .views-row .views-field-nothing a {
+  color: #fff;
+  font-size: 13px;
+  display: block;
+}
+
+#page-events .view-display-id-cognition_workshops_page .view-display-id-cognition_workshops { display: none; }
+
+#page-events #page-wrapper { background: none; }
+
+#page-events {}
+
+/* Individual Workshop Course Page */
+
+.node-type-workshop-course .node-workshop-course{
+  background: #fff;
+  padding: 25px;
+  width: 720px;
+}
+
+.node-type-workshop-course .node-workshop-course ul {
+  overflow: auto;
+  list-style: none;
+}
+
+.node-type-workshop-course .node-workshop-course li {
+  margin-left: 2em;
+  padding-bottom: 1em;
+}
+
+.node-type-workshop-course .node-workshop-course h2{
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+  width: 460px;
+}
+
+  .node-type-workshop-course .node-workshop-course .field-name-field-course-register{
+    float: right;
+  }
+
+    .node-type-workshop-course .node-workshop-course .field-name-field-course-register p{
+      margin: 0;
+    }
+
+      .node-type-workshop-course .node-workshop-course .field-name-field-course-register p a{
+        height: 71px;
+        line-height: 71px;
+      }
+
+  .node-type-workshop-course .node-workshop-course .field-name-body{
+    margin-right: 20px;
+    clear: right;
+    padding-top: 15px;
+    font-size: 14px;
+  }
+
+  .node-type-workshop-course .node-workshop-course .field-name-body p { color: #333 !important; }
+
+  .node-type-workshop-course .node-workshop-course .field-name-field-course-image{
+    float: left;
+    margin: 30px 20px 20px 0;
+    clear: both;
+    box-shadow: 1px 6px 16px 1px lightgrey;
+    border: 4px solid #fff;
+  }
+
+  /* Make the links for 'your cart' blue */
+
+  .node-type-workshop-course div.messages a { color: blue; }
+
+.view .date-nav-wrapper .date-prev{
+  width: 52px !important;
+}
+
+.node-type-workshop-course .field-name-back-to-workshops {
+  clear: both;
+  float: right;
+  background: url('../images/back-to-workshops.png') no-repeat 0 0;
+  width: 183px;
+  height: 28px;
+  text-indent: 26px;
+  padding-top: 6px;
+  margin-top: 24px;
+}
+
+/* Workshop Calendar */
+.page-workshop-calendar table.views-table,
+.node-type-workshop-course table.views-table{ 
+  background: #fff; 
+  border: 7px solid #fff;
+  width: 770px;
+  margin-top: 40px;
+}
+
+  .page-workshop-calendar table.views-table th,
+.node-type-workshop-course table.views-table th { 
+    background: none repeat scroll 0 0 #5E5E5E;
+      border: 7px solid #FFFFFF;
+      color: #FFFFFF;
+      font-size: 12px;
+      font-weight: 400;
+      padding: 6px 4px 6px 12px;
+      text-transform: uppercase;
+  }
+
+    .page-workshop-calendar table.views-table th a,
+.node-type-workshop-course table.views-table th a{ 
+      color: #fff;
+    }
+
+  .page-workshop-calendar table.views-table tr,
+  .node-type-workshop-course table.views-table tr { 
+    xbackground: none repeat scroll 0 0 #F4F4F4;
+      border: 0;
+    xborder-left: 7px solid #FFFFFF;
+    xborder-right: 7px solid #FFFFFF;
+      font-size: 12px;
+  }
+
+    .page-workshop-calendar table.views-table td,
+    .node-type-workshop-course table.views-table td { 
+      padding: 6px 4px 6px 12px;
+      vertical-align: middle;
+    }
+    
+    .page-workshop-calendar table.views-table td a,
+    .node-type-workshop-course table.views-table td a { color: #333; }
+    
+      .page-workshop-calendar table.views-table td.active,
+      .node-type-workshop-course table.views-table td.active{ 
+        background: none !important;
+      }
+      
+      .page-workshop-calendar table.views-table td.views-field-title,
+      .node-type-workshop-course table.views-table td.views-field-title{
+        xcolor: #8DBD3E;
+        xfont-weight: 600;
+      }
+      
+      .page-workshop-calendar table.views-table td input,
+      .node-type-workshop-course table.views-table td input{
+        border: 1px solid #5E5E5E;
+        padding-left: 3px;
+        width: 57px;
+      }
+      
+.page-workshop-calendar #edit-actions,
+.node-type-workshop-course #edit-actions--2{
+  width: 770px;
+}
+
+  .page-workshop-calendar #edit-actions input.form-submit,
+  .node-type-workshop-course #edit-actions--2 input.form-submit{
+    background: url(../images/form-arrow-sml.png);
+      border: 0 none;
+      color: #FFFFFF;
+      float: right;
+      margin: 10px 0 52px 20px;
+      padding: 5px;
+      text-align: left;
+      text-indent: 4px;
+      text-transform: uppercase;
+      width: 120px;
+  }
+
+p.red-register{
+  float: right;
+  margin: 17px 0 0 0;
+  position: absolute;
+  right: 255px;
+  top: 264px;
+}
+
+a.red-register{
+  color: #fff;
+  display: block;
+  width: 196px;
+  height: 53px;
+  line-height: 53px;
+  text-align: center;
+  background: #CA2053;
+  border: 8px solid #fff;
+  font-size: 17px;
+  box-shadow: 0 0 12px rgba( 204, 204, 204, .65);
+  cursor: pointer;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+/* CSS Statements that only apply on webkit-based browsers (Chrome, Safari, etc.) */
+  #page-homepage .view-id-home_page_slider .field-content{
+    top: 0px;
+  }
+}
