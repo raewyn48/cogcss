@@ -68,9 +68,12 @@ a:hover { text-decoration: underline; }
 .group-header { display: none; }
 
 
-.field-name-field-body2 ul { margin-left: 14px; }
+.field-name-field-body2 ul { margin-left: 2em; }
 
-.field-name-field-body2 ul li { list-style-type: none; margin: 6px 0; }
+.field-name-field-body2 ul li { 
+  /* list-style-type: none;   Why? */
+  margin: 6px 0; 
+}
 
 .group-left img { border: 7px solid #fff; margin: 6px 0; }
 
