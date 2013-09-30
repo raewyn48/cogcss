@@ -4922,10 +4922,11 @@ a.red-register{
 .field-name-vlp-meet-staff{
 	width: 650px;
 	background: #fff url(../images/meet-staff-bg.png) top no-repeat;
+	box-shadow: 5px 5px 20px #bbb;
 }
 
 .field-name-vlp-meet-staff:after{
-	background:  url(../images/meet-staff-shadow.png) no-repeat;
+//	background:  url(../images/meet-staff-shadow.png) no-repeat;
 	width: 894px;
 	height: 183px;
 	content: "";
