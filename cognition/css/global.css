@@ -4969,6 +4969,13 @@ a.red-register{
         font-size: 14px;
 }
 
+.field-name-vlp-meet-staff .view-vlp-staff .view-content{
+        float: left;
+        padding: 0 15px 0 10px;
+        margin-top: 35px;
+        border-right: 1px dotted #999; 
+}
+
 .field-name-vlp-meet-staff .view-vlp-staff .view-content h3{
         font-weight: 400;
         font-size: 12px;
