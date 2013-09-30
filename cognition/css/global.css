@@ -4912,3 +4912,120 @@ a.red-register{
     top: 0px;
   }
 }
+
+/* Meet the Staff block */
+
+#page-about .group-footer{
+	padding-top: 47px;
+}
+
+.field-name-vlp-meet-staff{
+	width: 862px;
+	background: #fff url(../images/meet-staff-bg.png) top no-repeat;
+}
+
+.field-name-vlp-meet-staff:after{
+	background:  url(../images/meet-staff-shadow.png) no-repeat;
+	width: 894px;
+	height: 183px;
+	content: "";
+	position: absolute;
+	bottom: 26px; 
+	right: 10px;
+	display: block;
+	z-index: -1;
+}
+
+.ie8 .field-name-vlp-meet-staff:after{ display: none; }
+	
+.field-name-vlp-meet-staff h2{
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 300;
+  height: 43px;
+  line-height: 43px;
+  padding-left: 18px;
+}
+
+.field-name-vlp-meet-staff .view-vlp-staff .view-header{
+        padding-left: 18px;
+        float: left;
+        width: 150px;
+        margin-top: 35px;
+        border-right: 1px dotted #999; 
+}
+
+.field-name-vlp-meet-staff .view-vlp-staff .view-header h4{
+        font-family: museo-slab;
+        font-size: 20px;
+        color: #ca2053;
+        font-weight: 400;
+        margin: 0;
+}
+
+.field-name-vlp-meet-staff .view-vlp-staff .view-header p{
+        margin: 10px 10px 0 0;
+        color: #707070;
+        font-size: 14px;
+}
+
+.field-name-vlp-meet-staff .view-vlp-staff .view-content{
+        width: 200px;
+        float: left;
+        padding: 0 15px 0 10px;
+        margin-top: 35px;
+        border-right: 1px dotted #999; 
+}
+
+.field-name-vlp-meet-staff .view-vlp-staff .view-content h3{
+        font-weight: 400;
+        font-size: 12px;
+        color: #707070;
+        background: #e9e9e9;
+        line-height: 27px;
+        padding-left: 16px;
+        margin-top: 0; 
+}
+
+.field-name-vlp-meet-staff .view-vlp-staff .meet-staff-link{
+        background: url(../images/bullet-arrow.png) 0 5px no-repeat;
+        line-height: 1.8em;
+        color: #707070;
+        padding-left: 15px;
+        cursor: pointer;
+        font-weight: 600;
+}
+
+.oldie .field-name-vlp-meet-staff .view-vlp-staff .meet-staff-link { font-weight: 400; }
+
+.field-name-vlp-meet-staff .view-vlp-staff .meet-staff-link:hover{
+        color: #ca1f52;
+}
+
+.pink-copy, .pink-link{color: #ca1f52 !important;}
+                
+.field-name-vlp-meet-staff .view-vlp-staff .view-footer .view-content{
+        width: 600px;
+        float: left;
+        padding: 0 15px 0 10px;
+        margin-top: 35px;
+        border-right: 0; 
+}
+        
+.field-name-vlp-meet-staff .view-vlp-staff .view-footer .view-content .views-row{
+        display: none;
+}
+
+.field-name-vlp-meet-staff .view-vlp-staff .view-footer .view-content .views-row-1{
+        xdisplay: block;
+}
+
+.field-name-vlp-meet-staff .view-vlp-staff .view-footer .view-content .views-field-body{
+        padding: 0 0 10px 10px;
+}
+
+.field-name-vlp-meet-staff .view-vlp-staff .view-footer .view-content .views-field-field-photo{
+        float: right;
+        padding: 0 0 5px 20px;
+}
+

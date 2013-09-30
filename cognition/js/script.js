@@ -720,6 +720,20 @@
     
     //End Staff Page
 
+    /* Portfolio Page - Meet the staff view */
+    $(".field-name-vlp-meet-staff .view-vlp-staff .meet-staff-link:first").addClass("pink-copy");
+    $(".field-name-vlp-meet-staff .view-vlp-staff .view-footer .view-content .views-row:first").css("display", "block");
+    $(".field-name-vlp-meet-staff .view-vlp-staff .meet-staff-link").click( function() {
+            // Remove the black class from these elements and add to this one.
+            $(".field-name-vlp-meet-staff .view-vlp-staff .meet-staff-link").removeClass("pink-copy");
+            $(this).addClass("pink-copy");
+            // Get the nid and make the full class name of the matching staff panel
+            temp = "staff-panel-"+$(this).attr("data-staff-id");
+            // Hide all the service panels and show this one
+            $(".field-name-vlp-meet-staff .view-vlp-staff .view-footer .view-content .views-row").css("display", "none");
+            $(".field-name-vlp-meet-staff .view-vlp-staff .view-footer .view-content ."+temp).css("display", "block");
+    });
+    
     /* Cognition Workshops View */
 
     jQuery('.view-id-cognition_workshop_types > .view-content > .views-row').click( function() {
